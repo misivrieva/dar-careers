@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useStatus } from '../App'
 import { api } from '../api/client'
+import { TagInput } from '../components/TagInput'
 import { ErrorNote, Page, Pill, Spinner } from '../components/ui'
 
 type Reqs = Record<string, any>
@@ -11,17 +12,37 @@ export default function ProfileReview() {
   const [reqs, setReqs] = useState<Reqs>({})
   const [titles, setTitles] = useState('')
   const [incl, setIncl] = useState(true)
+  const [indPref, setIndPref] = useState<string[]>([])
+  const [indAvoid, setIndAvoid] = useState<string[]>([])
+  const [indOptions, setIndOptions] = useState<string[]>([])
+  const [uploading, setUploading] = useState(false)
   const [busy, setBusy] = useState(false)
   const [err, setErr] = useState<string | null>(null)
   const { refresh, status } = useStatus()
   const nav = useNavigate()
 
+  const load = () => api.get('/profile').then((d) => {
+    setP(d); setReqs(d.requirements || {}); setIncl(d.user.include_uncertain)
+    setTitles((d.preferences.target_titles || d.profile?.data?.suggested_target_titles || []).join(', '))
+    const ind = d.preferences.industries || {}
+    setIndPref((ind.preferred || []).filter((x: string) => x && x.toLowerCase() !== 'none'))
+    setIndAvoid((ind.avoid || []).filter((x: string) => x && x.toLowerCase() !== 'none'))
+  })
   useEffect(() => {
-    api.get('/profile').then((d) => {
-      setP(d); setReqs(d.requirements || {}); setIncl(d.user.include_uncertain)
-      setTitles((d.preferences.target_titles || d.profile?.data?.suggested_target_titles || []).join(', '))
-    })
-  }, [])
+    load()
+    api.get('/employers').then((d) => setIndOptions(
+      [...new Set<string>(d.employers.filter((e: any) => e.enabled && e.industry).map((e: any) => e.industry))].sort()))
+  }, []) // eslint-disable-line
+
+  async function uploadCV(f: File) {
+    setUploading(true); setErr(null)
+    try { await api.upload('/cv/upload', f); await load() } catch (e: any) { setErr(e.message) } finally { setUploading(false) }
+  }
+
+  async function startFresh() {
+    if (!window.confirm('Delete your CV, answers, decisions and generated documents, and start again? This cannot be undone.')) return
+    await api.del('/profile/data'); await refresh(); nav('/onboarding')
+  }
   if (!p) return <Page title="Your profile"><Spinner label="Loading…" /></Page>
   const data = p.profile?.data || {}
   const loc = reqs.locations || { remote_regions: [], hybrid_cities: [], onsite_cities: [] }
@@ -33,7 +54,7 @@ export default function ProfileReview() {
       const keys = ['min_salary', 'locations', 'max_office_days', 'employment_types', 'needs_sponsorship', 'deal_breakers']
       const requirements = keys.map((k) => ({ key: k, value: reqs[k] ?? null }))
       await api.patch('/profile', { requirements, include_uncertain: incl, target_titles: titles.split(',').map((t) => t.trim()).filter(Boolean),
-        complete_onboarding: start })
+        preferences: { industries: { preferred: indPref, avoid: indAvoid } }, complete_onboarding: start })
       await refresh()
       if (start) { await api.post('/discovery/start'); nav('/discover') }
     } catch (e: any) { setErr(e.message) } finally { setBusy(false) }
@@ -82,17 +103,30 @@ export default function ProfileReview() {
       <section className="card mb-5 p-5">
         <h2 className="text-xl">What I'll search for</h2>
         <Field label="Target roles (comma separated)"><input className="inp" value={titles} onChange={(e) => setTitles(e.target.value)} /></Field>
+        <div className="mt-4 grid gap-4 sm:grid-cols-2">
+          <TagInput label="Industries you'd like" values={indPref} onChange={setIndPref} suggestions={indOptions} placeholder="e.g. AI, Fintech" />
+          <TagInput label="Industries to avoid" values={indAvoid} onChange={setIndAvoid} suggestions={indOptions} placeholder="e.g. Gambling" tone="clay" />
+        </div>
+        <p className="mt-1.5 text-[11px] text-ink/50">Industries shape ranking and which employer boards I search first. They're preferences, not hard filters.</p>
         <label className="mt-4 flex items-center gap-2 text-sm"><input type="checkbox" className="accent-[#304839]" checked={incl} onChange={(e) => setIncl(e.target.checked)} />
           Show roles with missing details (salary, office days), clearly flagged</label>
         <div className="mt-4 flex flex-wrap gap-1.5">
-          {Object.entries(p.preferences || {}).filter(([k]) => !k.startsWith('unknown_') && k !== 'target_titles').map(([k, v]) => (
+          {Object.entries(p.preferences || {}).filter(([k]) => !k.startsWith('unknown_') && !['target_titles', 'industries'].includes(k)).map(([k, v]) => (
             <Pill key={k} tone="plain">{k.replace(/_/g, ' ')}: {typeof v === 'object' ? (v as any).amount ? `£${(v as any).amount.toLocaleString()}` : JSON.stringify(v).replace(/[{}"[\]]/g, ' ') : String(v)}</Pill>
           ))}
         </div>
       </section>
 
       <section className="card mb-6 p-5">
-        <h2 className="text-xl">From your CV</h2>
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h2 className="text-xl">From your CV</h2>
+          <label className={`btn-soft cursor-pointer py-1.5 text-sm ${uploading ? 'pointer-events-none opacity-60' : ''}`}>
+            {uploading ? 'Reading your CV…' : 'Upload a different CV'}
+            <input type="file" accept=".pdf,.docx,.txt,.md" className="sr-only" aria-label="Upload a different CV"
+              onChange={(e) => { const f = e.target.files?.[0]; if (f) uploadCV(f); e.target.value = '' }} />
+          </label>
+        </div>
+        <p className="mt-1 text-xs text-ink/55">Your requirements and answers are kept; your experience is replaced by the new CV. {status?.llm_consent ? 'The CV text is sent to the configured AI provider for extraction.' : 'AI processing is off, so rule-based extraction is used.'}</p>
         <p className="mt-1 text-xs text-ink/55">Extraction: {p.profile?.method === 'llm' ? 'AI, then every fact checked against your original CV' : 'rule-based (no AI)'}
           {data.extraction?.rejected?.length ? ` · ${data.extraction.rejected.length} item(s) dropped because they weren't in your CV` : ''}</p>
         <ul className="mt-4 space-y-3">
@@ -118,6 +152,7 @@ export default function ProfileReview() {
           {status?.onboarding_stage === 'done' ? 'Save & find new matches' : 'Looks right - find my matches'}
         </button>
         <button className="btn-ghost" disabled={busy} onClick={() => save(false)}>Save for later</button>
+        <button className="btn-ghost ml-auto text-clay" onClick={startFresh}>Start fresh</button>
       </div>
       <style>{`.inp{width:100%;border-radius:14px;border:1px solid var(--color-sage);background:#fff;padding:.6rem .9rem;font-size:15px;outline:none}.inp:focus{border-color:var(--color-gold)}`}</style>
     </Page>

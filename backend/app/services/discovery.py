@@ -47,9 +47,14 @@ def rank_employers(db: Session, user_id: int, limit: int, exclude: set[str] | No
     def score(e: Employer) -> float:
         s = 0.0
         ind = (e.industry or "").lower()
-        if any(p in ind for p in pref_ind if p):
+        import re as _re
+
+        def hit(term: str) -> bool:
+            return bool(term) and _re.search(rf"(?<![a-z]){_re.escape(term)}(?![a-z])", ind) is not None
+
+        if any(hit(p) for p in pref_ind):
             s += 50
-        if any(a in ind for a in avoid_ind if a):
+        if any(hit(a) for a in avoid_ind):
             s -= 100
         s += min(40, uk_counts.get(e.id, e.uk_jobs_hint or 0))
         if e.last_error:

@@ -277,7 +277,9 @@ def score_job(job: dict, ctx: dict, elig: Eligibility | None = None) -> dict:
     ind = (ctx.get("employer_industry") or {}).get(job.get("employer_id")) or ""
     pref_ind = [i.lower() for i in ctx.get("industries_preferred") or []]
     avoid_ind = [i.lower() for i in ctx.get("industries_avoid") or []]
-    comp["industry"] = 1.0 if any(p and p in ind.lower() for p in pref_ind) else (0.0 if any(a and a in ind.lower() for a in avoid_ind) else 0.5)
+    def _ind_hit(term: str) -> bool:
+        return bool(term) and re.search(rf"(?<![a-z]){re.escape(term)}(?![a-z])", ind.lower()) is not None
+    comp["industry"] = 1.0 if any(_ind_hit(p) for p in pref_ind) else (0.0 if any(_ind_hit(a) for a in avoid_ind) else 0.5)
     pub = job.get("published_at")
     if pub:
         from datetime import datetime
