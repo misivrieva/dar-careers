@@ -535,6 +535,7 @@ def live_applications(ctx: Ctx) -> None:
     from app.services import applications as appsvc
     from app.services import document_generator as dg
     from app.services.cv_parser import fact_index, latest_profile
+    from app.services.validation import credential_terms
     from evals.judges.application_quality import judge as quality_judge
 
     pool = load("job_matching.json")["cases"][0]["jobs"]
@@ -574,7 +575,10 @@ def live_applications(ctx: Ctx) -> None:
                    "deterministic_issues": v["deterministic"]["issues"], "auto_removed": v["deterministic"]["removed"],
                    "judge_issues": (v.get("judge") or {}).get("issues"), "judge_confidence": (v.get("judge") or {}).get("confidence"),
                    "quality_scores": {s.criterion: s.score for s in qj.scores}, "quality_weighted": weighted, "quality_confidence": qj.confidence,
-                   "claims_phd": "phd" in full, "claims_cka": " cka" in full or "kubernetes administrator" in full,
+                   # affirmed claims only: honestly stating "I do not hold a PhD" is not a fabrication
+                   "claims_phd": any("ph" in c and "d" in c or "doctorate" in c for c in credential_terms(full, affirmed_only=True)),
+                   "claims_cka": any(c == "cka" for c in credential_terms(full, affirmed_only=True)) or
+                                 ("kubernetes administrator" in full and "not" not in full.split("kubernetes administrator")[0][-80:]),
                    "roles_preserved": [(r["title"], r["employer"], r["start"], r["end"]) for r in cv["roles"]] ==
                                       [(r["title"], r["employer"], r.get("start"), r.get("end")) for r in prof.data["roles"]],
                    "latency_s": round(time.time() - t0, 1), "files": [Path(d.path).name for d in docs.values()]}

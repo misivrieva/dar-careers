@@ -83,7 +83,7 @@ def _llm_generate(profile: dict, facts: dict, job: Job, meter: llm.UsageMeter) -
         TailoredCVOut, system=GEN_SYSTEM,
         user=(f"Verified candidate facts:\n{_facts_block(facts)}\n\nRoles (include every role, most relevant bullets first):\n{roles}\n\n"
               f"{job_block}\n\nProduce the tailored CV content and a requirement map (each key job requirement -> supported or not, with evidence ids)."),
-        max_tokens=8000, meter=meter, effort="medium")
+        max_tokens=12000, meter=meter, effort="medium")
     letter, m2 = llm.parse(
         CoverLetterOut, system=GEN_SYSTEM,
         user=(f"Verified candidate facts:\n{_facts_block(facts)}\n\nCandidate name: {profile.get('name') or 'the candidate'}\n\n{job_block}\n\n"

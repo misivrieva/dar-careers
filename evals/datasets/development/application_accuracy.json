@@ -223,6 +223,30 @@
    "expected": {
     "problem": "fabricated_qualification"
    }
+  },
+  {
+   "id": "APP-009",
+   "description": "Honestly stating a missing qualification is not flagged as fabrication",
+   "severity": "major",
+   "draft": {
+    "summary": "Platform engineer.",
+    "summary_ids": [
+     "R1"
+    ],
+    "key_skills": [],
+    "bullets": {},
+    "letter": [
+     [
+      "While I do not hold a PhD or a CKA certification, my hands-on Kubernetes work is directly relevant.",
+      [
+       "R1"
+      ]
+     ]
+    ]
+   },
+   "expected": {
+    "critical_issues": 0
+   }
   }
  ]
 }

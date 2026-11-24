@@ -41,8 +41,20 @@ def _nums(text: str) -> set[str]:
     return numbers_in(t)
 
 
-def credential_terms(text: str) -> set[str]:
-    return {m.group(0).lower().strip(" .") for m in CREDENTIAL_RX.finditer(text or "")}
+NEGATION_RX = re.compile(r"\b(not|n't|no|never|without|lack|lacking|don't|do not|does not|haven't|have not|neither|nor)\b[^.;]{0,60}$", re.I)
+
+
+def credential_terms(text: str, affirmed_only: bool = False) -> set[str]:
+    """Credential terms in text. With affirmed_only, mentions inside a negated clause
+    ("I do not hold a PhD") are ignored - honestly stating a gap is not a fabricated claim."""
+    out = set()
+    for m in CREDENTIAL_RX.finditer(text or ""):
+        if affirmed_only:
+            start = max(text.rfind(".", 0, m.start()), text.rfind(";", 0, m.start())) + 1
+            if NEGATION_RX.search(text[start:m.start()]):
+                continue
+        out.add(m.group(0).lower().strip(" ."))
+    return out
 
 
 def deterministic_check(cv: dict, letter: dict, facts: dict[str, str], cv_text: str, profile_skills: list[str]) -> dict:
@@ -64,7 +76,7 @@ def deterministic_check(cv: dict, letter: dict, facts: dict[str, str], cv_text: 
         if extra:
             found.append({"where": where, "claim": t, "problem": "fabricated_metric", "severity": "critical",
                           "detail": f"numbers not in the cited CV evidence: {sorted(extra)}"})
-        creds = credential_terms(t) - cv_creds
+        creds = credential_terms(t, affirmed_only=True) - cv_creds
         creds = {c for c in creds if not any(c in x or x in c for x in cv_creds)}
         if creds:
             found.append({"where": where, "claim": t, "problem": "fabricated_qualification", "severity": "critical",
