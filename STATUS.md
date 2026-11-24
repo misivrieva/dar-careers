@@ -47,6 +47,21 @@ This status is honest as of 2026-11-24. **Implemented** means the code exists. *
 | Agent Lab (genuine report files only) | ✅ |
 | Startup + investor demo instructions | ✅ README |
 
+## Added on 2026-11-24 (evening)
+
+| Feature | Implemented | Tested | Notes |
+|---|---|---|---|
+| Editable preferred/avoided industries on the review screen | ✅ | ✅ manual | Free text plus suggestions from the registry's industries |
+| Upload a different CV / start fresh from the review screen | ✅ | ✅ API tests | A new CV replaces your experience and keeps your answers |
+| Registry expanded to all Nasdaq-listed companies (3,236) and London-listed companies (FTSE 100/250/SmallCap and your LSE issuer list) | ✅ | ✅ live probe | Boards are added only when the API answers and the board's own company name matches. Results are in `config/sources/coverage_2026-11-24.json` |
+| Lever, Workable, SmartRecruiters, Recruitee providers | ✅ | ✅ live (Palantir, Hugging Face, Bosch, bunq) | SmartRecruiters fetches UK postings only. Workable is throttled to stay under its rate limit |
+| Remotive, Jobicy, Himalayas, Arbeitnow feeds | ✅ | ✅ live | Each job keeps its real employer and source link. The feeds that ask for it get a longer cache |
+| Reed and Adzuna search | ✅ | ❌ needs keys | They switch on automatically when `REED_API_KEY` / `ADZUNA_APP_ID`+`ADZUNA_APP_KEY` are set. Adzuna's predicted salaries are ignored |
+| Tavily careers-page discovery (`make discover-boards`) | ✅ | ❌ needs key | Every hit is verified through the ATS's public API before it's added |
+| Batches of up to 20, with a guaranteed top-up in code | ✅ | ✅ pytest + live (20/20) | Searches more boards when short. Every job is re-validated, requirements are never relaxed, and you get fewer than 20 only when fewer qualify |
+| Near-duplicate postings (same employer and title in several countries) collapsed in a batch; at most 3 per employer | ✅ | ✅ live | |
+| Fixed US towns being read as UK ones (Cambridge MA, Reading PA, Birmingham AL) | ✅ | ✅ | |
+
 ## Incomplete or not done (deliberately deferred)
 
 - **Scheduled refresh.** The task type exists, along with the opt-in flag and a tool that refuses without opt-in. There's no scheduler or settings toggle in the UI yet.
@@ -70,6 +85,10 @@ This status is honest as of 2026-11-24. **Implemented** means the code exists. *
 - The LLM agent sometimes picks fewer boards than the budget allows. The batch can then hold fewer than 10 jobs, which is by design rather than padded.
 
 ## Latest evaluation results
+
+**Re-run after the evening changes (`eval-live-20261124T200749Z`, application prompt v3):** 50/50 passed, 0 critical failures. 8 of 9 gates were met; application quality was **0.83, below the 0.85 target** (n=4, judge variance between runs is about ±0.04). The run just before it (`…200234Z`) had one generation cut off at the output limit. Generation now retries once on truncation and has explicit length limits.
+
+### Earlier results
 
 These numbers come from genuine runs. Full JSON/HTML reports are in `evals/reports/` and visible in the in-app **Lab**.
 

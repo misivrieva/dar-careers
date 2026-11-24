@@ -79,19 +79,37 @@ def slugs(name: str) -> list[str]:
     return [s for s in dict.fromkeys(out) if 3 <= len(s) <= 40][:3]
 
 
+HOST_INTERVAL = {"apply.workable.com": 0.6}  # Workable throttles hard (HTTP 429); keep well under its limit
+_host_locks: dict[str, threading.Lock] = {}
+_host_last: dict[str, float] = {}
+
+
 def get(url: str):
-    with _lock:  # polite global rate: <= ~25 requests/second
+    host = urllib.parse.urlparse(url).hostname or ""
+    gap = HOST_INTERVAL.get(host, 0.0)
+    with _lock:  # global politeness
         wait = 0.02 - (time.monotonic() - _last[0])
         if wait > 0:
             time.sleep(wait)
         _last[0] = time.monotonic()
+    if gap:
+        lk = _host_locks.setdefault(host, threading.Lock())
+        with lk:
+            wait = gap - (time.monotonic() - _host_last.get(host, 0.0))
+            if wait > 0:
+                time.sleep(wait)
+            _host_last[host] = time.monotonic()
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20) as r:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=15) as r:
                 return r.status, json.loads(r.read())
         except urllib.error.HTTPError as e:
             if e.code == 429:
-                time.sleep(float(e.headers.get("Retry-After") or 2 ** attempt))
+                try:
+                    ra = float(e.headers.get("Retry-After") or 2 ** attempt)
+                except ValueError:
+                    ra = 5.0
+                time.sleep(min(ra, 20.0))
                 continue
             return e.code, None
         except Exception:
@@ -151,7 +169,7 @@ ALL_PROVIDERS = ["greenhouse", "ashby", "lever", "workable", "smartrecruiters", 
 def probe(company: dict, providers: list[str] | None = None) -> dict:
     res = {**company, "provider": "unsupported", "board_id": None, "verified_name": None, "jobs": 0, "uk_jobs": 0}
     for prov in providers or ALL_PROVIDERS:
-        for slug in slugs(company["name"]):
+        for slug in (slugs(company["name"])[:1] if prov == "workable" else slugs(company["name"])):
             hit = _check(prov, slug, company["name"])
             if hit:
                 res.update(provider=prov, board_id=slug, verified_name=hit[0], jobs=hit[1], uk_jobs=hit[2])
