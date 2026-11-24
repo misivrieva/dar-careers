@@ -115,6 +115,46 @@ The `evals/` folder holds labelled synthetic datasets (development and held-out)
 
 ---
 
+## Share it with Cloudflare Tunnel (runs on your Mac, behind a Cloudflare login)
+
+The app keeps running on your Mac. `cloudflared` opens an outbound-only tunnel to Cloudflare, so you don't need to open any ports. Cloudflare Access asks for a login (an email one-time code) before anyone reaches it. The backend also checks the Access login token itself, so if the Access policy is ever misconfigured, requests that come through the tunnel are still rejected.
+
+**What you need:**
+1. A Cloudflare account (the free plan is fine).
+2. A domain whose DNS is managed by Cloudflare, e.g. `yourdomain.com`. The app will live at `dar.yourdomain.com`.
+3. Cloudflare Zero Trust enabled on the account. It's free for up to 50 users; Cloudflare may ask for a payment method even on the free plan. Pick a team name, which gives you `<team>.cloudflareaccess.com`.
+4. `cloudflared` installed: `brew install cloudflared`.
+
+**Steps (in this order, so the app is never reachable without a login):**
+1. **Create the Access application first.** In Zero Trust → Access → Applications → *Add* → *Self-hosted*: set the domain to `dar.yourdomain.com` and the session duration to 24h. Add a policy with Action *Allow* and Include → *Emails* → your email. Save, then copy the application's **AUD tag**.
+2. **Configure the backend.** Add to `.env`:
+   ```
+   DAR_CF_ACCESS_TEAM_DOMAIN=<team>.cloudflareaccess.com
+   DAR_CF_ACCESS_AUD=<AUD tag>
+   DAR_ALLOWED_EMAILS=you@example.com
+   ```
+3. **Create the tunnel:**
+   ```
+   cloudflared tunnel login                     # opens a browser; pick yourdomain.com
+   cloudflared tunnel create dar-careers        # prints the tunnel ID
+   cloudflared tunnel route dns dar-careers dar.yourdomain.com   # creates the DNS record
+   ```
+   Copy `deploy/cloudflared/config.example.yml` to `~/.cloudflared/config.yml` and fill in the tunnel ID, the credentials path and the hostname.
+4. **Run it:** use two terminals.
+   ```
+   make serve     # builds the app and serves app + API on 127.0.0.1:8000 (refuses to start without the Access settings)
+   make tunnel    # connects the tunnel
+   ```
+   Open `https://dar.yourdomain.com`, enter your email, then the one-time code.
+5. **Check it's locked:** in a private window, `https://dar.yourdomain.com` should show the Cloudflare login. `curl https://dar.yourdomain.com/api/status` should not return your data.
+
+**Notes:**
+- The app is only up while your Mac is awake and both commands are running. To run them in the background at login, use `cloudflared service install` and a LaunchAgent for `make serve`.
+- On the Mac itself, `http://127.0.0.1:8000` still works without the login. The guard can tell direct local requests from tunnelled ones because Cloudflare adds `Cf-Connecting-Ip`/`Cf-Ray` to every tunnelled request. Set `DAR_ALLOW_LOCAL_UNAUTHENTICATED=false` to require the login everywhere.
+- To stop sharing, stop `make tunnel`, or delete the tunnel with `cloudflared tunnel delete dar-careers`.
+
+---
+
 ## Three-minute investor demo
 
 1. **Problem (20s).** Job hunting is an executive-function marathon. DAR takes the searching, sorting and drafting off your plate, and you stay in charge.

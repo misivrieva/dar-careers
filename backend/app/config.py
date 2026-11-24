@@ -57,6 +57,16 @@ class Settings(BaseSettings):
     worker_enabled: bool = True
     worker_poll_s: float = 1.5
     upload_max_bytes: int = 5_000_000
+
+    # Deployment access guard (see app/security.py)
+    require_auth: bool = False
+    api_shared_secret: str | None = None
+    cf_access_team_domain: str | None = None  # e.g. yourteam.cloudflareaccess.com
+    cf_access_aud: str | None = None
+    allowed_emails: str | None = None
+    allow_local_unauthenticated: bool = True  # direct requests on this Mac (not via the tunnel) skip the guard
+    frontend_dist: str = "frontend/dist"
+    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
     data_retention_days: int = 90
 
     @property

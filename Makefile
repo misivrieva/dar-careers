@@ -47,3 +47,13 @@ expand-registry:
 
 export-companies:
 	uv run --project backend --with openpyxl python scripts/export_companies.py
+
+build-frontend:
+	cd frontend && npm run build
+
+# Production-style single entry point (app + API on 127.0.0.1:8000) for the Cloudflare Tunnel
+serve: build-frontend
+	$(BACKEND) DAR_REQUIRE_AUTH=true uv run uvicorn app.main:app --host 127.0.0.1 --port 8000 --proxy-headers
+
+tunnel:
+	cloudflared tunnel run dar-careers

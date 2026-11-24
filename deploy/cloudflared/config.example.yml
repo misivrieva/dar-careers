@@ -1,0 +1,11 @@
+# Cloudflare Tunnel config for DAR Careers.
+# Copy to ~/.cloudflared/config.yml and replace the three placeholders (see README "Share it with Cloudflare Tunnel").
+tunnel: <TUNNEL_ID>                       # printed by `cloudflared tunnel create dar-careers`
+credentials-file: /Users/<you>/.cloudflared/<TUNNEL_ID>.json
+
+ingress:
+  - hostname: <dar.yourdomain.com>        # must be protected by a Cloudflare Access application
+    service: http://127.0.0.1:8000        # `make serve` - one origin for the app and the API
+    originRequest:
+      noTLSVerify: false
+  - service: http_status:404              # anything else is refused
