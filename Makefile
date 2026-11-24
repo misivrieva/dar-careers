@@ -38,3 +38,9 @@ demo:
 
 registry:
 	$(PY) scripts/build_registry.py
+
+discover-boards:
+	$(PY) scripts/discover_boards_tavily.py --limit 300
+
+expand-registry:
+	uv run --project backend --with openpyxl python scripts/expand_registry.py --lse-xlsx "Issuer list.xlsx"

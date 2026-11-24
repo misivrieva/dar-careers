@@ -106,7 +106,21 @@ def rank_pool(db: Session, user: User, strategy: SearchStrategy, jobs: list[Job]
             continue
         ranked.append((v, e, matching.score_job(v, ctx, e)))
     ranked.sort(key=lambda r: r[2]["score"], reverse=True)
-    top = ranked[:limit]
+    # diversity: one posting per employer+title (multi-country duplicates) and at most 3 per employer
+    import re as _re
+
+    seen_titles, per_emp, top = set(), {}, []
+    for r in ranked:
+        v = r[0]
+        emp = (v.get("employer_name") or "").lower()
+        key = (emp, _re.sub(r"[^a-z]+", " ", _re.sub(r"\(.*?\)|-.*$", "", v["title"].lower())).strip())
+        if key in seen_titles or per_emp.get(emp, 0) >= 3:
+            continue
+        seen_titles.add(key)
+        per_emp[emp] = per_emp.get(emp, 0) + 1
+        top.append(r)
+        if len(top) >= limit:
+            break
     for v, e, sc in top:
         _persist_match(db, user.id, v, e, sc, strategy.id, ctx)
     db.flush()

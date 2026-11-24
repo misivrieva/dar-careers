@@ -38,6 +38,7 @@ Without a key the app still runs. It uses a rule-based planner, rule-based CV ex
 | `make eval-report` | Re-render HTML for the latest reports |
 | `make demo` | Run with **synthetic, clearly labelled** demo vacancies (separate DB, no live boards) |
 | `make registry` | Re-verify the employer registry against the live Ashby/Greenhouse APIs |
+| `make discover-boards` | Use Tavily (needs `TAVILY_API_KEY`) to find more employer boards for listed companies |
 
 ## Configuration (`.env`)
 

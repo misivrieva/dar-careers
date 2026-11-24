@@ -76,12 +76,12 @@ def slugs(name: str) -> list[str]:
         out.append("".join(words[:2]))
     raw = re.sub(r"[^a-z0-9]+", "", name.lower().split(" - ")[0])
     out.append(raw)
-    return [s for s in dict.fromkeys(out) if 3 <= len(s) <= 40]
+    return [s for s in dict.fromkeys(out) if 3 <= len(s) <= 40][:3]
 
 
 def get(url: str):
     with _lock:  # polite global rate: <= ~25 requests/second
-        wait = 0.025 - (time.monotonic() - _last[0])
+        wait = 0.02 - (time.monotonic() - _last[0])
         if wait > 0:
             time.sleep(wait)
         _last[0] = time.monotonic()
@@ -251,7 +251,7 @@ def main() -> None:
     print(f"{len(companies)} companies; probing {len(todo)} …", flush=True)
     t0 = time.time()
     results = [{**prev[(c["exchange"], norm_name(c["name"]))], **c} for c, pv in jobs_plan if not pv]
-    with cf.ThreadPoolExecutor(16) as ex:
+    with cf.ThreadPoolExecutor(48) as ex:
         for i, r in enumerate(ex.map(lambda cp: probe(cp[0], cp[1]), todo), 1):
             results.append(r)
             if i % 250 == 0:

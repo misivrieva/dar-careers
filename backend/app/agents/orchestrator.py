@@ -120,7 +120,78 @@ def run_discovery(db: Session, user_id: int, trigger: str, session_id: int | Non
         ctx.activity("Finishing with the top-ranked eligible matches.")
         _ensure_batch(ctx)
         explanation = (explanation or "") + " (Batch completed from the ranked shortlist.)"
+    if status != "failed":
+        added = top_up(ctx)
+        if added:
+            explanation = (explanation or "") + f" Added {added} more eligible role(s) to reach a fuller batch."
     return _finish(ctx, status, explanation)
+
+
+TOP_UP_ROUNDS = 3
+
+
+def top_up(ctx: RunContext, target: int | None = None) -> int:
+    """Guarantee a full batch where possible: add eligible ranked jobs, refreshing more boards if needed.
+
+    Runs in code after the agent loop. Every job is re-validated against hard requirements by create_batch;
+    requirements are never relaxed. Returns the number of jobs added.
+    """
+    import time as _t
+
+    from ..models import AgentToolCall
+    from ..services.discovery import BATCH_MAX, BatchRejected, candidate_pool, create_batch, rank_employers, rank_pool
+    from ..services.catalogue import refresh_boards
+
+    target = target or BATCH_MAX
+    db, user = ctx.db, ctx.user
+    sess = ctx.session or (db.get(DiscoverySession, ctx.batch_session_id) if ctx.batch_session_id else None)
+    if sess is None:
+        return 0
+    added_total = 0
+    for rnd in range(TOP_UP_ROUNDS + 1):
+        have = list(sess.job_ids or [])
+        if len(have) >= target:
+            break
+        t0 = _t.monotonic()
+        strategy = memory.latest_strategy(db, user.id)
+        res = rank_pool(db, user, strategy, [j for j in candidate_pool(db, user.id) if j.id not in have], limit=60)
+        extra = []
+        for r in res["shortlist"]:
+            if len(have) + len(extra) >= target:
+                break
+            try:  # validate one at a time so a single refusal doesn't block the rest
+                create_batch(db, user, have + extra + [r["job_id"]], ctx.run.id, ctx.strategy_id, session=sess)
+                extra.append(r["job_id"])
+            except BatchRejected:
+                db.rollback()
+                sess = db.get(DiscoverySession, sess.id)
+        if extra:
+            create_batch(db, user, have + extra, ctx.run.id, ctx.strategy_id, session=sess)
+            added_total += len(extra)
+            db.add(AgentToolCall(run_id=ctx.run.id, tool="auto_top_up", arguments={"round": rnd, "added": len(extra)}, status="ok",
+                                 result_summary=f"added {len(extra)} eligible jobs from the ranked catalogue",
+                                 duration_ms=int((_t.monotonic() - t0) * 1000)))
+            ctx.activity(f"Topped up the batch with {len(extra)} more eligible role(s) from the ranked catalogue.")
+            db.commit()
+        if len(sess.job_ids or []) >= target or rnd == TOP_UP_ROUNDS:
+            break
+        # still short: search more employer boards the agent hasn't touched yet (never relax requirements)
+        more = [e.id for e in rank_employers(db, user.id, limit=400) if e.id not in ctx.refreshed_ids][:get_settings().agent_max_boards]
+        if not more:
+            break
+        ctx.activity(f"Only {len(sess.job_ids or [])} suitable roles so far - searching {len(more)} more employer boards…")
+        kw = (strategy.titles + strategy.expanded_titles)[:6] if strategy else None
+        s = refresh_boards(db, more, keywords=kw)
+        ctx.refreshed_ids.update(more)
+        ctx.boards_refreshed += len(more)
+        db.add(AgentToolCall(run_id=ctx.run.id, tool="auto_refresh_more_boards", arguments={"boards": len(more)}, status="ok",
+                             result_summary=f"fetched {s['fetched']}, cached {s['cached']}, failed {len(s['failed'])}, new jobs {s['new_jobs']}",
+                             duration_ms=int((_t.monotonic() - t0) * 1000)))
+        db.commit()
+    ctx.batch_job_ids = list(sess.job_ids or [])
+    if len(ctx.batch_job_ids) < target:
+        ctx.activity(f"Found {len(ctx.batch_job_ids)} roles that meet your requirements - I won't pad the batch with ones that don't.")
+    return added_total
 
 
 def _ensure_batch(ctx: RunContext) -> None:

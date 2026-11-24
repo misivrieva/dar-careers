@@ -11,3 +11,29 @@ storage/cache/
 !storage/**/.gitkeep
 .pytest_cache/
 .DS_Store
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+.venv/
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Logs
+*.log

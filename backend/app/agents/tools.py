@@ -33,6 +33,7 @@ class RunContext:
     started: float = field(default_factory=time.monotonic)
     tool_calls: int = 0
     boards_refreshed: int = 0
+    refreshed_ids: set = field(default_factory=set)
     strategy_id: int | None = None
     shortlist: list[dict] = field(default_factory=list)
     batch_session_id: int | None = None
@@ -205,8 +206,11 @@ def _refresh(ctx: RunContext, ids: list[str], force: bool) -> dict:
         raise ToolRejected(f"board budget exhausted ({s.agent_max_boards} per run)")
     ids = ids[:room]
     ctx.activity(f"Searching {len(ids)} employer boards on Ashby and Greenhouse…")
-    summary = refresh_boards(ctx.db, ids, force=force)
+    strat = memory.latest_strategy(ctx.db, ctx.user.id)
+    kw = (strat.titles + strat.expanded_titles)[:6] if strat else None
+    summary = refresh_boards(ctx.db, ids, force=force, keywords=kw)
     ctx.boards_refreshed += len(ids)
+    ctx.refreshed_ids.update(ids)
     failed = summary["failed"]
     total_live = ctx.db.query(Job).filter(Job.employer_id.in_(ids), Job.active.is_(True)).count()
     msg = (f"Searched {summary['fetched'] + summary['cached']} boards: {total_live} live vacancies"

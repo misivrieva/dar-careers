@@ -44,8 +44,8 @@ class Settings(BaseSettings):
     provider_cache_ttl_s: int = 1800
 
     # Agent budgets
-    agent_max_tool_calls: int = 30
-    agent_max_llm_calls: int = 14
+    agent_max_tool_calls: int = 40
+    agent_max_llm_calls: int = 24
     agent_max_boards: int = 30
     agent_timeout_s: int = 240
     agent_token_budget: int = 400_000

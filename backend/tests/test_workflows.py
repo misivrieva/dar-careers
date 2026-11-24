@@ -127,3 +127,43 @@ def test_learning_hypotheses_from_feedback(client, db, monkeypatch):
     # user confirms -> confirmed; requirements untouched
     client.patch(f"/api/preferences/{cf[0]['id']}", json={"action": "confirm"})
     assert client.get("/api/preferences").json()["requirements"]["min_salary"]["amount"] == 75000
+
+
+def test_top_up_fills_batch_without_relaxing_requirements(db, monkeypatch):
+    from app import llm
+    from app.agents.orchestrator import top_up
+    from app.agents.tools import RunContext
+    from app.models import AgentRun, DiscoverySession, Employer, Job, User, now
+    from app.providers.normalise import finalise
+    from app.services import matching
+    from app.services.catalogue import upsert_jobs
+    from app.agents import memory
+
+    no_network(monkeypatch)
+    u = onboard(db)
+    db.add(Employer(id="many", name="Many Ltd", provider="greenhouse", board_id="many", enabled=True, last_success_at=now()))
+    db.flush()
+    jobs = []
+    for i in range(30):
+        ok = i % 3 != 0  # every third job violates the salary minimum
+        raw = {"external_id": f"m{i}", "provider": "greenhouse", "employer_id": "many", "employer_name": f"Employer {i}",
+               "title": f"Technical Account Manager {i}", "description_text": "Customers. Remote within the UK.",
+               "location_raw": "Remote (UK)", "_workplace_hint": "remote", "employment_type": "full_time",
+               "salary_min": 90000 if ok else 40000, "salary_max": 100000 if ok else 50000, "salary_currency": "GBP",
+               "salary_period": "year", "salary_disclosed": True}
+        jobs.append(finalise(raw, {}, raw["description_text"]))
+    upsert_jobs(db, db.get(Employer, "many"), jobs)
+    from app.services.discovery import ensure_initial_strategy
+    ensure_initial_strategy(db, u.id)
+    first = db.query(Job).filter_by(employer_id="many", external_id="m1").one()
+    sess = DiscoverySession(user_id=u.id, status="active", job_ids=[first.id])
+    run = AgentRun(user_id=u.id, trigger="t", status="running", activity=[], errors=[])
+    db.add_all([sess, run])
+    db.commit()
+    ctx = RunContext(db=db, user=db.get(User, u.id), run=run, meter=llm.UsageMeter(), session=sess)
+    ctx.batch_session_id = sess.id
+    added = top_up(ctx, target=20)
+    db.refresh(sess)
+    assert len(sess.job_ids) == 20 and added == 19
+    reqs = memory.get_requirements(db, u.id)
+    assert all(matching.evaluate_eligibility(matching.job_view(db.get(Job, j)), reqs).status != "ineligible" for j in sess.job_ids)
