@@ -114,7 +114,7 @@ WORD_NUM = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5}
 def parse_office_days(text: str) -> float | None:
     t = text.lower()
     m = re.search(
-        r"\b(\d|one|two|three|four|five)(?:\s*(?:-|to)\s*(\d|one|two|three|four|five))?\s*(?:days?|x)\s*(?:a|per|each)?\s*(?:week|wk)?\s*(?:in|at|from)?\s*(?:the|our)?\s*(?:office|onsite|on-site|in person|in-person)",
+        r"\b(\d|one|two|three|four|five)(?:\s*(?:-|to)\s*(\d|one|two|three|four|five))?\s*(?:days?|x)\s*(?:a|per|each)?\s*(?:week|wk)?\s*(?:in|at|from)?\s*(?:the|our|one of our)?\s*(?:[a-z]+\s+){0,2}(?:office|offices|hub|onsite|on-site|in person|in-person)",
         t,
     )
     if not m:

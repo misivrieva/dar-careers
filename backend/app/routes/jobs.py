@@ -329,7 +329,10 @@ def download_document(doc_id: int, user: User = Depends(current_user), db: Sessi
     d = db.get(Document, doc_id)
     if d is None or d.user_id != user.id:
         raise HTTPException(404, "not found")  # same response for other users' documents: no existence leak
-    p = dg.ensure_within(Path(d.path), get_settings().storage_path / "applications")
+    try:
+        p = dg.ensure_within(Path(d.path), get_settings().storage_path / "applications")
+    except PermissionError:
+        raise HTTPException(404, "not found")
     if not p.exists():
         raise HTTPException(404, "file missing")
     return FileResponse(str(p), filename=p.name)

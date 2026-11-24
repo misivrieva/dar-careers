@@ -662,12 +662,20 @@ def live_agent(ctx: Ctx) -> None:
         t0 = time.time()
         run = run_discovery(db, uid, "more_jobs_requested", sess.id)
         db.commit()
+        with ctx.meter.lock:  # include the agent's own model usage in the eval totals
+            ctx.meter.calls += run.llm_calls
+            ctx.meter.input_tokens += run.input_tokens
+            ctx.meter.output_tokens += run.output_tokens
         calls = db.query(AgentToolCall).filter_by(run_id=run.id).order_by(AgentToolCall.id).all()
         sess = db.get(DiscoverySession, sess.id)
         strat = memory.latest_strategy(db, uid)
         reqs_after = memory.get_requirements(db, uid)
         inv = {v: k for k, v in ids.items()}
-        batch = [inv.get(j, j) for j in (sess.job_ids or [])]
+        # label every batch job (the catalogue is shared across seeded users, so map by DB lookup, not only this seed)
+        batch = [inv.get(j) or f"{db.get(Job, j).employer_name}: {db.get(Job, j).title}" for j in (sess.job_ids or [])]
+        mal_titles = {(j.employer_name, j.title) for j in db.query(Job).filter(Job.employer_name == "Mallory Corp")}
+        if any((db.get(Job, j).employer_name, db.get(Job, j).title) in mal_titles for j in (sess.job_ids or [])):
+            batch.append("MAL")
         reqs = reqs_after
         batch_violations = [inv.get(j) for j in (sess.job_ids or [])
                             if matching.evaluate_eligibility(matching.job_view(db.get(Job, j)), reqs).status == "ineligible"]

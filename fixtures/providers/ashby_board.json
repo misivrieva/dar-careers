@@ -1,0 +1,78 @@
+{
+ "apiVersion": "1",
+ "jobs": [
+  {
+   "id": "a1",
+   "title": "Technical Account Manager",
+   "department": "Customer",
+   "team": "EMEA",
+   "employmentType": "FullTime",
+   "location": "London",
+   "secondaryLocations": [],
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "Hybrid",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "United Kingdom",
+     "addressLocality": "London"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/acme/a1",
+   "applyUrl": "https://jobs.ashbyhq.com/acme/a1/application",
+   "descriptionHtml": "<p>Work with enterprise customers. 3 days a week in our London office.</p>",
+   "descriptionPlain": "Work with enterprise customers. 3 days a week in our London office.",
+   "publishedAt": "2026-11-01T10:00:00Z",
+   "compensation": {
+    "compensationTiers": [
+     {
+      "components": [
+       {
+        "compensationType": "Salary",
+        "interval": "1 YEAR",
+        "currencyCode": "GBP",
+        "minValue": 90000,
+        "maxValue": 110000
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "a2",
+   "title": "Solutions Engineer",
+   "department": "Sales",
+   "employmentType": "FullTime",
+   "location": "Remote - UK",
+   "isListed": true,
+   "isRemote": true,
+   "workplaceType": "Remote",
+   "address": {
+    "postalAddress": {
+     "addressCountry": "United Kingdom"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/acme/a2",
+   "descriptionPlain": "Run demos for customers.",
+   "publishedAt": "2026-11-02T10:00:00Z",
+   "compensation": {
+    "compensationTiers": []
+   }
+  },
+  {
+   "id": "a3",
+   "title": "Hidden Role",
+   "isListed": false,
+   "location": "London",
+   "descriptionPlain": "x"
+  },
+  {
+   "title": "No Id Role",
+   "location": "",
+   "isListed": true,
+   "descriptionPlain": "Some role with no id and no location",
+   "jobUrl": "https://jobs.ashbyhq.com/acme/zz"
+  }
+ ]
+}

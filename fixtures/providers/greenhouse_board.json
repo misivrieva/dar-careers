@@ -1,0 +1,60 @@
+{
+ "jobs": [
+  {
+   "id": 101,
+   "title": "Customer Success Engineer",
+   "location": {
+    "name": "Remote (UK)"
+   },
+   "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/101",
+   "updated_at": "2026-11-03T10:00:00-05:00",
+   "first_published": "2026-10-01T10:00:00-05:00",
+   "content": "&lt;p&gt;Help customers succeed. Salary: \u00a385,000 - \u00a395,000 base.&lt;/p&gt;",
+   "departments": [
+    {
+     "name": "Customer Success"
+    }
+   ],
+   "offices": [
+    {
+     "name": "UK"
+    }
+   ],
+   "metadata": null
+  },
+  {
+   "id": 102,
+   "title": "Platform Engineer",
+   "location": {
+    "name": "London"
+   },
+   "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/102",
+   "updated_at": "2026-11-03T10:00:00-05:00",
+   "content": "&lt;p&gt;Kubernetes and Terraform. You will join the on-call rotation.&lt;/p&gt;",
+   "departments": [],
+   "offices": [],
+   "metadata": [
+    {
+     "name": "Employment Type",
+     "value": "Full-time"
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "title": "Technical Account Manager",
+   "location": {
+    "name": "London"
+   },
+   "absolute_url": "https://jobs.ashbyhq.com/acme/a1",
+   "updated_at": "2026-11-03T10:00:00-05:00",
+   "content": "&lt;p&gt;Work with enterprise customers. 3 days a week in our London office.&lt;/p&gt;",
+   "departments": [],
+   "offices": [],
+   "metadata": null
+  },
+  {
+   "title": "broken - no id"
+  }
+ ]
+}

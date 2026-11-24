@@ -1,0 +1,174 @@
+{
+ "note": "SYNTHETIC DEMO FIXTURES - fictional employers and vacancies for offline demonstrations only.",
+ "employers": [
+  {
+   "id": "demo-northstar",
+   "name": "Northstar Cloud",
+   "industry": "Cloud infrastructure"
+  },
+  {
+   "id": "demo-lumen",
+   "name": "Lumen AI",
+   "industry": "AI"
+  },
+  {
+   "id": "demo-harbour",
+   "name": "Harbour Pay",
+   "industry": "Fintech"
+  }
+ ],
+ "jobs": [
+  {
+   "id": "d1",
+   "employer": "demo-northstar",
+   "title": "Technical Account Manager",
+   "location": "Remote (UK)",
+   "workplace": "remote",
+   "salary": [
+    100000,
+    115000,
+    "GBP"
+   ],
+   "description": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform). Fully remote within the UK."
+  },
+  {
+   "id": "d2",
+   "employer": "demo-lumen",
+   "title": "Solutions Engineer",
+   "location": "London, United Kingdom",
+   "workplace": "hybrid",
+   "salary": [
+    90000,
+    105000,
+    "GBP"
+   ],
+   "description": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. AWS, Kubernetes, networking and DNS. Hybrid: 2 days a week in our London office."
+  },
+  {
+   "id": "d3",
+   "employer": "demo-harbour",
+   "title": "Customer Success Engineer",
+   "location": "Remote (UK)",
+   "workplace": "remote",
+   "salary": null,
+   "description": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform). Fully remote within the UK."
+  },
+  {
+   "id": "d4",
+   "employer": "demo-northstar",
+   "title": "Platform Engineer",
+   "location": "Remote (UK)",
+   "workplace": "remote",
+   "salary": [
+    110000,
+    125000,
+    "GBP"
+   ],
+   "description": "Build and operate our Kubernetes platform on AWS using Terraform. Write Go and Python tooling. You will join the on-call rotation for production incidents. Remote within the UK."
+  },
+  {
+   "id": "d5",
+   "employer": "demo-lumen",
+   "title": "Site Reliability Engineer",
+   "location": "Remote (UK)",
+   "workplace": "remote",
+   "salary": [
+    105000,
+    120000,
+    "GBP"
+   ],
+   "description": "Build and operate our Kubernetes platform on AWS using Terraform. Write Go and Python tooling. You will join the on-call rotation for production incidents. Remote within the UK."
+  },
+  {
+   "id": "d6",
+   "employer": "demo-harbour",
+   "title": "Support Engineer",
+   "location": "Remote (UK)",
+   "workplace": "remote",
+   "salary": [
+    50000,
+    55000,
+    "GBP"
+   ],
+   "description": "Resolve customer tickets. Remote within the UK."
+  },
+  {
+   "id": "d7",
+   "employer": "demo-lumen",
+   "title": "Pre-Sales Engineer",
+   "location": "London, United Kingdom",
+   "workplace": "hybrid",
+   "salary": [
+    95000,
+    110000,
+    "GBP"
+   ],
+   "description": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. AWS, Kubernetes, networking and DNS. Hybrid: 2 days a week in our London office."
+  },
+  {
+   "id": "d8",
+   "employer": "demo-northstar",
+   "title": "Enterprise Technical Account Manager",
+   "location": "Remote (US)",
+   "workplace": "remote",
+   "salary": [
+    95000,
+    100000,
+    "GBP"
+   ],
+   "description": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform). Fully remote within the US."
+  },
+  {
+   "id": "d9",
+   "employer": "demo-harbour",
+   "title": "Solutions Consultant",
+   "location": "London, United Kingdom",
+   "workplace": "hybrid",
+   "salary": [
+    92000,
+    108000,
+    "GBP"
+   ],
+   "description": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. AWS, Kubernetes, networking and DNS. Hybrid: 2 days a week in our London office."
+  },
+  {
+   "id": "d10",
+   "employer": "demo-lumen",
+   "title": "Cloud Infrastructure Engineer",
+   "location": "Remote (UK)",
+   "workplace": "remote",
+   "salary": [
+    100000,
+    112000,
+    "GBP"
+   ],
+   "description": "Design AWS landing zones with Terraform. No on-call is required for this role. Remote within the UK."
+  },
+  {
+   "id": "d11",
+   "employer": "demo-northstar",
+   "title": "Customer Engineer",
+   "location": "Remote (UK)",
+   "workplace": "remote",
+   "salary": [
+    88000,
+    100000,
+    "GBP"
+   ],
+   "description": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform). Fully remote within the UK."
+  },
+  {
+   "id": "d12",
+   "employer": "demo-harbour",
+   "title": "Sales Engineer",
+   "location": "London, United Kingdom",
+   "workplace": "hybrid",
+   "salary": [
+    90000,
+    110000,
+    "GBP"
+   ],
+   "description": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. AWS, Kubernetes, networking and DNS. Hybrid: 2 days a week in our London office."
+  }
+ ]
+}

@@ -58,6 +58,8 @@ def sync_registry(db: Session, path: Path | None = None) -> int:
         e.nasdaq100 = bool(r.get("nasdaq100"))
         e.detected_ats = r.get("detected_ats")
         e.enabled = bool(r.get("enabled", True)) and e.provider in PROVIDERS
+        if get_settings().demo_mode:
+            e.enabled = e.provider == "demo"  # demo mode never mixes synthetic and live vacancies
         e.verification_status = r.get("verification_status", "unverified")
         e.verified_at = _dt(r.get("verified_at"))
         e.notes = r.get("notes")
