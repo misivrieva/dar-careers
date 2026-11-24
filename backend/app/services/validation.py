@@ -57,12 +57,24 @@ def credential_terms(text: str, affirmed_only: bool = False) -> set[str]:
     return out
 
 
+def _credential_supported(term: str, cv_norm: str) -> bool:
+    """A credential mention is supported if its core (first 3 words, or all if shorter) appears in the CV.
+    The regex can over-capture trailing words ("aws certified solutions architect credential and")."""
+    words = re.findall(r"[a-z0-9]+", term.lower())
+    for n in range(len(words), 0, -1):
+        if n < min(3, len(words)):
+            break
+        if re.search(r"(?<![a-z0-9])" + r"\s+".join(map(re.escape, words[:n])) + r"(?![a-z0-9])", cv_norm):
+            return True
+    return False
+
+
 def deterministic_check(cv: dict, letter: dict, facts: dict[str, str], cv_text: str, profile_skills: list[str]) -> dict:
     """cv/letter are the structured drafts (post-assembly). Returns issues and auto-fixes applied."""
     issues: list[dict] = []
     removed: list[dict] = []
     cv_nums = _nums(cv_text)
-    cv_creds = credential_terms(cv_text)
+    cv_norm = " ".join(re.findall(r"[a-z0-9]+", cv_text.lower()))
     skill_set = {s.lower() for s in profile_skills}
 
     def check_text(t: str, ev: list[str], where: str, strict_numbers: bool) -> list[dict]:
@@ -76,8 +88,7 @@ def deterministic_check(cv: dict, letter: dict, facts: dict[str, str], cv_text: 
         if extra:
             found.append({"where": where, "claim": t, "problem": "fabricated_metric", "severity": "critical",
                           "detail": f"numbers not in the cited CV evidence: {sorted(extra)}"})
-        creds = credential_terms(t, affirmed_only=True) - cv_creds
-        creds = {c for c in creds if not any(c in x or x in c for x in cv_creds)}
+        creds = {c for c in credential_terms(t, affirmed_only=True) if not _credential_supported(c, cv_norm)}
         if creds:
             found.append({"where": where, "claim": t, "problem": "fabricated_qualification", "severity": "critical",
                           "detail": f"qualification terms not in CV: {sorted(creds)}"})
