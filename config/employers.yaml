@@ -1,0 +1,2085 @@
+version: '2026-11-24'
+nasdaq100_source: Wikipedia 'List of NASDAQ-100 companies', retrieved 2026-11-24
+employers:
+- id: adobe-inc
+  name: Adobe Inc.
+  ticker: ADBE
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: advanced-micro-devices
+  name: Advanced Micro Devices
+  ticker: AMD
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: airbnb
+  name: Airbnb
+  ticker: ABNB
+  nasdaq100: true
+  industry: Travel tech
+  geographic_focus: null
+  provider: greenhouse
+  board_id: airbnb
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/airbnb
+  uk_jobs_at_verification: 11
+  notes: Board name 'Airbnb', 199 jobs (11 UK) at verification
+- id: alnylam-pharmaceuticals
+  name: Alnylam Pharmaceuticals
+  ticker: ALNY
+  nasdaq100: true
+  industry: Biotech
+  geographic_focus: null
+  provider: greenhouse
+  board_id: alnylampharmaceuticals
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/alnylampharmaceuticals
+  uk_jobs_at_verification: 65
+  notes: Board name 'Alnylam Pharmaceuticals', 118 jobs (65 UK) at verification
+- id: alphabet-inc
+  name: Alphabet Inc.
+  ticker: GOOGL
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: amazon
+  name: Amazon
+  ticker: AMZN
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: american-electric-power
+  name: American Electric Power
+  ticker: AEP
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: amgen
+  name: Amgen
+  ticker: AMGN
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: analog-devices
+  name: Analog Devices
+  ticker: ADI
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: apple-inc
+  name: Apple Inc.
+  ticker: AAPL
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: applied-materials
+  name: Applied Materials
+  ticker: AMAT
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: applovin
+  name: AppLovin
+  ticker: APP
+  nasdaq100: true
+  industry: Adtech
+  geographic_focus: null
+  provider: greenhouse
+  board_id: applovin
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/applovin
+  uk_jobs_at_verification: 0
+  notes: Board name 'AppLovin', 43 jobs (0 UK) at verification
+- id: arm-holdings
+  name: Arm Holdings
+  ticker: ARM
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: asml-holding
+  name: ASML Holding
+  ticker: ASML
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: astera-labs
+  name: Astera Labs
+  ticker: ALAB
+  nasdaq100: true
+  industry: Semiconductors
+  geographic_focus: null
+  provider: greenhouse
+  board_id: asteralabs
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/asteralabs
+  uk_jobs_at_verification: 0
+  notes: Board name 'Astera Labs', 177 jobs (0 UK) at verification
+- id: autodesk
+  name: Autodesk
+  ticker: ADSK
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: automatic-data-processing
+  name: Automatic Data Processing
+  ticker: ADP
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: axon-enterprise
+  name: Axon Enterprise
+  ticker: AXON
+  nasdaq100: true
+  industry: Public safety tech
+  geographic_focus: null
+  provider: greenhouse
+  board_id: axon
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/axon
+  uk_jobs_at_verification: 21
+  notes: Board name 'Axon', 466 jobs (21 UK) at verification
+- id: baker-hughes
+  name: Baker Hughes
+  ticker: BKR
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: booking-holdings
+  name: Booking Holdings
+  ticker: BKNG
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: broadcom
+  name: Broadcom
+  ticker: AVGO
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: cadence-design-systems
+  name: Cadence Design Systems
+  ticker: CDNS
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: cintas
+  name: Cintas
+  ticker: CTAS
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: cisco
+  name: Cisco
+  ticker: CSCO
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: coca-cola-europacific-partners
+  name: Coca-Cola Europacific Partners
+  ticker: CCEP
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: comcast
+  name: Comcast
+  ticker: CMCSA
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: constellation-energy
+  name: Constellation Energy
+  ticker: CEG
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: copart
+  name: Copart
+  ticker: CPRT
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: coreweave
+  name: CoreWeave
+  ticker: CRWV
+  nasdaq100: true
+  industry: Cloud infrastructure
+  geographic_focus: null
+  provider: greenhouse
+  board_id: coreweave
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/coreweave
+  uk_jobs_at_verification: 5
+  notes: Board name 'CoreWeave', 319 jobs (5 UK) at verification
+- id: costco
+  name: Costco
+  ticker: COST
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: crowdstrike
+  name: CrowdStrike
+  ticker: CRWD
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: csx-corporation
+  name: CSX Corporation
+  ticker: CSX
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: datadog
+  name: Datadog
+  ticker: DDOG
+  nasdaq100: true
+  industry: Observability SaaS
+  geographic_focus: null
+  provider: greenhouse
+  board_id: datadog
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/datadog
+  uk_jobs_at_verification: 18
+  notes: Board name 'Datadog', 386 jobs (18 UK) at verification
+- id: dexcom
+  name: DexCom
+  ticker: DXCM
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: diamondback-energy
+  name: Diamondback Energy
+  ticker: FANG
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: doordash
+  name: DoorDash
+  ticker: DASH
+  nasdaq100: true
+  industry: Marketplace
+  geographic_focus: null
+  provider: greenhouse
+  board_id: doordashusa
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/doordashusa
+  uk_jobs_at_verification: 0
+  notes: Board name 'DoorDash USA', 403 jobs (0 UK) at verification
+- id: exelon
+  name: Exelon
+  ticker: EXC
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: fastenal
+  name: Fastenal
+  ticker: FAST
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: ferrovial
+  name: Ferrovial
+  ticker: FER
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: fortinet
+  name: Fortinet
+  ticker: FTNT
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: ge-healthcare
+  name: GE HealthCare
+  ticker: GEHC
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: gilead-sciences
+  name: Gilead Sciences
+  ticker: GILD
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: honeywell-aerospace
+  name: Honeywell Aerospace
+  ticker: HONA
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: honeywell-technologies
+  name: Honeywell Technologies
+  ticker: HON
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: idexx-laboratories
+  name: Idexx Laboratories
+  ticker: IDXX
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: intel
+  name: Intel
+  ticker: INTC
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: intuit
+  name: Intuit
+  ticker: INTU
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: intuitive-surgical
+  name: Intuitive Surgical
+  ticker: ISRG
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: keurig-dr-pepper
+  name: Keurig Dr Pepper
+  ticker: KDP
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: kla-corporation
+  name: KLA Corporation
+  ticker: KLAC
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: lam-research
+  name: Lam Research
+  ticker: LRCX
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: linde-plc
+  name: Linde plc
+  ticker: LIN
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: lumentum
+  name: Lumentum
+  ticker: LITE
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: marriott-international
+  name: Marriott International
+  ticker: MAR
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: marvell-technology
+  name: Marvell Technology
+  ticker: MRVL
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: mercado-libre
+  name: Mercado Libre
+  ticker: MELI
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: meta-platforms
+  name: Meta Platforms
+  ticker: META
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: microchip-technology
+  name: Microchip Technology
+  ticker: MCHP
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: micron-technology
+  name: Micron Technology
+  ticker: MU
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: microsoft
+  name: Microsoft
+  ticker: MSFT
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: microstrategy
+  name: MicroStrategy
+  ticker: MSTR
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: moderna
+  name: Moderna
+  ticker: MRNA
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: mondelez-international
+  name: Mondelez International
+  ticker: MDLZ
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: monolithic-power-systems
+  name: Monolithic Power Systems
+  ticker: MPWR
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: monster-beverage
+  name: Monster Beverage
+  ticker: MNST
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: nebius-group
+  name: Nebius Group
+  ticker: NBIS
+  nasdaq100: true
+  industry: AI cloud infrastructure
+  geographic_focus: null
+  provider: greenhouse
+  board_id: nebius
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/nebius
+  uk_jobs_at_verification: 51
+  notes: Board name 'Nebius', 350 jobs (51 UK) at verification
+- id: netflix-inc
+  name: Netflix, Inc.
+  ticker: NFLX
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: nvidia
+  name: Nvidia
+  ticker: NVDA
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: nxp-semiconductors
+  name: NXP Semiconductors
+  ticker: NXPI
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: o-reilly-automotive
+  name: O'Reilly Automotive
+  ticker: ORLY
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: old-dominion-freight-line
+  name: Old Dominion Freight Line
+  ticker: ODFL
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: paccar
+  name: Paccar
+  ticker: PCAR
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: palantir-technologies
+  name: Palantir Technologies
+  ticker: PLTR
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: palo-alto-networks
+  name: Palo Alto Networks
+  ticker: PANW
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: paychex
+  name: Paychex
+  ticker: PAYX
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: paypal
+  name: PayPal
+  ticker: PYPL
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: pdd-holdings
+  name: PDD Holdings
+  ticker: PDD
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: pepsico
+  name: PepsiCo
+  ticker: PEP
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: qualcomm
+  name: Qualcomm
+  ticker: QCOM
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: regeneron-pharmaceuticals
+  name: Regeneron Pharmaceuticals
+  ticker: REGN
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: rocket-lab
+  name: Rocket Lab
+  ticker: RKLB
+  nasdaq100: true
+  industry: Aerospace
+  geographic_focus: null
+  provider: greenhouse
+  board_id: rocketlab
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/rocketlab
+  uk_jobs_at_verification: 0
+  notes: Board name 'Rocket Lab Corporation', 548 jobs (0 UK) at verification
+- id: roper-technologies
+  name: Roper Technologies
+  ticker: ROP
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: ross-stores
+  name: Ross Stores
+  ticker: ROST
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: sandisk
+  name: Sandisk
+  ticker: SNDK
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: seagate-technology
+  name: Seagate Technology
+  ticker: STX
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: shopify
+  name: Shopify
+  ticker: SHOP
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: spacex
+  name: SpaceX
+  ticker: SPCX
+  nasdaq100: true
+  industry: Aerospace
+  geographic_focus: null
+  provider: greenhouse
+  board_id: spacex
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/spacex
+  uk_jobs_at_verification: 0
+  notes: Board name 'SpaceX', 2862 jobs (0 UK) at verification
+- id: starbucks
+  name: Starbucks
+  ticker: SBUX
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: synopsys
+  name: Synopsys
+  ticker: SNPS
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: t-mobile-us
+  name: T-Mobile US
+  ticker: TMUS
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: take-two-interactive
+  name: Take-Two Interactive
+  ticker: TTWO
+  nasdaq100: true
+  industry: Gaming
+  geographic_focus: null
+  provider: greenhouse
+  board_id: taketwo
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:49Z'
+  careers_url: https://job-boards.greenhouse.io/taketwo
+  uk_jobs_at_verification: 3
+  notes: Board name 'Take-Two Interactive Software, Inc.', 31 jobs (3 UK) at verification
+- id: teradyne
+  name: Teradyne
+  ticker: TER
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: tesla-inc
+  name: Tesla, Inc.
+  ticker: TSLA
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: texas-instruments
+  name: Texas Instruments
+  ticker: TXN
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: thomson-reuters
+  name: Thomson Reuters
+  ticker: TRI
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: vertex-pharmaceuticals
+  name: Vertex Pharmaceuticals
+  ticker: VRTX
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: walmart
+  name: Walmart
+  ticker: WMT
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: western-digital
+  name: Western Digital
+  ticker: WDC
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: workday-inc
+  name: Workday, Inc.
+  ticker: WDAY
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: xcel-energy
+  name: Xcel Energy
+  ticker: XEL
+  nasdaq100: true
+  industry: null
+  geographic_focus: null
+  provider: unsupported
+  board_id: null
+  enabled: false
+  verification_status: no_supported_board_found
+  detected_ats: null
+  notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+- id: monzo
+  name: Monzo
+  nasdaq100: false
+  industry: Fintech
+  provider: greenhouse
+  board_id: monzo
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://job-boards.greenhouse.io/monzo
+  geographic_focus: UK
+  uk_jobs_at_verification: 44
+  notes: Supplementary employer; 53 jobs (44 UK) at verification
+- id: stripe
+  name: Stripe
+  nasdaq100: false
+  industry: Fintech
+  provider: greenhouse
+  board_id: stripe
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://job-boards.greenhouse.io/stripe
+  geographic_focus: UK
+  uk_jobs_at_verification: 54
+  notes: Supplementary employer; 772 jobs (54 UK) at verification
+- id: gitlab
+  name: GitLab
+  nasdaq100: false
+  industry: Developer tools
+  provider: greenhouse
+  board_id: gitlab
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://job-boards.greenhouse.io/gitlab
+  geographic_focus: UK
+  uk_jobs_at_verification: 39
+  notes: Supplementary employer; 253 jobs (39 UK) at verification
+- id: twilio
+  name: Twilio
+  nasdaq100: false
+  industry: Communications SaaS
+  provider: greenhouse
+  board_id: twilio
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://job-boards.greenhouse.io/twilio
+  geographic_focus: UK
+  uk_jobs_at_verification: 15
+  notes: Supplementary employer; 114 jobs (15 UK) at verification
+- id: okta
+  name: Okta
+  nasdaq100: false
+  industry: Identity security
+  provider: greenhouse
+  board_id: okta
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://job-boards.greenhouse.io/okta
+  geographic_focus: null
+  uk_jobs_at_verification: 6
+  notes: Supplementary employer; 372 jobs (6 UK) at verification
+- id: elastic
+  name: Elastic
+  nasdaq100: false
+  industry: Search & observability
+  provider: greenhouse
+  board_id: elastic
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://job-boards.greenhouse.io/elastic
+  geographic_focus: UK
+  uk_jobs_at_verification: 29
+  notes: Supplementary employer; 379 jobs (29 UK) at verification
+- id: mongodb
+  name: MongoDB
+  nasdaq100: false
+  industry: Databases
+  provider: greenhouse
+  board_id: mongodb
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://job-boards.greenhouse.io/mongodb
+  geographic_focus: UK
+  uk_jobs_at_verification: 10
+  notes: Supplementary employer; 418 jobs (10 UK) at verification
+- id: anthropic
+  name: Anthropic
+  nasdaq100: false
+  industry: AI
+  provider: greenhouse
+  board_id: anthropic
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://job-boards.greenhouse.io/anthropic
+  geographic_focus: UK
+  uk_jobs_at_verification: 45
+  notes: Supplementary employer; 633 jobs (45 UK) at verification
+- id: openai
+  name: OpenAI
+  nasdaq100: false
+  industry: AI
+  provider: ashby
+  board_id: openai
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://jobs.ashbyhq.com/openai
+  geographic_focus: UK
+  uk_jobs_at_verification: 41
+  notes: Supplementary employer; 867 jobs (41 UK) at verification
+- id: synthesia
+  name: Synthesia
+  nasdaq100: false
+  industry: AI video
+  provider: ashby
+  board_id: synthesia
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://jobs.ashbyhq.com/synthesia
+  geographic_focus: UK
+  uk_jobs_at_verification: 16
+  notes: Supplementary employer; 26 jobs (16 UK) at verification
+- id: elevenlabs
+  name: ElevenLabs
+  nasdaq100: false
+  industry: AI audio
+  provider: ashby
+  board_id: elevenlabs
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://jobs.ashbyhq.com/elevenlabs
+  geographic_focus: UK
+  uk_jobs_at_verification: 43
+  notes: Supplementary employer; 119 jobs (43 UK) at verification
+- id: vanta
+  name: Vanta
+  nasdaq100: false
+  industry: Security compliance
+  provider: ashby
+  board_id: vanta
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://jobs.ashbyhq.com/vanta
+  geographic_focus: UK
+  uk_jobs_at_verification: 11
+  notes: Supplementary employer; 63 jobs (11 UK) at verification
+- id: posthog
+  name: PostHog
+  nasdaq100: false
+  industry: Product analytics
+  provider: ashby
+  board_id: posthog
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://jobs.ashbyhq.com/posthog
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Supplementary employer; 10 jobs (1 UK) at verification
+- id: snyk
+  name: Snyk
+  nasdaq100: false
+  industry: Developer security
+  provider: ashby
+  board_id: snyk
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://jobs.ashbyhq.com/snyk
+  geographic_focus: null
+  uk_jobs_at_verification: 7
+  notes: Supplementary employer; 38 jobs (7 UK) at verification
+- id: deliveroo
+  name: 'Deliveroo '
+  nasdaq100: false
+  industry: Marketplace
+  provider: greenhouse
+  board_id: deliveroo
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://job-boards.greenhouse.io/deliveroo
+  geographic_focus: UK
+  uk_jobs_at_verification: 130
+  notes: Supplementary employer; 194 jobs (130 UK) at verification
+- id: multiverse
+  name: Multiverse
+  nasdaq100: false
+  industry: Edtech
+  provider: ashby
+  board_id: multiverse
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://jobs.ashbyhq.com/multiverse
+  geographic_focus: UK
+  uk_jobs_at_verification: 23
+  notes: Supplementary employer; 23 jobs (23 UK) at verification
+- id: cohere
+  name: Cohere
+  nasdaq100: false
+  industry: AI
+  provider: ashby
+  board_id: cohere
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://jobs.ashbyhq.com/cohere
+  geographic_focus: UK
+  uk_jobs_at_verification: 32
+  notes: Supplementary employer; 123 jobs (32 UK) at verification
+- id: harvey
+  name: Harvey
+  nasdaq100: false
+  industry: Legal AI
+  provider: ashby
+  board_id: harvey
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://jobs.ashbyhq.com/harvey
+  geographic_focus: UK
+  uk_jobs_at_verification: 28
+  notes: Supplementary employer; 397 jobs (28 UK) at verification
+- id: wayve
+  name: Wayve
+  nasdaq100: false
+  industry: Autonomous driving
+  provider: ashby
+  board_id: wayve
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:50Z'
+  careers_url: https://jobs.ashbyhq.com/wayve
+  geographic_focus: UK
+  uk_jobs_at_verification: 52
+  notes: Supplementary employer; 152 jobs (52 UK) at verification
+- id: polyai
+  name: PolyAI
+  nasdaq100: false
+  industry: Conversational AI
+  provider: greenhouse
+  board_id: polyai
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:51Z'
+  careers_url: https://job-boards.greenhouse.io/polyai
+  geographic_focus: null
+  uk_jobs_at_verification: 7
+  notes: Supplementary employer; 11 jobs (7 UK) at verification
+- id: tide
+  name: Careers at Tide
+  nasdaq100: false
+  industry: Fintech
+  provider: greenhouse
+  board_id: tide
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:51Z'
+  careers_url: https://job-boards.greenhouse.io/tide
+  geographic_focus: UK
+  uk_jobs_at_verification: 15
+  notes: Supplementary employer; 91 jobs (15 UK) at verification
+- id: paddle
+  name: Paddle
+  nasdaq100: false
+  industry: Payments
+  provider: ashby
+  board_id: paddle
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:51Z'
+  careers_url: https://jobs.ashbyhq.com/paddle
+  geographic_focus: UK
+  uk_jobs_at_verification: 10
+  notes: Supplementary employer; 14 jobs (10 UK) at verification
+- id: cleo
+  name: 'Cleo (US) '
+  nasdaq100: false
+  industry: Fintech
+  provider: greenhouse
+  board_id: cleo
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:51Z'
+  careers_url: https://job-boards.greenhouse.io/cleo
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Supplementary employer; 15 jobs (0 UK) at verification
+- id: gocardless
+  name: GoCardless
+  nasdaq100: false
+  industry: Payments
+  provider: greenhouse
+  board_id: gocardless
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:51Z'
+  careers_url: https://job-boards.greenhouse.io/gocardless
+  geographic_focus: null
+  uk_jobs_at_verification: 6
+  notes: Supplementary employer; 28 jobs (6 UK) at verification
+- id: figma
+  name: Figma
+  nasdaq100: false
+  industry: Design tools
+  provider: greenhouse
+  board_id: figma
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:51Z'
+  careers_url: https://job-boards.greenhouse.io/figma
+  geographic_focus: UK
+  uk_jobs_at_verification: 19
+  notes: Supplementary employer; 145 jobs (19 UK) at verification
+- id: notion
+  name: Notion
+  nasdaq100: false
+  industry: Productivity SaaS
+  provider: ashby
+  board_id: notion
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:51Z'
+  careers_url: https://jobs.ashbyhq.com/notion
+  geographic_focus: null
+  uk_jobs_at_verification: 7
+  notes: Supplementary employer; 172 jobs (7 UK) at verification
+- id: plaid
+  name: Plaid
+  nasdaq100: false
+  industry: Fintech
+  provider: ashby
+  board_id: plaid
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:51Z'
+  careers_url: https://jobs.ashbyhq.com/plaid
+  geographic_focus: null
+  uk_jobs_at_verification: 6
+  notes: Supplementary employer; 145 jobs (6 UK) at verification
+- id: intercom
+  name: Fin
+  nasdaq100: false
+  industry: Customer service SaaS
+  provider: greenhouse
+  board_id: intercom
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:51Z'
+  careers_url: https://job-boards.greenhouse.io/intercom
+  geographic_focus: UK
+  uk_jobs_at_verification: 28
+  notes: Supplementary employer; 123 jobs (28 UK) at verification
+- id: contentful
+  name: Contentful
+  nasdaq100: false
+  industry: Content platform
+  provider: greenhouse
+  board_id: contentful
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://job-boards.greenhouse.io/contentful
+  geographic_focus: UK
+  uk_jobs_at_verification: 11
+  notes: Supplementary employer; 49 jobs (11 UK) at verification
+- id: amplitude
+  name: Amplitude
+  nasdaq100: false
+  industry: Product analytics
+  provider: ashby
+  board_id: amplitude
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://jobs.ashbyhq.com/amplitude
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Supplementary employer; 47 jobs (0 UK) at verification
+- id: mixpanel
+  name: Mixpanel
+  nasdaq100: false
+  industry: Product analytics
+  provider: greenhouse
+  board_id: mixpanel
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://job-boards.greenhouse.io/mixpanel
+  geographic_focus: null
+  uk_jobs_at_verification: 3
+  notes: Supplementary employer; 38 jobs (3 UK) at verification
+- id: pagerduty
+  name: PagerDuty
+  nasdaq100: false
+  industry: Incident management
+  provider: greenhouse
+  board_id: pagerduty
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://job-boards.greenhouse.io/pagerduty
+  geographic_focus: null
+  uk_jobs_at_verification: 3
+  notes: Supplementary employer; 49 jobs (3 UK) at verification
+- id: databricks
+  name: Databricks
+  nasdaq100: false
+  industry: Data & AI platform
+  provider: greenhouse
+  board_id: databricks
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://job-boards.greenhouse.io/databricks
+  geographic_focus: UK
+  uk_jobs_at_verification: 47
+  notes: Supplementary employer; 887 jobs (47 UK) at verification
+- id: clickhouse
+  name: ClickHouse
+  nasdaq100: false
+  industry: Databases
+  provider: ashby
+  board_id: clickhouse
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://jobs.ashbyhq.com/clickhouse
+  geographic_focus: UK
+  uk_jobs_at_verification: 41
+  notes: Supplementary employer; 210 jobs (41 UK) at verification
+- id: supabase
+  name: Supabase
+  nasdaq100: false
+  industry: Developer platform
+  provider: ashby
+  board_id: supabase
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://jobs.ashbyhq.com/supabase
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Supplementary employer; 80 jobs (1 UK) at verification
+- id: vercel
+  name: Vercel
+  nasdaq100: false
+  industry: Developer platform
+  provider: greenhouse
+  board_id: vercel
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://job-boards.greenhouse.io/vercel
+  geographic_focus: UK
+  uk_jobs_at_verification: 10
+  notes: Supplementary employer; 85 jobs (10 UK) at verification
+- id: grafanalabs
+  name: Grafana Labs
+  nasdaq100: false
+  industry: Observability
+  provider: greenhouse
+  board_id: grafanalabs
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://job-boards.greenhouse.io/grafanalabs
+  geographic_focus: UK
+  uk_jobs_at_verification: 13
+  notes: Supplementary employer; 137 jobs (13 UK) at verification
+- id: temporal
+  name: Temporal Technologies
+  nasdaq100: false
+  industry: Developer platform
+  provider: ashby
+  board_id: temporal
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://jobs.ashbyhq.com/temporal
+  geographic_focus: null
+  uk_jobs_at_verification: 9
+  notes: Supplementary employer; 91 jobs (9 UK) at verification
+- id: fivetran
+  name: 'Fivetran '
+  nasdaq100: false
+  industry: Data integration
+  provider: greenhouse
+  board_id: fivetran
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://job-boards.greenhouse.io/fivetran
+  geographic_focus: null
+  uk_jobs_at_verification: 5
+  notes: Supplementary employer; 206 jobs (5 UK) at verification
+- id: scaleai
+  name: Scale AI
+  nasdaq100: false
+  industry: AI data
+  provider: greenhouse
+  board_id: scaleai
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:52Z'
+  careers_url: https://job-boards.greenhouse.io/scaleai
+  geographic_focus: UK
+  uk_jobs_at_verification: 20
+  notes: Supplementary employer; 158 jobs (20 UK) at verification
+- id: perplexity
+  name: Perplexity
+  nasdaq100: false
+  industry: AI
+  provider: ashby
+  board_id: perplexity
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://jobs.ashbyhq.com/perplexity
+  geographic_focus: UK
+  uk_jobs_at_verification: 33
+  notes: Supplementary employer; 151 jobs (33 UK) at verification
+- id: sierra
+  name: Sierra
+  nasdaq100: false
+  industry: Conversational AI
+  provider: ashby
+  board_id: sierra
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://jobs.ashbyhq.com/sierra
+  geographic_focus: UK
+  uk_jobs_at_verification: 37
+  notes: Supplementary employer; 203 jobs (37 UK) at verification
+- id: writer
+  name: WRITER
+  nasdaq100: false
+  industry: AI
+  provider: ashby
+  board_id: writer
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://jobs.ashbyhq.com/writer
+  geographic_focus: UK
+  uk_jobs_at_verification: 13
+  notes: Supplementary employer; 45 jobs (13 UK) at verification
+- id: sumup
+  name: SumUp
+  nasdaq100: false
+  industry: Payments
+  provider: greenhouse
+  board_id: sumup
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://job-boards.greenhouse.io/sumup
+  geographic_focus: UK
+  uk_jobs_at_verification: 79
+  notes: Supplementary employer; 325 jobs (79 UK) at verification
+- id: oaknorth
+  name: OakNorth
+  nasdaq100: false
+  industry: Fintech
+  provider: ashby
+  board_id: oaknorth
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://jobs.ashbyhq.com/oaknorth
+  geographic_focus: UK
+  uk_jobs_at_verification: 17
+  notes: Supplementary employer; 36 jobs (17 UK) at verification
+- id: trainline
+  name: Trainline
+  nasdaq100: false
+  industry: Travel tech
+  provider: ashby
+  board_id: trainline
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://jobs.ashbyhq.com/trainline
+  geographic_focus: UK
+  uk_jobs_at_verification: 34
+  notes: Supplementary employer; 37 jobs (34 UK) at verification
+- id: motorway
+  name: Motorway
+  nasdaq100: false
+  industry: Marketplace
+  provider: ashby
+  board_id: motorway
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://jobs.ashbyhq.com/motorway
+  geographic_focus: UK
+  uk_jobs_at_verification: 12
+  notes: Supplementary employer; 23 jobs (12 UK) at verification
+- id: pleo
+  name: Pleo
+  nasdaq100: false
+  industry: Fintech
+  provider: ashby
+  board_id: pleo
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://jobs.ashbyhq.com/pleo
+  geographic_focus: UK
+  uk_jobs_at_verification: 17
+  notes: Supplementary employer; 32 jobs (17 UK) at verification
+- id: graphcore
+  name: Graphcore
+  nasdaq100: false
+  industry: Semiconductors
+  provider: greenhouse
+  board_id: graphcore
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://job-boards.greenhouse.io/graphcore
+  geographic_focus: UK
+  uk_jobs_at_verification: 110
+  notes: Supplementary employer; 185 jobs (110 UK) at verification
+- id: quantexa
+  name: Quantexa
+  nasdaq100: false
+  industry: Data analytics
+  provider: ashby
+  board_id: quantexa
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://jobs.ashbyhq.com/quantexa
+  geographic_focus: UK
+  uk_jobs_at_verification: 22
+  notes: Supplementary employer; 51 jobs (22 UK) at verification
+- id: incident
+  name: incident.io
+  nasdaq100: false
+  industry: Incident management
+  provider: ashby
+  board_id: incident
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://jobs.ashbyhq.com/incident
+  geographic_focus: UK
+  uk_jobs_at_verification: 14
+  notes: Supplementary employer; 33 jobs (14 UK) at verification
+- id: zoominfo
+  name: ZoomInfo Technologies LLC
+  nasdaq100: false
+  industry: Sales intelligence
+  provider: greenhouse
+  board_id: zoominfo
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://job-boards.greenhouse.io/zoominfo
+  geographic_focus: UK
+  uk_jobs_at_verification: 12
+  notes: Supplementary employer; 93 jobs (12 UK) at verification
+- id: coinbase
+  name: Coinbase
+  nasdaq100: false
+  industry: Crypto
+  provider: greenhouse
+  board_id: coinbase
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://job-boards.greenhouse.io/coinbase
+  geographic_focus: UK
+  uk_jobs_at_verification: 15
+  notes: Supplementary employer; 249 jobs (15 UK) at verification
+- id: reddit
+  name: Reddit
+  nasdaq100: false
+  industry: Social media
+  provider: greenhouse
+  board_id: reddit
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://job-boards.greenhouse.io/reddit
+  geographic_focus: UK
+  uk_jobs_at_verification: 11
+  notes: Supplementary employer; 148 jobs (11 UK) at verification
+- id: dropbox
+  name: Dropbox
+  nasdaq100: false
+  industry: Productivity SaaS
+  provider: greenhouse
+  board_id: dropbox
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://job-boards.greenhouse.io/dropbox
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Supplementary employer; 54 jobs (0 UK) at verification
+- id: hubspotjobs
+  name: HubSpot
+  nasdaq100: false
+  industry: CRM SaaS
+  provider: greenhouse
+  board_id: hubspotjobs
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://job-boards.greenhouse.io/hubspotjobs
+  geographic_focus: UK
+  uk_jobs_at_verification: 16
+  notes: Supplementary employer; 141 jobs (16 UK) at verification
+- id: pinterest
+  name: Pinterest
+  nasdaq100: false
+  industry: Social media
+  provider: greenhouse
+  board_id: pinterest
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:53Z'
+  careers_url: https://job-boards.greenhouse.io/pinterest
+  geographic_focus: null
+  uk_jobs_at_verification: 4
+  notes: Supplementary employer; 168 jobs (4 UK) at verification
+- id: samsara
+  name: Samsara
+  nasdaq100: false
+  industry: IoT SaaS
+  provider: greenhouse
+  board_id: samsara
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:54Z'
+  careers_url: https://job-boards.greenhouse.io/samsara
+  geographic_focus: UK
+  uk_jobs_at_verification: 24
+  notes: Supplementary employer; 289 jobs (24 UK) at verification
+- id: launchdarkly
+  name: LaunchDarkly
+  nasdaq100: false
+  industry: Developer tools
+  provider: greenhouse
+  board_id: launchdarkly
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:54Z'
+  careers_url: https://job-boards.greenhouse.io/launchdarkly
+  geographic_focus: null
+  uk_jobs_at_verification: 9
+  notes: Supplementary employer; 34 jobs (9 UK) at verification
+- id: sanity
+  name: Sanity
+  nasdaq100: false
+  industry: Content platform
+  provider: ashby
+  board_id: sanity
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:54Z'
+  careers_url: https://jobs.ashbyhq.com/sanity
+  geographic_focus: UK
+  uk_jobs_at_verification: 15
+  notes: Supplementary employer; 32 jobs (15 UK) at verification
+- id: braze
+  name: Braze
+  nasdaq100: false
+  industry: Customer engagement
+  provider: greenhouse
+  board_id: braze
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:54Z'
+  careers_url: https://job-boards.greenhouse.io/braze
+  geographic_focus: UK
+  uk_jobs_at_verification: 19
+  notes: Supplementary employer; 347 jobs (19 UK) at verification
+- id: 6sense
+  name: 6sense
+  nasdaq100: false
+  industry: Sales intelligence
+  provider: greenhouse
+  board_id: 6sense
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:54Z'
+  careers_url: https://job-boards.greenhouse.io/6sense
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Supplementary employer; 35 jobs (1 UK) at verification
+- id: algolia
+  name: Algolia
+  nasdaq100: false
+  industry: Search SaaS
+  provider: greenhouse
+  board_id: algolia
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:54Z'
+  careers_url: https://job-boards.greenhouse.io/algolia
+  geographic_focus: null
+  uk_jobs_at_verification: 7
+  notes: Supplementary employer; 28 jobs (7 UK) at verification
+- id: cockroachlabs
+  name: Cockroach Labs
+  nasdaq100: false
+  industry: Databases
+  provider: greenhouse
+  board_id: cockroachlabs
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:54Z'
+  careers_url: https://job-boards.greenhouse.io/cockroachlabs
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Supplementary employer; 11 jobs (1 UK) at verification
+- id: jfrog
+  name: JFrog
+  nasdaq100: false
+  industry: Developer tools
+  provider: greenhouse
+  board_id: jfrog
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:54Z'
+  careers_url: https://job-boards.greenhouse.io/jfrog
+  geographic_focus: null
+  uk_jobs_at_verification: 5
+  notes: Supplementary employer; 79 jobs (5 UK) at verification
+- id: docker
+  name: Docker
+  nasdaq100: false
+  industry: Developer tools
+  provider: ashby
+  board_id: docker
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T18:10:54Z'
+  careers_url: https://jobs.ashbyhq.com/docker
+  geographic_focus: UK
+  uk_jobs_at_verification: 11
+  notes: Supplementary employer; 47 jobs (11 UK) at verification
