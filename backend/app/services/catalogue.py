@@ -27,8 +27,8 @@ JOB_FIELDS = [
 ]
 
 
-def _emp_dict(e: Employer) -> dict:
-    return {"id": e.id, "name": e.name, "provider": e.provider, "board_id": e.board_id}
+def _emp_dict(e: Employer, keywords: list[str] | None = None) -> dict:
+    return {"id": e.id, "name": e.name, "provider": e.provider, "board_id": e.board_id, "keywords": keywords or []}
 
 
 async def _fetch_all(employers: list[dict]) -> list[FetchResult]:
@@ -49,20 +49,22 @@ async def _fetch_all(employers: list[dict]) -> list[FetchResult]:
         return await asyncio.gather(*(one(e) for e in employers))
 
 
-def refresh_boards(db: Session, employer_ids: Iterable[str], force: bool = False) -> dict:
+def refresh_boards(db: Session, employer_ids: Iterable[str], force: bool = False, keywords: list[str] | None = None) -> dict:
     """Refresh boards; returns a summary with per-board outcomes. Partial failures are reported, not hidden."""
     s = get_settings()
     ids = list(dict.fromkeys(employer_ids))
     emps = [db.get(Employer, i) for i in ids]
     emps = [e for e in emps if e is not None and e.enabled]
-    ttl = timedelta(seconds=s.provider_cache_ttl_s)
     to_fetch, cached = [], []
+    from ..providers.registry import MIN_REFRESH_S
+
     for e in emps:
-        if not force and e.last_success_at and now() - e.last_success_at < ttl:
+        min_age = timedelta(seconds=max(s.provider_cache_ttl_s, MIN_REFRESH_S.get(e.provider, 0)))
+        if e.last_success_at and now() - e.last_success_at < (min_age if (not force or e.provider in MIN_REFRESH_S) else timedelta(0)):
             cached.append(e.id)
         else:
             to_fetch.append(e)
-    results = asyncio.run(_fetch_all([_emp_dict(e) for e in to_fetch])) if to_fetch else []
+    results = asyncio.run(_fetch_all([_emp_dict(e, keywords) for e in to_fetch])) if to_fetch else []
     summary = {"requested": len(ids), "fetched": 0, "cached": len(cached), "failed": [], "new_jobs": 0, "updated_jobs": 0,
                "closed_candidates": 0, "unchanged_boards": 0, "jobs_seen": 0, "duplicates_merged": 0}
     for res in results:

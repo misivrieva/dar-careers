@@ -12,13 +12,29 @@ from ..models import Employer
 from .ashby import AshbyProvider
 from .base import JobProvider
 from .demo import DemoProvider
+from .ats_more import LeverProvider, RecruiteeProvider, SmartRecruitersProvider, WorkableProvider
+from .feeds import AdzunaSearch, ArbeitnowFeed, HimalayasFeed, JobicyFeed, ReedSearch, RemotiveFeed
 from .greenhouse import GreenhouseProvider
 
 PROVIDERS: dict[str, JobProvider] = {
     "ashby": AshbyProvider(),
     "greenhouse": GreenhouseProvider(),
     "demo": DemoProvider(),
+    "lever": LeverProvider(),
+    "workable": WorkableProvider(),
+    "smartrecruiters": SmartRecruitersProvider(),
+    "recruitee": RecruiteeProvider(),
+    "remotive": RemotiveFeed(),
+    "jobicy": JobicyFeed(),
+    "himalayas": HimalayasFeed(),
+    "arbeitnow": ArbeitnowFeed(),
+    "reed": ReedSearch(),
+    "adzuna": AdzunaSearch(),
 }
+FEED_PROVIDERS = {"remotive", "jobicy", "himalayas", "arbeitnow", "reed", "adzuna"}
+KEYED = {"reed": ("REED_API_KEY",), "adzuna": ("ADZUNA_APP_ID", "ADZUNA_APP_KEY")}
+# feeds that ask clients to call sparingly get a longer cache
+MIN_REFRESH_S = {"remotive": 6 * 3600, "jobicy": 3 * 3600, "himalayas": 3 * 3600, "arbeitnow": 3 * 3600}
 
 
 def get_provider(name: str) -> JobProvider | None:
@@ -58,6 +74,10 @@ def sync_registry(db: Session, path: Path | None = None) -> int:
         e.nasdaq100 = bool(r.get("nasdaq100"))
         e.detected_ats = r.get("detected_ats")
         e.enabled = bool(r.get("enabled", True)) and e.provider in PROVIDERS
+        if e.provider in KEYED:
+            from .feeds import _key_or_none
+
+            e.enabled = e.enabled and _key_or_none(*KEYED[e.provider]) is not None
         if get_settings().demo_mode:
             e.enabled = e.provider == "demo"  # demo mode never mixes synthetic and live vacancies
         e.verification_status = r.get("verification_status", "unverified")

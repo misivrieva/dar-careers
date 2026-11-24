@@ -1,0 +1,236 @@
+{{Short description|British stock market index}}
+{{Use dmy dates|date=December 2023}}
+{{Use British English|date=December 2011}}
+{{Infobox Index
+| name         = FTSE SmallCap
+| logo         = FTSE SmallCap logo.svg
+| image        = FTSE SmallCap Index Line Chart (1993-2024).png
+| caption      = Performance of the FTSE SmallCap index from 1993 to 2026
+| foundation   = 16 March 2000
+| operator     = [[FTSE Russell]]
+| symbol       = {{ubl|SMX}}
+| exchanges    = [[London Stock Exchange]]
+| constituents = 182 <small>(March 2026)</small>
+| cap_level    = [[Market capitalization#Market cap terms|Small-cap]]
+| mcap         = {{sterling|34}} billion <small>(March 2026)</small>
+| weighting    = [[Capitalization-weighted index|Capitalisation-weighted]]
+| related      = {{unbulleted list|[[FTSE 100 Index]]|[[FTSE 250 Index]]|[[FTSE 350 Index]]|[[FTSE All-Share Index]]|[[FTSE Fledgling Index]]|[[FTSE AIM UK 50 Index]]}}
+| homepage     = {{URL|1=https://www.lseg.com/en/ftse-russell/indices/uk}}
+| reuters      = .FTSC
+| bloomberg    = SMX:IND
+}}
+
+The '''FTSE SmallCap Index''' is an index of small [[market capitalisation]] companies consisting of the 351st to the 619th largest-listed companies on the [[London Stock Exchange]] main market. The index, which is maintained by FTSE Russell, a subsidiary of the London Stock Exchange Group, is a constituent of the [[FTSE All-Share Index]] which is an index of all 620 companies listed on the main market of the LSE.<ref>[[FTSE Group|FTSE]] - [http://www.ftse.com/Research_and_Publications/FTSE_Performance_and_Research_Reports/UK_All_Share_Weightings_Book.jsp FTSE All Share Index Weightings Book] {{Webarchive|url=https://web.archive.org/web/20100722001029/http://www.ftse.com/Research_and_Publications/FTSE_Performance_and_Research_Reports/UK_All_Share_Weightings_Book.jsp |date=22 July 2010 }}</ref>
+
+This Index value is re-calculated in [[Real-time computing|real-time]] and published every minute.
+
+==Annual returns==
+The following table lists the Total Return of the FTSE SmallCap index up to 31 March 2026.<ref>{{cite web|url=https://www.lse.co.uk/share-prices/indices/ftse-small-cap/charts.html|title=FTSE Small Cap Charts|publisher=London South Easte|access-date=25 February 2024}}</ref><ref>{{cite web|url=https://research.ftserussell.com/Analytics/Factsheets/Home/DownloadSingleIssue?issueName=SMX&IsManual=false|title=FTSE SmallCap Factsheet|publisher=LSEG|access-date=18 April 2026}}</ref>
+{| class="wikitable sortable" style="text-align:center"
+|-
+! Year !! Total return (%)
+|-
+| 2019 ||11.41
+|-
+| 2020 ||4.52
+|-
+| 2021 ||20.01
+|-
+| 2022 ||style="color:red"|−16.35
+|-
+| 2023 ||2.96
+|-
+| 2024 ||10.70
+|-
+| 2025 ||14.40
+|}
+
+==Constituents==
+
+Constituents have included:<ref>{{cite web | title=FTSE Small Cap Constituents | website=London South East (Share Prices, Stock Quotes, Charts, Trade History, Share Chat, Financial News)| url=https://www.lse.co.uk/share-prices/indices/ftse-small-cap/constituents.html}} Kept up to date.</ref>
+
+{| class="wikitable sortable" id="constituents"
+|-
+!|Company|| Ticker||FTSE Industry Classification Benchmark sector
+|-
+|[[Aberforth Split Level Income Trust]]||ASIT||Investment Trust
+|-
+|AEW UK REIT||AEWU||REIT
+|-
+|Aptitude Software Group||APTD||Software
+|-
+|Artemis Alpha Trust||ATS||Investment Trust
+|-
+|Atrato Onsite Energy||ROOF||Investment Trust
+|-
+|Augmentum Fintech||AUGM||Investment Trust
+|-
+|[[Baillie Gifford European Growth Trust]]||BGEU||Investment Trust
+|-
+|[[Baillie Gifford Shin Nippon]]||BGS||Investment Trust
+|-
+|[[CAB Payments]]||CABP||Financial Services
+|-
+|[[Capita]]||CPI||Specialty Business Services
+|-
+|Capital Limited||CAPD||Other Industrial Metals & Mining
+|-
+|[[Capricorn Energy]]||CNE||Oil, Gas and Coal
+|-
+|[[Card Factory]]||CARD||Specialty Retail
+|-
+|City of London Investment Group||CLIG||Asset Management
+|-
+|[[CLS Holdings]]||CLI||Real Estate Investment and Services
+|-
+|CQS Natural Resources||CYN||Investment Trust
+|-
+|CT Private Equity Trust||CTPE||Investment Trust
+|-
+|Custodian Reit||CREI||Investment Trust
+|-
+|[[DFS (furniture retailer)|DFS Furniture]]||DFS||Furnishings, Fixtures & Appliances
+|-
+|[[Digital 9 Infrastructure]]||DGI9||Investment Trust
+|-
+|[[Evoke plc|Evoke]]||EVOK||Gambling
+|-
+|[[Fidelity Asian Values]]||FAS||Investment Trust
+|-
+|[[Fidelity Japan Trust]]||FJV||Investment Trust
+|-
+|Foresight Sustainable Forestry Company||FSF||Investment Trust
+|-
+|[[Forterra plc|Forterra]]||FORT||Building Materials
+|-
+|[[Foxtons]]||FOXT||Real Estate Services
+|-
+|[[Fuller, Smith & Turner]]||FSTA||Restaurants
+|-
+|Gulf Marine Services||GMS||Oil, Gas and Coal
+|-
+|[[Headlam Group]]||HEAD||Furnishings, Fixtures & Appliances
+|-
+|[[Helical plc|Helical]]||HLCL||Real Estate Services
+|-
+|[[Henry Boot plc|Henry Boot]]||BOOT||Real Estate - Diversified
+|-
+|Hostelworld Group||HSW||Travel Services
+|-
+|[[James Fisher & Sons]]||FSJ||Marine Shipping
+|-
+|JZ Capital Partners||JZCP||Closed End Investments
+|-
+|[[Kenmare Resources]]||KMR||Other Industrial Metals & Mining
+|-
+|[[Lindsell Train]]||LTI||Investment Trust
+|-
+|[[Liontrust Asset Management]]||LIO||Asset Management
+|-
+|Lowland Investment Company||LWI||Investment Trust
+|-
+|[[LSL Property Services]]||LSL||Real Estate Services
+|-
+|Luceco||LUCE||Electrical Equipment & Parts
+|-
+|[[Macfarlane Group]]||MACF||Packaging & Containers
+|-
+|Majedie Investments||MAJE||Investment Trust
+|-
+|[[Marston's plc|Marston's]]||MARS||Restaurants
+|-
+|[[Mears Group]]||MER||Personal Services
+|-
+|[[Mid Wynd International Investment Trust]]||MWY||Investment Trust
+|-
+|[[M J Gleeson]]||GLE||Residential Construction
+|-
+|Mobius Investment Trust||MMIT||Investment Trust
+|-
+|Motorpoint Group||MOTR||Auto & Truck Dealerships
+|-
+|[[NewRiver]]||NRR||REIT
+|-
+|Norcros||NXR||Building Products & Equipment
+|-
+|[[On the Beach (business)|On The Beach Group]]||OTB||Travel Services
+|-
+|Palace Capital||PCA||REIT
+|-
+|[[Petra Diamonds]]||PDL||Other Precious Metals & Mining
+|-
+|[[Pharos Energy]]||PHAR||Oil & Gas E&P
+|-
+|Phoenix Spree Deutschland||PSDL||Investment Trust
+|-
+|Porvair||PRV||Pollution & Treatment Controls
+|-
+|[[Reach plc|Reach]]||RCH||Publishing
+|-
+||Record||REC||Asset Management
+|-
+|[[Riverstone Energy]]||RSE||Investment Trust
+|-
+|[[Robert Walters plc|Robert Walters]]||RWA||Staffing & Employment Services
+|-
+|S & U||SUS||Credit Services
+|-
+|[[Sabre Insurance]]||SBRE||Insurance Brokers
+|-
+|[[Schroder Income Growth Fund]]||SCF||Investment Trust
+|-
+|[[Schroders Capital Global Innovation Trust]]||INOV||Investment Trust
+|-
+|[[Secure Trust Bank]]||STB||Banks - Regional
+|-
+|[[Severfield]]||SFR||Engineering & Construction
+|-
+|[[SIG plc|SIG]]||SHI||Industrial Distribution
+|-
+|[[Smiths News]]||SNWS||Publishing
+|-
+|[[Speedy Hire]]||SDY||Rental & Leasing Services
+|-
+|Starwood European Real Estate Finance||SWEF||Investment Trust
+|-
+|Strategic Equity Capital||SEC||Investment Trust
+|-
+|[[STV Group]]||STVG||Broadcasting
+|-
+|[[Synthomer]]||SYNT||Specialty Chemicals
+|-
+|[[The Gym Group]]||GYM||Leisure
+|-
+|[[Topps Tiles]]||TPT||Home Improvement Retail
+|-
+|Treatt||TET||Specialty Chemicals
+|-
+|Trifast||TRI||Tools & Accessories
+|-
+|[[TT Electronics]]||TTG||Electronic Components
+|-
+|Ultimate Products||ULTP||Household Goods and Home Construction
+|-
+|[[Vanquis Banking Group]]||VANQ||Credit Services
+|-
+|[[Videndum]]||VID||Consumer Electronics
+|-
+|[[Xaar plc|Xaar]]||XAR||Computer Hardware
+|-
+|[[Zotefoams]]||ZTF||Specialty Chemicals
+|}
+
+==See also==
+* [[FTSE 100]]
+* [[FTSE 250]]
+
+==References==
+{{Reflist}}
+
+{{UK Stock market indexes}}
+{{Stock market indices}}
+{{Economy of the United Kingdom}}
+
+{{DEFAULTSORT:Ftse Smallcap Index}}
+[[Category:British stock market indices]]
+[[Category:FTSE Group stock market indices]]

@@ -233,7 +233,7 @@ class SearchArgs(BaseModel):
     model_config = {"extra": "forbid"}
     keywords: list[str] = Field(default_factory=list, max_length=20, description="Optional title keywords to narrow the pool")
     employer_ids: list[str] = Field(default_factory=list, max_length=100)
-    limit: int = Field(25, ge=1, le=40)
+    limit: int = Field(40, ge=1, le=60)
 
 
 @tool("search_local_jobs", "Filter the local vacancy catalogue with hard requirements, then rank by the current search strategy. "
@@ -311,11 +311,11 @@ def _evaluate(ctx: RunContext, a: EvalArgs) -> dict:
 
 class BatchArgs(BaseModel):
     model_config = {"extra": "forbid"}
-    job_ids: list[int] = Field(min_length=0, max_length=10)
+    job_ids: list[int] = Field(min_length=0, max_length=20)
 
 
-@tool("create_discovery_batch", "Create the user's next discovery batch (at most 10 jobs, best first). Every job is re-validated "
-      "against hard requirements in code. Fewer than 10 is fine if fewer are suitable.", BatchArgs, "discovery")
+@tool("create_discovery_batch", "Create the user's next discovery batch (at most 20 jobs, best first). Every job is re-validated "
+      "against hard requirements in code. Aim for 20; fewer is fine only if fewer are suitable.", BatchArgs, "discovery")
 def _create_batch(ctx: RunContext, a: BatchArgs) -> dict:
     from ..services.discovery import BatchRejected, create_batch
 

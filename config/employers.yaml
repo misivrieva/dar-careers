@@ -13,6 +13,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: advanced-micro-devices
   name: Advanced Micro Devices
   ticker: AMD
@@ -25,6 +27,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: airbnb
   name: Airbnb
   ticker: ABNB
@@ -39,6 +43,8 @@ employers:
   careers_url: https://job-boards.greenhouse.io/airbnb
   uk_jobs_at_verification: 11
   notes: Board name 'Airbnb', 199 jobs (11 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: alnylam-pharmaceuticals
   name: Alnylam Pharmaceuticals
   ticker: ALNY
@@ -53,6 +59,8 @@ employers:
   careers_url: https://job-boards.greenhouse.io/alnylampharmaceuticals
   uk_jobs_at_verification: 65
   notes: Board name 'Alnylam Pharmaceuticals', 118 jobs (65 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: alphabet-inc
   name: Alphabet Inc.
   ticker: GOOGL
@@ -65,6 +73,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: amazon
   name: Amazon
   ticker: AMZN
@@ -89,6 +99,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: amgen
   name: Amgen
   ticker: AMGN
@@ -101,6 +113,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: analog-devices
   name: Analog Devices
   ticker: ADI
@@ -113,6 +127,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: apple-inc
   name: Apple Inc.
   ticker: AAPL
@@ -125,6 +141,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: applied-materials
   name: Applied Materials
   ticker: AMAT
@@ -137,6 +155,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: applovin
   name: AppLovin
   ticker: APP
@@ -151,6 +171,8 @@ employers:
   careers_url: https://job-boards.greenhouse.io/applovin
   uk_jobs_at_verification: 0
   notes: Board name 'AppLovin', 43 jobs (0 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: arm-holdings
   name: Arm Holdings
   ticker: ARM
@@ -163,6 +185,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: asml-holding
   name: ASML Holding
   ticker: ASML
@@ -175,6 +199,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: astera-labs
   name: Astera Labs
   ticker: ALAB
@@ -189,6 +215,8 @@ employers:
   careers_url: https://job-boards.greenhouse.io/asteralabs
   uk_jobs_at_verification: 0
   notes: Board name 'Astera Labs', 177 jobs (0 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: autodesk
   name: Autodesk
   ticker: ADSK
@@ -201,6 +229,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: automatic-data-processing
   name: Automatic Data Processing
   ticker: ADP
@@ -213,6 +243,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: axon-enterprise
   name: Axon Enterprise
   ticker: AXON
@@ -227,6 +259,8 @@ employers:
   careers_url: https://job-boards.greenhouse.io/axon
   uk_jobs_at_verification: 21
   notes: Board name 'Axon', 466 jobs (21 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: baker-hughes
   name: Baker Hughes
   ticker: BKR
@@ -239,6 +273,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: booking-holdings
   name: Booking Holdings
   ticker: BKNG
@@ -251,6 +287,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: broadcom
   name: Broadcom
   ticker: AVGO
@@ -263,6 +301,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: cadence-design-systems
   name: Cadence Design Systems
   ticker: CDNS
@@ -275,6 +315,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: cintas
   name: Cintas
   ticker: CTAS
@@ -287,6 +329,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: cisco
   name: Cisco
   ticker: CSCO
@@ -299,6 +343,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: coca-cola-europacific-partners
   name: Coca-Cola Europacific Partners
   ticker: CCEP
@@ -311,6 +357,9 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
+  - LSE
 - id: comcast
   name: Comcast
   ticker: CMCSA
@@ -323,6 +372,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: constellation-energy
   name: Constellation Energy
   ticker: CEG
@@ -335,6 +386,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: copart
   name: Copart
   ticker: CPRT
@@ -347,6 +400,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: coreweave
   name: CoreWeave
   ticker: CRWV
@@ -361,6 +416,8 @@ employers:
   careers_url: https://job-boards.greenhouse.io/coreweave
   uk_jobs_at_verification: 5
   notes: Board name 'CoreWeave', 319 jobs (5 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: costco
   name: Costco
   ticker: COST
@@ -385,6 +442,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: csx-corporation
   name: CSX Corporation
   ticker: CSX
@@ -397,6 +456,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: datadog
   name: Datadog
   ticker: DDOG
@@ -411,6 +472,8 @@ employers:
   careers_url: https://job-boards.greenhouse.io/datadog
   uk_jobs_at_verification: 18
   notes: Board name 'Datadog', 386 jobs (18 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: dexcom
   name: DexCom
   ticker: DXCM
@@ -423,6 +486,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: diamondback-energy
   name: Diamondback Energy
   ticker: FANG
@@ -435,6 +500,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: doordash
   name: DoorDash
   ticker: DASH
@@ -449,6 +516,8 @@ employers:
   careers_url: https://job-boards.greenhouse.io/doordashusa
   uk_jobs_at_verification: 0
   notes: Board name 'DoorDash USA', 403 jobs (0 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: exelon
   name: Exelon
   ticker: EXC
@@ -461,6 +530,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: fastenal
   name: Fastenal
   ticker: FAST
@@ -473,6 +544,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: ferrovial
   name: Ferrovial
   ticker: FER
@@ -485,6 +558,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: fortinet
   name: Fortinet
   ticker: FTNT
@@ -497,6 +572,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: ge-healthcare
   name: GE HealthCare
   ticker: GEHC
@@ -509,6 +586,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: gilead-sciences
   name: Gilead Sciences
   ticker: GILD
@@ -521,6 +600,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: honeywell-aerospace
   name: Honeywell Aerospace
   ticker: HONA
@@ -533,6 +614,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: honeywell-technologies
   name: Honeywell Technologies
   ticker: HON
@@ -545,6 +628,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: idexx-laboratories
   name: Idexx Laboratories
   ticker: IDXX
@@ -557,6 +642,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: intel
   name: Intel
   ticker: INTC
@@ -569,6 +656,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: intuit
   name: Intuit
   ticker: INTU
@@ -581,6 +670,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: intuitive-surgical
   name: Intuitive Surgical
   ticker: ISRG
@@ -593,6 +684,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: keurig-dr-pepper
   name: Keurig Dr Pepper
   ticker: KDP
@@ -605,6 +698,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: kla-corporation
   name: KLA Corporation
   ticker: KLAC
@@ -617,6 +712,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: lam-research
   name: Lam Research
   ticker: LRCX
@@ -629,6 +726,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: linde-plc
   name: Linde plc
   ticker: LIN
@@ -641,6 +740,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: lumentum
   name: Lumentum
   ticker: LITE
@@ -653,6 +754,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: marriott-international
   name: Marriott International
   ticker: MAR
@@ -665,6 +768,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: marvell-technology
   name: Marvell Technology
   ticker: MRVL
@@ -677,6 +782,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: mercado-libre
   name: Mercado Libre
   ticker: MELI
@@ -701,6 +808,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: microchip-technology
   name: Microchip Technology
   ticker: MCHP
@@ -713,6 +822,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: micron-technology
   name: Micron Technology
   ticker: MU
@@ -725,6 +836,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: microsoft
   name: Microsoft
   ticker: MSFT
@@ -737,6 +850,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: microstrategy
   name: MicroStrategy
   ticker: MSTR
@@ -761,6 +876,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: mondelez-international
   name: Mondelez International
   ticker: MDLZ
@@ -773,6 +890,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: monolithic-power-systems
   name: Monolithic Power Systems
   ticker: MPWR
@@ -785,6 +904,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: monster-beverage
   name: Monster Beverage
   ticker: MNST
@@ -797,6 +918,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: nebius-group
   name: Nebius Group
   ticker: NBIS
@@ -811,6 +934,8 @@ employers:
   careers_url: https://job-boards.greenhouse.io/nebius
   uk_jobs_at_verification: 51
   notes: Board name 'Nebius', 350 jobs (51 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: netflix-inc
   name: Netflix, Inc.
   ticker: NFLX
@@ -823,6 +948,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: nvidia
   name: Nvidia
   ticker: NVDA
@@ -835,6 +962,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: nxp-semiconductors
   name: NXP Semiconductors
   ticker: NXPI
@@ -847,6 +976,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: o-reilly-automotive
   name: O'Reilly Automotive
   ticker: ORLY
@@ -859,6 +990,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: old-dominion-freight-line
   name: Old Dominion Freight Line
   ticker: ODFL
@@ -871,6 +1004,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: paccar
   name: Paccar
   ticker: PCAR
@@ -883,6 +1018,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: palantir-technologies
   name: Palantir Technologies
   ticker: PLTR
@@ -895,6 +1032,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: palo-alto-networks
   name: Palo Alto Networks
   ticker: PANW
@@ -907,6 +1046,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: paychex
   name: Paychex
   ticker: PAYX
@@ -919,6 +1060,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: paypal
   name: PayPal
   ticker: PYPL
@@ -931,6 +1074,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: pdd-holdings
   name: PDD Holdings
   ticker: PDD
@@ -943,6 +1088,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: pepsico
   name: PepsiCo
   ticker: PEP
@@ -955,6 +1102,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: qualcomm
   name: Qualcomm
   ticker: QCOM
@@ -967,6 +1116,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: regeneron-pharmaceuticals
   name: Regeneron Pharmaceuticals
   ticker: REGN
@@ -979,6 +1130,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: rocket-lab
   name: Rocket Lab
   ticker: RKLB
@@ -993,6 +1146,8 @@ employers:
   careers_url: https://job-boards.greenhouse.io/rocketlab
   uk_jobs_at_verification: 0
   notes: Board name 'Rocket Lab Corporation', 548 jobs (0 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: roper-technologies
   name: Roper Technologies
   ticker: ROP
@@ -1005,6 +1160,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: ross-stores
   name: Ross Stores
   ticker: ROST
@@ -1017,6 +1174,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: sandisk
   name: Sandisk
   ticker: SNDK
@@ -1029,6 +1188,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: seagate-technology
   name: Seagate Technology
   ticker: STX
@@ -1041,6 +1202,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: shopify
   name: Shopify
   ticker: SHOP
@@ -1053,6 +1216,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: spacex
   name: SpaceX
   ticker: SPCX
@@ -1079,6 +1244,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: synopsys
   name: Synopsys
   ticker: SNPS
@@ -1091,6 +1258,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: t-mobile-us
   name: T-Mobile US
   ticker: TMUS
@@ -1103,6 +1272,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: take-two-interactive
   name: Take-Two Interactive
   ticker: TTWO
@@ -1129,6 +1300,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: tesla-inc
   name: Tesla, Inc.
   ticker: TSLA
@@ -1141,6 +1314,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: texas-instruments
   name: Texas Instruments
   ticker: TXN
@@ -1153,6 +1328,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: thomson-reuters
   name: Thomson Reuters
   ticker: TRI
@@ -1165,6 +1342,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: vertex-pharmaceuticals
   name: Vertex Pharmaceuticals
   ticker: VRTX
@@ -1177,6 +1356,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: walmart
   name: Walmart
   ticker: WMT
@@ -1189,6 +1370,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: western-digital
   name: Western Digital
   ticker: WDC
@@ -1201,6 +1384,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: workday-inc
   name: Workday, Inc.
   ticker: WDAY
@@ -1213,6 +1398,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: xcel-energy
   name: Xcel Energy
   ticker: XEL
@@ -1225,6 +1412,8 @@ employers:
   verification_status: no_supported_board_found
   detected_ats: null
   notes: No Ashby or Greenhouse board found by slug probe; ATS not verified.
+  exchanges:
+  - NASDAQ
 - id: monzo
   name: Monzo
   nasdaq100: false
@@ -1264,6 +1453,8 @@ employers:
   geographic_focus: UK
   uk_jobs_at_verification: 39
   notes: Supplementary employer; 253 jobs (39 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: twilio
   name: Twilio
   nasdaq100: false
@@ -1290,6 +1481,8 @@ employers:
   geographic_focus: null
   uk_jobs_at_verification: 6
   notes: Supplementary employer; 372 jobs (6 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: elastic
   name: Elastic
   nasdaq100: false
@@ -1316,6 +1509,8 @@ employers:
   geographic_focus: UK
   uk_jobs_at_verification: 10
   notes: Supplementary employer; 418 jobs (10 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: anthropic
   name: Anthropic
   nasdaq100: false
@@ -1615,6 +1810,8 @@ employers:
   geographic_focus: null
   uk_jobs_at_verification: 0
   notes: Supplementary employer; 47 jobs (0 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: mixpanel
   name: Mixpanel
   nasdaq100: false
@@ -1823,6 +2020,8 @@ employers:
   geographic_focus: UK
   uk_jobs_at_verification: 34
   notes: Supplementary employer; 37 jobs (34 UK) at verification
+  exchanges:
+  - LSE
 - id: motorway
   name: Motorway
   nasdaq100: false
@@ -1901,6 +2100,8 @@ employers:
   geographic_focus: UK
   uk_jobs_at_verification: 12
   notes: Supplementary employer; 93 jobs (12 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: coinbase
   name: Coinbase
   nasdaq100: false
@@ -1914,6 +2115,8 @@ employers:
   geographic_focus: UK
   uk_jobs_at_verification: 15
   notes: Supplementary employer; 249 jobs (15 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: reddit
   name: Reddit
   nasdaq100: false
@@ -1940,6 +2143,8 @@ employers:
   geographic_focus: null
   uk_jobs_at_verification: 0
   notes: Supplementary employer; 54 jobs (0 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: hubspotjobs
   name: HubSpot
   nasdaq100: false
@@ -2018,6 +2223,8 @@ employers:
   geographic_focus: UK
   uk_jobs_at_verification: 19
   notes: Supplementary employer; 347 jobs (19 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: 6sense
   name: 6sense
   nasdaq100: false
@@ -2070,6 +2277,8 @@ employers:
   geographic_focus: null
   uk_jobs_at_verification: 5
   notes: Supplementary employer; 79 jobs (5 UK) at verification
+  exchanges:
+  - NASDAQ
 - id: docker
   name: Docker
   nasdaq100: false
@@ -2083,3 +2292,4023 @@ employers:
   geographic_focus: UK
   uk_jobs_at_verification: 11
   notes: Supplementary employer; 47 jobs (11 UK) at verification
+- id: absci-corporation
+  name: Absci Corporation
+  ticker: ABSI
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: absci
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/absci
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'absci', 7 jobs (0 UK) at verification
+- id: acadia-pharmaceuticals-inc
+  name: ACADIA Pharmaceuticals Inc
+  ticker: ACAD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: acadiapharmaceuticals
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/acadiapharmaceuticals
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Acadia Pharmaceuticals Inc.', 34 jobs (0 UK)
+    at verification
+- id: adaptive-biotechnologies-corporation
+  name: Adaptive Biotechnologies Corporation
+  ticker: ADPT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: adaptivebiotechnologies
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/adaptivebiotechnologies
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Adaptive Biotechnologies', 19 jobs (0 UK) at
+    verification
+- id: audioeye-inc
+  name: AudioEye, Inc
+  ticker: AEYE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: audioeye
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/audioeye
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'AudioEye', 1 jobs (0 UK) at verification
+- id: affirm-holdings-inc
+  name: Affirm Holdings, Inc
+  ticker: AFRM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: affirm
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/affirm
+  geographic_focus: UK
+  uk_jobs_at_verification: 11
+  notes: Listed on NASDAQ; board name 'Affirm', 216 jobs (11 UK) at verification
+- id: agility-robotics-inc
+  name: Agility Robotics, Inc
+  ticker: AGLT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: agilityrobotics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/agilityrobotics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Agility Robotics', 70 jobs (0 UK) at verification
+- id: agilysys-inc
+  name: Agilysys, Inc
+  ticker: AGYS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: agilysys
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/agilysys
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Agilysys', 13 jobs (0 UK) at verification
+- id: air-global-plc
+  name: Air Global PLC
+  ticker: AIIR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: air
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/air
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Air', 38 jobs (0 UK) at verification
+- id: aios-tech-inc
+  name: AIOS Tech Inc
+  ticker: AIOS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: aios
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/aios
+  geographic_focus: UK
+  uk_jobs_at_verification: 15
+  notes: Listed on NASDAQ; board name 'aios', 20 jobs (15 UK) at verification
+- id: airsculpt-technologies-inc
+  name: AirSculpt Technologies, Inc
+  ticker: AIRS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: airsculpt
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/airsculpt
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'AirSculpt', 17 jobs (1 UK) at verification
+- id: airship-ai-holdings-inc
+  name: Airship AI Holdings, Inc
+  ticker: AISP
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: airship
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/airship
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Airship', 7 jobs (0 UK) at verification
+- id: akebia-therapeutics-inc
+  name: Akebia Therapeutics, Inc
+  ticker: AKBA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: akebiatherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/akebiatherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Akebia Therapeutics', 11 jobs (0 UK) at verification
+- id: alector-inc
+  name: Alector, Inc
+  ticker: ALEC
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: alector
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/alector
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'alector', 5 jobs (0 UK) at verification
+- id: alamar-biosciences-inc
+  name: Alamar Biosciences, Inc
+  ticker: ALMR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: alamarbiosciences
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/alamarbiosciences
+  geographic_focus: null
+  uk_jobs_at_verification: 2
+  notes: Listed on NASDAQ; board name 'Alamar Biosciences', 30 jobs (2 UK) at verification
+- id: alumis-inc
+  name: Alumis Inc
+  ticker: ALMS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: alumis
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/alumis
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Alumis', 3 jobs (0 UK) at verification
+- id: alarm-com-holdings-inc
+  name: Alarm.com Holdings, Inc
+  ticker: ALRM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: alarmcom
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/alarmcom
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Alarm.com', 87 jobs (0 UK) at verification
+- id: amber-international-holding-limited
+  name: Amber International Holding Limited
+  ticker: AMBR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: amber
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/amber
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'amber', 26 jobs (0 UK) at verification
+- id: amylyx-pharmaceuticals-inc
+  name: Amylyx Pharmaceuticals, Inc
+  ticker: AMLX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: amylyx
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/amylyx
+  geographic_focus: UK
+  uk_jobs_at_verification: 32
+  notes: Listed on NASDAQ; board name 'Amylyx Pharmaceuticals', 44 jobs (32 UK) at
+    verification
+- id: angi-inc
+  name: Angi Inc
+  ticker: ANGI
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: angi
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/angi
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'angi', 29 jobs (0 UK) at verification
+- id: appfolio-inc
+  name: AppFolio, Inc
+  ticker: APPF
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: appfolio
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/appfolio
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'appfolio', 41 jobs (0 UK) at verification
+- id: appian-corporation
+  name: Appian Corporation
+  ticker: APPN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: appian
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/appian
+  geographic_focus: null
+  uk_jobs_at_verification: 7
+  notes: Listed on NASDAQ; board name 'Appian Corporation ', 159 jobs (7 UK) at verification
+- id: arrive-ai-inc
+  name: Arrive AI Inc
+  ticker: ARAI
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: arrive
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/arrive
+  geographic_focus: UK
+  uk_jobs_at_verification: 23
+  notes: Listed on NASDAQ; board name 'arrive', 68 jobs (23 UK) at verification
+- id: arq-inc
+  name: Arq, Inc
+  ticker: ARQ
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: arq
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/arq
+  geographic_focus: UK
+  uk_jobs_at_verification: 14
+  notes: Listed on NASDAQ; board name 'ARQ', 43 jobs (14 UK) at verification
+- id: array-technologies-inc
+  name: Array Technologies, Inc
+  ticker: ARRY
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: array
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/array
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Array', 16 jobs (0 UK) at verification
+- id: arvinas-inc
+  name: Arvinas, Inc
+  ticker: ARVN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: arvinas
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/arvinas
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Arvinas', 3 jobs (0 UK) at verification
+- id: ast-spacemobile-inc
+  name: AST SpaceMobile, Inc
+  ticker: ASTS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: astspacemobile
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/astspacemobile
+  geographic_focus: null
+  uk_jobs_at_verification: 4
+  notes: Listed on NASDAQ; board name 'AST SpaceMobile', 279 jobs (4 UK) at verification
+- id: asure-software-inc
+  name: Asure Software Inc
+  ticker: ASUR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: asuresoftware
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/asuresoftware
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Asure Software', 2 jobs (0 UK) at verification
+- id: atricure-inc
+  name: AtriCure, Inc
+  ticker: ATRC
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: atricure
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/atricure
+  geographic_focus: null
+  uk_jobs_at_verification: 4
+  notes: Listed on NASDAQ; board name 'AtriCure', 58 jobs (4 UK) at verification
+- id: astronics-corporation
+  name: Astronics Corporation
+  ticker: ATRO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: astronicscorporation
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/astronicscorporation
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Astronics ', 89 jobs (0 UK) at verification
+- id: avalyn-pharma-inc
+  name: Avalyn Pharma Inc
+  ticker: AVLN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: avalynpharma
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/avalynpharma
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Avalyn Pharma', 5 jobs (0 UK) at verification
+- id: avepoint-inc
+  name: AvePoint, Inc
+  ticker: AVPT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: avepoint
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/avepoint
+  geographic_focus: UK
+  uk_jobs_at_verification: 16
+  notes: Listed on NASDAQ; board name 'AvePoint', 282 jobs (16 UK) at verification
+- id: avalo-therapeutics-inc
+  name: Avalo Therapeutics, Inc
+  ticker: AVTX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: avalotherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/avalotherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Avalo Therapeutics', 13 jobs (0 UK) at verification
+- id: axogen-inc
+  name: Axogen, Inc
+  ticker: AXGN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: axogen
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/axogen
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Axogen', 51 jobs (0 UK) at verification
+- id: axsome-therapeutics-inc
+  name: Axsome Therapeutics, Inc
+  ticker: AXSM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: axsometherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/axsometherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Axsome Therapeutics', 105 jobs (1 UK) at verification
+- id: bandwidth-inc
+  name: Bandwidth Inc
+  ticker: BAND
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: bandwidth
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/bandwidth
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Bandwidth', 21 jobs (1 UK) at verification
+- id: bridgebio-pharma-inc
+  name: BridgeBio Pharma, Inc
+  ticker: BBIO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: bridgebio
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/bridgebio
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'BridgeBio Pharma', 90 jobs (0 UK) at verification
+- id: bicara-therapeutics-inc
+  name: Bicara Therapeutics Inc
+  ticker: BCAX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: bicara-therapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/bicara-therapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'bicara-therapeutics', 6 jobs (0 UK) at verification
+- id: beam-therapeutics-inc
+  name: Beam Therapeutics Inc
+  ticker: BEAM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: beamtherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/beamtherapeutics
+  geographic_focus: UK
+  uk_jobs_at_verification: 18
+  notes: Listed on NASDAQ; board name 'Beam Therapeutics', 30 jobs (18 UK) at verification
+- id: baidu-inc
+  name: Baidu, Inc
+  ticker: BIDU
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: baidu
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/baidu
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Baidu USA', 27 jobs (0 UK) at verification
+- id: billiontoone-inc
+  name: BillionToOne, Inc
+  ticker: BLLN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: billiontoone
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/billiontoone
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'BillionToOne', 79 jobs (0 UK) at verification
+- id: blue-moon-metals-inc
+  name: Blue Moon Metals Inc
+  ticker: BMM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: bluemoonmetals
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/bluemoonmetals
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Blue Moon Metals', 25 jobs (0 UK) at verification
+- id: brilliant-earth-group-inc
+  name: Brilliant Earth Group, Inc
+  ticker: BRLT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: brilliantearth
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/brilliantearth
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Brilliant Earth', 72 jobs (0 UK) at verification
+- id: braveheart-bio-inc
+  name: Braveheart Bio, Inc
+  ticker: BRVE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: braveheartbio
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/braveheartbio
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Braveheart Bio', 10 jobs (0 UK) at verification
+- id: cargurus-inc
+  name: CarGurus, Inc
+  ticker: CARG
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: cargurus
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/cargurus
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'CarGurus', 47 jobs (0 UK) at verification
+- id: ceribell-inc
+  name: CeriBell, Inc
+  ticker: CBLL
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: ceribell
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/ceribell
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Ceribell, Inc', 35 jobs (0 UK) at verification
+- id: cerebras-systems-inc
+  name: Cerebras Systems Inc
+  ticker: CBRS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: cerebras
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/cerebras
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'cerebras', 135 jobs (0 UK) at verification
+- id: caredx-inc
+  name: CareDx, Inc
+  ticker: CDNA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: caredxinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/caredxinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'CareDx, Inc.', 62 jobs (0 UK) at verification
+- id: cerus-corporation
+  name: Cerus Corporation
+  ticker: CERS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: cerus
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/cerus
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Cerus', 3 jobs (0 UK) at verification
+- id: chime-financial-inc
+  name: Chime Financial, Inc
+  ticker: CHYM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: chime
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/chime
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Chime Financial, Inc', 79 jobs (0 UK) at verification
+- id: clearfield-inc
+  name: Clearfield, Inc
+  ticker: CLFD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: clearfield
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/clearfield
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'CLEAR - Field ', 16 jobs (0 UK) at verification
+- id: compass-pathways-plc
+  name: COMPASS Pathways Plc
+  ticker: CMPS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: compasspathways
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/compasspathways
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Compass Pathways', 40 jobs (1 UK) at verification
+- id: cogent-biosciences-inc
+  name: Cogent Biosciences, Inc
+  ticker: COGT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: cogentbiosciences
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/cogentbiosciences
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Cogent Biosciences', 10 jobs (0 UK) at verification
+- id: corcept-therapeutics-incorporated
+  name: Corcept Therapeutics Incorporated
+  ticker: CORT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: corcepttherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/corcepttherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Corcept Therapeutics', 59 jobs (1 UK) at verification
+- id: caribou-biosciences-inc
+  name: Caribou Biosciences, Inc
+  ticker: CRBU
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: cariboubiosciencesinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/cariboubiosciencesinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Caribou Biosciences, Inc.', 1 jobs (0 UK) at
+    verification
+- id: credo-technology-group-holding-ltd
+  name: Credo Technology Group Holding Ltd
+  ticker: CRDO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: credo
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/credo
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'credo', 2 jobs (0 UK) at verification
+- id: cirrus-logic-inc
+  name: Cirrus Logic, Inc
+  ticker: CRUS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: cirruslogic
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/cirruslogic
+  geographic_focus: null
+  uk_jobs_at_verification: 5
+  notes: Listed on NASDAQ; board name 'Cirrus Logic', 14 jobs (5 UK) at verification
+- id: city-therapeutics-inc
+  name: City Therapeutics, Inc
+  ticker: CTY
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: citytherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/citytherapeutics
+  geographic_focus: UK
+  uk_jobs_at_verification: 13
+  notes: Listed on NASDAQ; board name 'City Therapeutics', 14 jobs (13 UK) at verification
+- id: commvault-systems-inc
+  name: Commvault Systems, Inc
+  ticker: CVLT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: commvault
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/commvault
+  geographic_focus: null
+  uk_jobs_at_verification: 3
+  notes: Listed on NASDAQ; board name 'Commvault', 59 jobs (3 UK) at verification
+- id: cypherpunk-technologies-inc
+  name: Cypherpunk Technologies Inc
+  ticker: CYPH
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: cypherpunk
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/cypherpunk
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'cypherpunk', 3 jobs (0 UK) at verification
+- id: dave-inc
+  name: Dave Inc
+  ticker: DAVE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: dave
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/dave
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'dave', 10 jobs (0 UK) at verification
+- id: docebo-inc
+  name: Docebo Inc
+  ticker: DCBO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: docebo
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/docebo
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'docebo', 32 jobs (1 UK) at verification
+- id: definium-therapeutics-inc
+  name: Definium Therapeutics, Inc
+  ticker: DFTX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: definiumtherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/definiumtherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Definium Therapeutics', 10 jobs (0 UK) at verification
+- id: 1stdibs-com-inc
+  name: 1stdibs.com, Inc
+  ticker: DIBS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: 1stdibscom
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/1stdibscom
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name '1stdibs.com', 1 jobs (0 UK) at verification
+- id: digimarc-corporation
+  name: Digimarc Corporation
+  ticker: DMRC
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: digimarc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/digimarc
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Digimarc', 5 jobs (1 UK) at verification
+- id: dianthus-therapeutics-inc
+  name: Dianthus Therapeutics, Inc
+  ticker: DNTH
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: dianthustherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/dianthustherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Dianthus Therapeutics', 5 jobs (0 UK) at verification
+- id: duolingo-inc
+  name: Duolingo, Inc
+  ticker: DUOL
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: duolingo
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/duolingo
+  geographic_focus: null
+  uk_jobs_at_verification: 2
+  notes: Listed on NASDAQ; board name 'Duolingo', 53 jobs (2 UK) at verification
+- id: dyne-therapeutics-inc
+  name: Dyne Therapeutics, Inc
+  ticker: DYN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: dynetherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/dynetherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Dyne Therapeutics', 21 jobs (0 UK) at verification
+- id: eikon-therapeutics-inc
+  name: Eikon Therapeutics, Inc
+  ticker: EIKN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: eikontherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/eikontherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Eikon Therapeutics', 15 jobs (0 UK) at verification
+- id: erasca-inc
+  name: Erasca, Inc
+  ticker: ERAS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: erasca
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/erasca
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Erasca', 4 jobs (0 UK) at verification
+- id: everquote-inc
+  name: EverQuote, Inc
+  ticker: EVER
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: everquote
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/everquote
+  geographic_focus: UK
+  uk_jobs_at_verification: 12
+  notes: Listed on NASDAQ; board name 'EverQuote', 15 jobs (12 UK) at verification
+- id: edgewise-therapeutics-inc
+  name: Edgewise Therapeutics, Inc
+  ticker: EWTX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: edgewisetherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/edgewisetherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Edgewise Therapeutics', 12 jobs (0 UK) at verification
+- id: expensify-inc
+  name: Expensify, Inc
+  ticker: EXFY
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: expensify
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/expensify
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'expensify', 4 jobs (0 UK) at verification
+- id: factorial-energy-inc
+  name: Factorial Energy Inc
+  ticker: FAC
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: factorialenergy
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/factorialenergy
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Factorial Energy', 10 jobs (0 UK) at verification
+- id: 4d-molecular-therapeutics-inc
+  name: 4D Molecular Therapeutics, Inc
+  ticker: FDMT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: 4dmoleculartherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/4dmoleculartherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name '4D Molecular Therapeutics', 19 jobs (0 UK)
+    at verification
+- id: deep-fission-inc
+  name: Deep Fission, Inc
+  ticker: FISN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: deepfissioninc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/deepfissioninc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Deep Fission, Inc', 2 jobs (0 UK) at verification
+- id: five9-inc
+  name: Five9, Inc
+  ticker: FIVN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: five9
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/five9
+  geographic_focus: null
+  uk_jobs_at_verification: 2
+  notes: Listed on NASDAQ; board name 'Five9', 87 jobs (2 UK) at verification
+- id: flex-ltd
+  name: Flex Ltd
+  ticker: FLEX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: flex
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/flex
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Flex', 39 jobs (0 UK) at verification
+- id: freenome-inc
+  name: Freenome, Inc
+  ticker: FRNM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: freenome
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/freenome
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Freenome', 25 jobs (0 UK) at verification
+- id: fervo-energy-company
+  name: Fervo Energy Company
+  ticker: FRVO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: fervoenergy
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/fervoenergy
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Fervo Energy', 60 jobs (0 UK) at verification
+- id: fastly-inc
+  name: Fastly, Inc
+  ticker: FSLY
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: fastly
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/fastly
+  geographic_focus: null
+  uk_jobs_at_verification: 5
+  notes: Listed on NASDAQ; board name 'Fastly', 50 jobs (5 UK) at verification
+- id: faeth-therapeutics-inc
+  name: Faeth Therapeutics, Inc
+  ticker: FTH
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: faeththerapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/faeththerapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Faeth Therapeutics', 3 jobs (0 UK) at verification
+- id: fathom-holdings-inc
+  name: Fathom Holdings Inc
+  ticker: FTHM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: fathom
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/fathom
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'fathom', 1 jobs (0 UK) at verification
+- id: forward-industries-inc
+  name: Forward Industries, Inc
+  ticker: FWDI
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: forward
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/forward
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Forward', 2 jobs (0 UK) at verification
+- id: gcm-grosvenor-inc
+  name: GCM Grosvenor Inc
+  ticker: GCMG
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: gcmgrosvenor
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/gcmgrosvenor
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'GCM Grosvenor', 19 jobs (0 UK) at verification
+- id: goodrx-holdings-inc
+  name: GoodRx Holdings, Inc
+  ticker: GDRX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: goodrx
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/goodrx
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'goodrx', 8 jobs (0 UK) at verification
+- id: gen-digital-inc
+  name: Gen Digital Inc
+  ticker: GEN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: gen-digital
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/gen-digital
+  geographic_focus: null
+  uk_jobs_at_verification: 2
+  notes: Listed on NASDAQ; board name 'gen-digital', 90 jobs (2 UK) at verification
+- id: generate-biomedicines-inc
+  name: Generate Biomedicines, Inc
+  ticker: GENB
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: generatebiomedicines
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/generatebiomedicines
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Generate Biomedicines', 23 jobs (0 UK) at verification
+- id: global-engine-group-holding-limited
+  name: Global Engine Group Holding Limited
+  ticker: GLE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: engine
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/engine
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Engine', 72 jobs (0 UK) at verification
+- id: gossamer-bio-inc
+  name: Gossamer Bio, Inc
+  ticker: GOSS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: gossamerbio
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/gossamerbio
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Gossamer Bio', 2 jobs (0 UK) at verification
+- id: groupon-inc
+  name: Groupon, Inc
+  ticker: GRPN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: groupon
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/groupon
+  geographic_focus: null
+  uk_jobs_at_verification: 2
+  notes: Listed on NASDAQ; board name 'Groupon', 26 jobs (2 UK) at verification
+- id: gravity-co-ltd
+  name: GRAVITY Co., Ltd
+  ticker: GRVY
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: gravity
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/gravity
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Gravity', 2 jobs (0 UK) at verification
+- id: fractyl-health-inc
+  name: Fractyl Health, Inc
+  ticker: GUTS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: fractylhealthinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/fractylhealthinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Fractyl Health, Inc', 1 jobs (0 UK) at verification
+- id: hasbro-inc
+  name: Hasbro, Inc
+  ticker: HAS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: hasbro
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/hasbro
+  geographic_focus: null
+  uk_jobs_at_verification: 8
+  notes: Listed on NASDAQ; board name 'Hasbro', 93 jobs (8 UK) at verification
+- id: harmonic-inc
+  name: Harmonic Inc
+  ticker: HLIT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: harmonic
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/harmonic
+  geographic_focus: null
+  uk_jobs_at_verification: 3
+  notes: Listed on NASDAQ; board name 'Harmonic', 9 jobs (3 UK) at verification
+- id: heartflow-inc
+  name: Heartflow, Inc
+  ticker: HTFL
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: heartflowinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/heartflowinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Heartflow', 62 jobs (0 UK) at verification
+- id: hut-8-corp
+  name: Hut 8 Corp
+  ticker: HUT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: hut8
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/hut8
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Hut 8', 47 jobs (0 UK) at verification
+- id: iambic-therapeutics-inc
+  name: Iambic Therapeutics, Inc
+  ticker: IAM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: iambic-therapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/iambic-therapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'iambic-therapeutics', 28 jobs (1 UK) at verification
+- id: icon-plc
+  name: ICON plc
+  ticker: ICLR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: icon
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/icon
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'icon', 6 jobs (0 UK) at verification
+- id: immunome-inc
+  name: Immunome, Inc
+  ticker: IMNM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: immunomeinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/immunomeinc
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Immunome, Inc.', 47 jobs (1 UK) at verification
+- id: innodata-inc
+  name: Innodata Inc
+  ticker: INOD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: innodatainc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/innodatainc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Innodata Inc.', 105 jobs (0 UK) at verification
+- id: iovance-biotherapeutics-inc
+  name: Iovance Biotherapeutics, Inc
+  ticker: IOVA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: iovancebiotherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/iovancebiotherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Iovance Biotherapeutics', 34 jobs (1 UK) at
+    verification
+- id: disc-medicine-inc
+  name: Disc Medicine, Inc
+  ticker: IRON
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: discmedicine
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/discmedicine
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Disc Medicine', 20 jobs (0 UK) at verification
+- id: ironwood-pharmaceuticals-inc
+  name: Ironwood Pharmaceuticals, Inc
+  ticker: IRWD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: ironwoodpharmaceuticals
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/ironwoodpharmaceuticals
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Ironwood Pharmaceuticals', 6 jobs (0 UK) at
+    verification
+- id: invivyd-inc
+  name: Invivyd, Inc
+  ticker: IVVD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: invivyd
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/invivyd
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Invivyd', 13 jobs (0 UK) at verification
+- id: jade-biosciences-inc
+  name: Jade Biosciences, Inc
+  ticker: JBIO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: jadebiosciences
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/jadebiosciences
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Jade Biosciences', 5 jobs (0 UK) at verification
+- id: kardigan-inc
+  name: Kardigan, Inc
+  ticker: KARD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: kardigan
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/kardigan
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Kardigan', 26 jobs (1 UK) at verification
+- id: kodiak-ai-inc
+  name: Kodiak AI, Inc
+  ticker: KDK
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: kodiak
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/kodiak
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Kodiak', 52 jobs (0 UK) at verification
+- id: keel-infrastructure-corp
+  name: Keel Infrastructure Corp
+  ticker: KEEL
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: keelinfrastructure
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/keelinfrastructure
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Keel Infrastructure', 32 jobs (0 UK) at verification
+- id: kailera-therapeutics-inc
+  name: Kailera Therapeutics, Inc
+  ticker: KLRA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: kailera
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/kailera
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Kailera Therapeutics, Inc.', 27 jobs (0 UK)
+    at verification
+- id: kiniksa-pharmaceuticals-international-plc
+  name: Kiniksa Pharmaceuticals International, plc
+  ticker: KNSA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: kiniksapharmaceuticals
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/kiniksapharmaceuticals
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Kiniksa Pharmaceuticals', 45 jobs (0 UK) at
+    verification
+- id: keros-therapeutics-inc
+  name: Keros Therapeutics, Inc
+  ticker: KROS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: keros
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/keros
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Keros Therapeutics', 10 jobs (0 UK) at verification
+- id: kura-oncology-inc
+  name: Kura Oncology, Inc
+  ticker: KURA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: kuraoncology
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/kuraoncology
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Kura Oncology', 8 jobs (0 UK) at verification
+- id: kymera-therapeutics-inc
+  name: Kymera Therapeutics, Inc
+  ticker: KYMR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: kymeratherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/kymeratherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Kymera Therapeutics', 20 jobs (0 UK) at verification
+- id: aeye-inc
+  name: AEye, Inc
+  ticker: LIDR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: aeyeinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/aeyeinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'AEye, Inc', 5 jobs (0 UK) at verification
+- id: life360-inc
+  name: Life360, Inc
+  ticker: LIF
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: life360
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/life360
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Life360', 31 jobs (0 UK) at verification
+- id: ethos-technologies-inc
+  name: Ethos Technologies Inc
+  ticker: LIFE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: ethos
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/ethos
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Ethos', 2 jobs (0 UK) at verification
+- id: lyell-immunopharma-inc
+  name: Lyell Immunopharma, Inc
+  ticker: LYEL
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: lyellimmunopharma
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/lyellimmunopharma
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Lyell Immunopharma', 17 jobs (0 UK) at verification
+- id: lyft-inc
+  name: Lyft, Inc
+  ticker: LYFT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: lyft
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/lyft
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Lyft', 144 jobs (0 UK) at verification
+- id: 908-devices-inc
+  name: 908 Devices Inc
+  ticker: MASS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: 908devicesinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/908devicesinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name '908 Devices', 1 jobs (0 UK) at verification
+- id: maze-therapeutics-inc
+  name: Maze Therapeutics, Inc
+  ticker: MAZE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: mazetherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/mazetherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Maze Therapeutics', 13 jobs (0 UK) at verification
+- id: mbx-biosciences-inc
+  name: MBX Biosciences, Inc
+  ticker: MBX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: mbxbiosciences
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/mbxbiosciences
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'MBX Biosciences', 9 jobs (0 UK) at verification
+- id: mirum-pharmaceuticals-inc
+  name: Mirum Pharmaceuticals, Inc
+  ticker: MIRM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: mirumpharmaceuticals
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/mirumpharmaceuticals
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Mirum Pharmaceuticals', 34 jobs (0 UK) at verification
+- id: mineralys-therapeutics-inc
+  name: Mineralys Therapeutics, Inc
+  ticker: MLYS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: mineralystherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/mineralystherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Mineralys Therapeutics', 12 jobs (0 UK) at
+    verification
+- id: maplight-therapeutics-inc
+  name: MapLight Therapeutics, Inc
+  ticker: MPLT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: maplighttherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/maplighttherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'MapLight Therapeutics', 2 jobs (0 UK) at verification
+- id: meridian-corporation
+  name: Meridian Corporation
+  ticker: MRBK
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: meridian
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/meridian
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Meridian', 3 jobs (0 UK) at verification
+- id: mercury-systems-inc
+  name: Mercury Systems Inc
+  ticker: MRCY
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: mercury
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/mercury
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Mercury', 71 jobs (0 UK) at verification
+- id: maravai-lifesciences-holdings-inc
+  name: Maravai LifeSciences Holdings, Inc
+  ticker: MRVI
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: maravailifesciences
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/maravailifesciences
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Maravai LifeSciences', 7 jobs (0 UK) at verification
+- id: ncino-inc
+  name: nCino, Inc
+  ticker: NCNO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: ncinoinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/ncinoinc
+  geographic_focus: null
+  uk_jobs_at_verification: 8
+  notes: Listed on NASDAQ; board name 'nCino, Inc.', 24 jobs (8 UK) at verification
+- id: nasdaq-inc
+  name: Nasdaq, Inc
+  ticker: NDAQ
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: nasdaq
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/nasdaq
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Nasdaq', 23 jobs (1 UK) at verification
+- id: nexxen-international-ltd
+  name: Nexxen International Ltd
+  ticker: NEXN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: nexxen
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/nexxen
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'nexxen', 32 jobs (1 UK) at verification
+- id: nice-ltd
+  name: NICE Ltd
+  ticker: NICE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: nice
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/nice
+  geographic_focus: UK
+  uk_jobs_at_verification: 24
+  notes: Listed on NASDAQ; board name 'NICE', 125 jobs (24 UK) at verification
+- id: nmi-holdings-inc
+  name: NMI Holdings Inc
+  ticker: NMIH
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: nmi
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/nmi
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'NMI', 12 jobs (0 UK) at verification
+- id: neuropace-inc
+  name: Neuropace, Inc
+  ticker: NPCE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: neuropace
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/neuropace
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'NeuroPace', 20 jobs (1 UK) at verification
+- id: nerdwallet-inc
+  name: NerdWallet, Inc
+  ticker: NRDS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: nerdwallet
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/nerdwallet
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'nerdwallet', 27 jobs (0 UK) at verification
+- id: insight-enterprises-inc
+  name: Insight Enterprises, Inc
+  ticker: NSIT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: insight
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/insight
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Insight', 5 jobs (1 UK) at verification
+- id: netgear-inc
+  name: NETGEAR, Inc
+  ticker: NTGR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: netgear
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/netgear
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'netgear', 53 jobs (0 UK) at verification
+- id: natera-inc
+  name: Natera, Inc
+  ticker: NTRA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: natera
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/natera
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Natera', 198 jobs (0 UK) at verification
+- id: netskope-inc
+  name: Netskope, Inc
+  ticker: NTSK
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: netskope
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/netskope
+  geographic_focus: null
+  uk_jobs_at_verification: 4
+  notes: Listed on NASDAQ; board name 'Netskope', 123 jobs (4 UK) at verification
+- id: nextdoor-holdings-inc
+  name: Nextdoor Holdings, Inc
+  ticker: NXDR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: nextdoor
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/nextdoor
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Nextdoor', 23 jobs (0 UK) at verification
+- id: obsidian-therapeutics-inc
+  name: Obsidian Therapeutics, Inc
+  ticker: OBX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: obsidiantherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/obsidiantherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 4
+  notes: Listed on NASDAQ; board name 'Obsidian Therapeutics', 7 jobs (4 UK) at verification
+- id: ocular-therapeutix-inc
+  name: Ocular Therapeutix, Inc
+  ticker: OCUL
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: oculartherapeutix
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/oculartherapeutix
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Ocular Therapeutix', 13 jobs (0 UK) at verification
+- id: olema-oncology-inc
+  name: Olema Oncology, Inc
+  ticker: OLMA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: olema
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/olema
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Olema Oncology', 7 jobs (0 UK) at verification
+- id: outset-medical-inc
+  name: Outset Medical, Inc
+  ticker: OM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: outsetmedical
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/outsetmedical
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Outset Medical', 33 jobs (0 UK) at verification
+- id: omada-health-inc
+  name: Omada Health, Inc
+  ticker: OMDA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: omadahealth
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/omadahealth
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Omada Health', 25 jobs (0 UK) at verification
+- id: oruka-therapeutics-inc
+  name: Oruka Therapeutics, Inc
+  ticker: ORKA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: oruka
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/oruka
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Oruka Therapeutics', 11 jobs (0 UK) at verification
+- id: onespan-inc
+  name: OneSpan Inc
+  ticker: OSPN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: onespan
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/onespan
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'OneSpan', 27 jobs (1 UK) at verification
+- id: payoneer-global-inc
+  name: Payoneer Global Inc
+  ticker: PAYO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: payoneer
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/payoneer
+  geographic_focus: null
+  uk_jobs_at_verification: 5
+  notes: Listed on NASDAQ; board name 'Payoneer', 100 jobs (5 UK) at verification
+- id: paypay-corporation
+  name: PayPay Corporation
+  ticker: PAYP
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: paypay
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/paypay
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'PayPay', 88 jobs (0 UK) at verification
+- id: vaxcyte-inc
+  name: Vaxcyte, Inc
+  ticker: PCVX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: vaxcyte
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/vaxcyte
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Vaxcyte', 30 jobs (0 UK) at verification
+- id: perion-network-ltd
+  name: Perion Network Ltd
+  ticker: PERI
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: perionnetworkltd
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/perionnetworkltd
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Perion Network Ltd', 5 jobs (0 UK) at verification
+- id: pagaya-technologies-ltd
+  name: Pagaya Technologies Ltd
+  ticker: PGY
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: pagaya
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/pagaya
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Pagaya ', 10 jobs (0 UK) at verification
+- id: pliant-therapeutics-inc
+  name: Pliant Therapeutics, Inc
+  ticker: PLRX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: plianttherapeuticsinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/plianttherapeuticsinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Pliant Therapeutics, Inc.', 3 jobs (0 UK) at
+    verification
+- id: pulse-biosciences-inc
+  name: Pulse Biosciences, Inc
+  ticker: PLSE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: pulsebiosciences
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/pulsebiosciences
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Pulse Biosciences', 14 jobs (0 UK) at verification
+- id: eplus-inc
+  name: ePlus inc
+  ticker: PLUS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: eplusinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/eplusinc
+  geographic_focus: null
+  uk_jobs_at_verification: 3
+  notes: Listed on NASDAQ; board name 'ePlus Technology, inc.', 52 jobs (3 UK) at
+    verification
+- id: praxis-precision-medicines-inc
+  name: Praxis Precision Medicines, Inc
+  ticker: PRAX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: praxisprecisionmedicines
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/praxisprecisionmedicines
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Praxis Precision Medicines, Inc. ', 141 jobs
+    (0 UK) at verification
+- id: prime-medicine-inc
+  name: Prime Medicine, Inc
+  ticker: PRME
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: primemedicine
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/primemedicine
+  geographic_focus: UK
+  uk_jobs_at_verification: 11
+  notes: Listed on NASDAQ; board name 'Prime Medicine', 11 jobs (11 UK) at verification
+- id: prokidney-corp
+  name: ProKidney Corp
+  ticker: PROK
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: prokidney
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/prokidney
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'ProKidney', 7 jobs (0 UK) at verification
+- id: personalis-inc
+  name: Personalis, Inc
+  ticker: PSNL
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: personalisinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/personalisinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Personalis, Inc', 15 jobs (0 UK) at verification
+- id: pubmatic-inc
+  name: PubMatic, Inc
+  ticker: PUBM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: pubmatic
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/pubmatic
+  geographic_focus: null
+  uk_jobs_at_verification: 7
+  notes: Listed on NASDAQ; board name 'PubMatic', 79 jobs (7 UK) at verification
+- id: quantum-corporation
+  name: Quantum Corporation
+  ticker: QMCO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: quantum
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/quantum
+  geographic_focus: UK
+  uk_jobs_at_verification: 20
+  notes: Listed on NASDAQ; board name 'quantum', 20 jobs (20 UK) at verification
+- id: quinstreet-inc
+  name: QuinStreet, Inc
+  ticker: QNST
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: quinstreet
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/quinstreet
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'QuinStreet', 27 jobs (0 UK) at verification
+- id: rapport-therapeutics-inc
+  name: Rapport Therapeutics, Inc
+  ticker: RAPP
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: rapporttherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/rapporttherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Rapport Therapeutics', 14 jobs (0 UK) at verification
+- id: ultragenyx-pharmaceutical-inc
+  name: Ultragenyx Pharmaceutical Inc
+  ticker: RARE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: ultragenyxpharmaceutical
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/ultragenyxpharmaceutical
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Ultragenyx Pharmaceutical', 11 jobs (1 UK)
+    at verification
+- id: replimune-group-inc
+  name: Replimune Group, Inc
+  ticker: REPL
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: replimune
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/replimune
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'replimune', 36 jobs (0 UK) at verification
+- id: relay-therapeutics-inc
+  name: Relay Therapeutics, Inc
+  ticker: RLAY
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: relaytherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/relaytherapeutics
+  geographic_focus: UK
+  uk_jobs_at_verification: 13
+  notes: Listed on NASDAQ; board name 'Relay Therapeutics', 13 jobs (13 UK) at verification
+- id: roivant-sciences-ltd
+  name: Roivant Sciences Ltd
+  ticker: ROIV
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: roivantsciences
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/roivantsciences
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Roivant Sciences', 10 jobs (0 UK) at verification
+- id: revolution-medicines-inc
+  name: Revolution Medicines, Inc
+  ticker: RVMD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: revolutionmedicines
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/revolutionmedicines
+  geographic_focus: null
+  uk_jobs_at_verification: 4
+  notes: Listed on NASDAQ; board name 'Revolution Medicines', 355 jobs (4 UK) at verification
+- id: rhythm-pharmaceuticals-inc
+  name: Rhythm Pharmaceuticals, Inc
+  ticker: RYTM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: rhythmpharmaceuticals
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/rhythmpharmaceuticals
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Rhythm Pharmaceuticals', 4 jobs (0 UK) at verification
+- id: seer-inc
+  name: Seer, Inc
+  ticker: SEER
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: seer
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/seer
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Seer Inc.', 1 jobs (0 UK) at verification
+- id: septerna-inc
+  name: Septerna, Inc
+  ticker: SEPN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: septerna
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/septerna
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Septerna', 9 jobs (0 UK) at verification
+- id: serve-robotics-inc
+  name: Serve Robotics Inc
+  ticker: SERV
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: serverobotics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/serverobotics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'serverobotics', 13 jobs (0 UK) at verification
+- id: sezzle-inc
+  name: Sezzle Inc
+  ticker: SEZL
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: sezzle
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/sezzle
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Sezzle', 235 jobs (0 UK) at verification
+- id: stitch-fix-inc
+  name: Stitch Fix, Inc
+  ticker: SFIX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: stitchfix
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/stitchfix
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Stitch Fix', 12 jobs (0 UK) at verification
+- id: surgery-partners-inc
+  name: Surgery Partners, Inc
+  ticker: SGRY
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: surgerypartners
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/surgerypartners
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Surgery Partners', 346 jobs (0 UK) at verification
+- id: si-bone-inc
+  name: SI-BONE, Inc
+  ticker: SIBN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: siboneinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/siboneinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'SI-BONE, Inc', 24 jobs (0 UK) at verification
+- id: sitime-corporation
+  name: SiTime Corporation
+  ticker: SITM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: sitimecorporation
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/sitimecorporation
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'SiTime Corporation', 204 jobs (1 UK) at verification
+- id: solid-power-inc
+  name: Solid Power, Inc
+  ticker: SLDP
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: solidpower
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/solidpower
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Solid Power', 8 jobs (0 UK) at verification
+- id: summit-therapeutics-inc
+  name: Summit Therapeutics Inc
+  ticker: SMMT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: summittherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/summittherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 2
+  notes: Listed on NASDAQ; board name 'Summit Therapeutics', 57 jobs (2 UK) at verification
+- id: syndax-pharmaceuticals-inc
+  name: Syndax Pharmaceuticals, Inc
+  ticker: SNDX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: syndaxpharmaceuticals
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/syndaxpharmaceuticals
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Syndax Pharmaceuticals', 12 jobs (0 UK) at
+    verification
+- id: sofi-technologies-inc
+  name: SoFi Technologies, Inc
+  ticker: SOFI
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: sofi
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/sofi
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'SoFi', 53 jobs (0 UK) at verification
+- id: sprout-social-inc
+  name: Sprout Social, Inc
+  ticker: SPT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: sproutsocial
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/sproutsocial
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Sprout Social', 18 jobs (1 UK) at verification
+- id: seaport-therapeutics-inc
+  name: Seaport Therapeutics, Inc
+  ticker: SPTX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: seaporttherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/seaporttherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Seaport Therapeutics', 8 jobs (0 UK) at verification
+- id: stepstone-group-inc
+  name: StepStone Group Inc
+  ticker: STEP
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: stepstone
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/stepstone
+  geographic_focus: null
+  uk_jobs_at_verification: 8
+  notes: Listed on NASDAQ; board name 'StepStone Group', 65 jobs (8 UK) at verification
+- id: stoke-therapeutics-inc
+  name: Stoke Therapeutics, Inc
+  ticker: STOK
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: stoketherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/stoketherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Stoke Therapeutics', 27 jobs (0 UK) at verification
+- id: swarmer-inc
+  name: Swarmer, Inc
+  ticker: SWMR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: swarmer
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/swarmer
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'swarmer', 16 jobs (0 UK) at verification
+- id: spyre-therapeutics-inc
+  name: Spyre Therapeutics, Inc
+  ticker: SYRE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: spyretherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/spyretherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Spyre Therapeutics', 6 jobs (0 UK) at verification
+- id: protara-therapeutics-inc
+  name: Protara Therapeutics, Inc
+  ticker: TARA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: protaratherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/protaratherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Protara Therapeutics, Inc.', 3 jobs (0 UK)
+    at verification
+- id: tucows-inc
+  name: Tucows Inc
+  ticker: TCX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: tucows
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/tucows
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Tucows', 1 jobs (0 UK) at verification
+- id: interface-inc
+  name: Interface, Inc
+  ticker: TILE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: interface
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/interface
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'interface', 3 jobs (0 UK) at verification
+- id: tango-therapeutics-inc
+  name: Tango Therapeutics, Inc
+  ticker: TNGX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: tangotherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/tangotherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Tango Therapeutics', 17 jobs (0 UK) at verification
+- id: tonix-pharmaceuticals-holding-corp
+  name: Tonix Pharmaceuticals Holding Corp
+  ticker: TNXP
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: tonixpharmaceuticals
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/tonixpharmaceuticals
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Tonix Pharmaceuticals ', 5 jobs (0 UK) at verification
+- id: entrada-therapeutics-inc
+  name: Entrada Therapeutics, Inc
+  ticker: TRDA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: entradatherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/entradatherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Entrada Therapeutics', 6 jobs (0 UK) at verification
+- id: lendingtree-inc
+  name: LendingTree, Inc
+  ticker: TREE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: lendingtree
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/lendingtree
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'LendingTree', 20 jobs (0 UK) at verification
+- id: tripadvisor-inc
+  name: TripAdvisor, Inc
+  ticker: TRIP
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: tripadvisor
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/tripadvisor
+  geographic_focus: UK
+  uk_jobs_at_verification: 11
+  notes: Listed on NASDAQ; board name 'Tripadvisor', 16 jobs (11 UK) at verification
+- id: trivago-n-v
+  name: trivago N.V
+  ticker: TRVG
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: trivago
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/trivago
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'trivago', 20 jobs (0 UK) at verification
+- id: tss-inc
+  name: TSS, Inc
+  ticker: TSSI
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: tss
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/tss
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'TSS', 3 jobs (0 UK) at verification
+- id: tetra-tech-inc
+  name: Tetra Tech, Inc
+  ticker: TTEK
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: tetra
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/tetra
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Tetra', 1 jobs (0 UK) at verification
+- id: twist-bioscience-corporation
+  name: Twist Bioscience Corporation
+  ticker: TWST
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: twistbioscience
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/twistbioscience
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Twist Bioscience', 60 jobs (0 UK) at verification
+- id: tyra-biosciences-inc
+  name: Tyra Biosciences, Inc
+  ticker: TYRA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: tyrabiosciences
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/tyrabiosciences
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'TyraBiosciences', 9 jobs (0 UK) at verification
+- id: uniti-group-inc
+  name: Uniti Group Inc
+  ticker: UNIT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: ashby
+  board_id: uniti
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/uniti
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'uniti', 8 jobs (1 UK) at verification
+- id: upbound-group-inc
+  name: Upbound Group, Inc
+  ticker: UPBD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: upbound
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/upbound
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Upbound', 7 jobs (0 UK) at verification
+- id: upstart-holdings-inc
+  name: Upstart Holdings, Inc
+  ticker: UPST
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: upstart
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/upstart
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Upstart', 76 jobs (0 UK) at verification
+- id: upwork-inc
+  name: Upwork Inc
+  ticker: UPWK
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: upwork
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/upwork
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Upwork', 4 jobs (0 UK) at verification
+- id: veracyte-inc
+  name: Veracyte, Inc
+  ticker: VCYT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: veracyte
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/veracyte
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Veracyte', 25 jobs (0 UK) at verification
+- id: vera-therapeutics-inc
+  name: Vera Therapeutics, Inc
+  ticker: VERA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: veratherapeuticsinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/veratherapeuticsinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Vera Therapeutics, Inc.', 11 jobs (0 UK) at
+    verification
+- id: vir-biotechnology-inc
+  name: Vir Biotechnology, Inc
+  ticker: VIR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: virbiotechnologyinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/virbiotechnologyinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Vir Biotechnology', 21 jobs (0 UK) at verification
+- id: vital-farms-inc
+  name: Vital Farms, Inc
+  ticker: VITL
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: vitalfarms
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/vitalfarms
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Vital Farms', 8 jobs (0 UK) at verification
+- id: viridian-therapeutics-inc
+  name: Viridian Therapeutics, Inc
+  ticker: VRDN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: viridiantherapeuticsinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/viridiantherapeuticsinc
+  geographic_focus: null
+  uk_jobs_at_verification: 2
+  notes: Listed on NASDAQ; board name 'Viridian Therapeutics, Inc.', 30 jobs (2 UK)
+    at verification
+- id: verra-mobility-corporation
+  name: Verra Mobility Corporation
+  ticker: VRRM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: verramobility
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/verramobility
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Verra Mobility', 81 jobs (0 UK) at verification
+- id: verisign-inc
+  name: VeriSign, Inc
+  ticker: VRSN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: verisign
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/verisign
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Verisign', 14 jobs (0 UK) at verification
+- id: genedx-holdings-corp
+  name: GeneDx Holdings Corp
+  ticker: WGS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: genedx
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/genedx
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'GeneDx', 15 jobs (0 UK) at verification
+- id: workhorse-group-inc
+  name: Workhorse Group, Inc
+  ticker: WKHS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: workhorsegroupinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/workhorsegroupinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Workhorse Group Inc', 1 jobs (0 UK) at verification
+- id: xilio-therapeutics-inc
+  name: Xilio Therapeutics, Inc
+  ticker: XLO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: xiliotherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/xiliotherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Xilio Therapeutics', 1 jobs (0 UK) at verification
+- id: xometry-inc
+  name: Xometry, Inc
+  ticker: XMTR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: xometry
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/xometry
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Xometry', 264 jobs (0 UK) at verification
+- id: xos-inc
+  name: Xos, Inc
+  ticker: XOS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: xosinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/xosinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Xos, Inc.', 13 jobs (0 UK) at verification
+- id: xp-inc
+  name: XP Inc
+  ticker: XP
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: xpinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/xpinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'XP Inc.', 107 jobs (0 UK) at verification
+- id: zscaler-inc
+  name: Zscaler, Inc
+  ticker: ZS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: greenhouse
+  board_id: zscaler
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/zscaler
+  geographic_focus: UK
+  uk_jobs_at_verification: 24
+  notes: Listed on NASDAQ; board name 'Zscaler', 391 jobs (24 UK) at verification
+- id: autotrader-group
+  name: Autotrader Group
+  ticker: AUTO
+  exchanges:
+  - LSE
+  listing_index: FTSE 100
+  nasdaq100: false
+  industry: Software and Computer Services
+  provider: greenhouse
+  board_id: autotrader
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/autotrader
+  geographic_focus: UK
+  uk_jobs_at_verification: 12
+  notes: Listed on LSE; board name 'Autotrader', 12 jobs (12 UK) at verification
+- id: imi
+  name: IMI
+  ticker: IMI
+  exchanges:
+  - LSE
+  listing_index: FTSE 100
+  nasdaq100: false
+  industry: Electronic and Electrical Equipment
+  provider: greenhouse
+  board_id: imi
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/imi
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'IMI', 3 jobs (0 UK) at verification
+- id: jd-sports
+  name: JD Sports
+  ticker: JD
+  exchanges:
+  - LSE
+  listing_index: FTSE 100
+  nasdaq100: false
+  industry: Retailers
+  provider: greenhouse
+  board_id: jdsports
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/jdsports
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'JD Sports', 232 jobs (0 UK) at verification
+- id: wpp
+  name: WPP
+  ticker: WPP
+  exchanges:
+  - LSE
+  listing_index: FTSE 100
+  nasdaq100: false
+  industry: Media
+  provider: greenhouse
+  board_id: wpp
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/wpp
+  geographic_focus: UK
+  uk_jobs_at_verification: 51
+  notes: Listed on LSE; board name 'WPP', 199 jobs (51 UK) at verification
+- id: foresight-group
+  name: Foresight Group
+  ticker: FSG
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Investment Banking and Brokerage Services
+  provider: ashby
+  board_id: foresight
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/foresight
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Foresight', 2 jobs (0 UK) at verification
+- id: funding-circle
+  name: Funding Circle
+  ticker: FCH
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Financial Services
+  provider: ashby
+  board_id: fundingcircle
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/fundingcircle
+  geographic_focus: UK
+  uk_jobs_at_verification: 21
+  notes: Listed on LSE; board name 'fundingcircle', 21 jobs (21 UK) at verification
+- id: goodwin
+  name: Goodwin
+  ticker: GDWN
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: General Industrials
+  provider: greenhouse
+  board_id: goodwin
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/goodwin
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Goodwin', 7 jobs (0 UK) at verification
+- id: man-group
+  name: Man Group
+  ticker: EMG
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Investment Trusts
+  provider: greenhouse
+  board_id: mangroup
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/mangroup
+  geographic_focus: UK
+  uk_jobs_at_verification: 28
+  notes: Listed on LSE; board name 'Man Group', 66 jobs (28 UK) at verification
+- id: ocado-group
+  name: Ocado Group
+  ticker: OCDO
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Food & drug retailers
+  provider: greenhouse
+  board_id: ocadogroup
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/ocadogroup
+  geographic_focus: UK
+  uk_jobs_at_verification: 32
+  notes: Listed on LSE; board name 'Ocado Group', 61 jobs (32 UK) at verification
+- id: pantheon-international
+  name: Pantheon International
+  ticker: PIN
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Equity Investments
+  provider: greenhouse
+  board_id: pantheon
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/pantheon
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Pantheon Systems, Inc', 7 jobs (0 UK) at verification
+- id: quilter
+  name: Quilter
+  ticker: QLT
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Financial Services
+  provider: ashby
+  board_id: quilter
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/quilter
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'quilter', 12 jobs (0 UK) at verification
+- id: trustpilot
+  name: Trustpilot
+  ticker: TRST
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Technology
+  provider: greenhouse
+  board_id: trustpilot
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://job-boards.greenhouse.io/trustpilot
+  geographic_focus: UK
+  uk_jobs_at_verification: 11
+  notes: Listed on LSE; board name 'Trustpilot ', 38 jobs (11 UK) at verification
+- id: reach
+  name: Reach
+  ticker: RCH
+  exchanges:
+  - LSE
+  listing_index: FTSE SmallCap
+  nasdaq100: false
+  industry: Publishing
+  provider: ashby
+  board_id: reach
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:31:34Z'
+  careers_url: https://jobs.ashbyhq.com/reach
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'reach', 6 jobs (0 UK) at verification
+- id: feed-remotive
+  name: Remotive (remote jobs feed)
+  provider: remotive
+  board_id: remotive
+  kind: aggregator
+  nasdaq100: false
+  industry: null
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:40:00Z'
+  careers_url: https://remotive.com/remote-jobs
+  geographic_focus: null
+  uk_jobs_at_verification: 10
+  notes: Remote jobs board; attribution required
+- id: feed-jobicy
+  name: Jobicy (UK remote feed)
+  provider: jobicy
+  board_id: jobicy
+  kind: aggregator
+  nasdaq100: false
+  industry: null
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:40:00Z'
+  careers_url: https://jobicy.com
+  geographic_focus: UK
+  uk_jobs_at_verification: 40
+  notes: Remote jobs open to the UK; attribution required
+- id: feed-himalayas
+  name: Himalayas (remote jobs feed)
+  provider: himalayas
+  board_id: himalayas
+  kind: aggregator
+  nasdaq100: false
+  industry: null
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:40:00Z'
+  careers_url: https://himalayas.app/jobs
+  geographic_focus: null
+  uk_jobs_at_verification: 10
+  notes: Remote jobs; filtered to UK/Europe/worldwide eligibility
+- id: feed-arbeitnow
+  name: Arbeitnow (EU jobs feed)
+  provider: arbeitnow
+  board_id: arbeitnow
+  kind: aggregator
+  nasdaq100: false
+  industry: null
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-24T19:40:00Z'
+  careers_url: https://www.arbeitnow.com
+  geographic_focus: null
+  uk_jobs_at_verification: 10
+  notes: Mostly Germany/EU; only remote or UK roles kept
+- id: search-reed
+  name: Reed (UK job search)
+  provider: reed
+  board_id: reed
+  kind: aggregator
+  nasdaq100: false
+  industry: null
+  enabled: true
+  verification_status: needs_api_key
+  verified_at: '2026-11-24T19:40:00Z'
+  careers_url: https://www.reed.co.uk
+  geographic_focus: UK
+  uk_jobs_at_verification: 40
+  notes: Needs REED_API_KEY (free); searches your target titles
+- id: search-adzuna
+  name: Adzuna (UK job search)
+  provider: adzuna
+  board_id: adzuna
+  kind: aggregator
+  nasdaq100: false
+  industry: null
+  enabled: true
+  verification_status: needs_api_key
+  verified_at: '2026-11-24T19:40:00Z'
+  careers_url: https://www.adzuna.co.uk
+  geographic_focus: UK
+  uk_jobs_at_verification: 40
+  notes: Needs ADZUNA_APP_ID + ADZUNA_APP_KEY (free); predicted salaries ignored
+expansion:
+  run_at: '2026-11-24T19:31:34Z'
+  companies_probed: 3666
+  nasdaq_companies: 3236
+  lse_companies: 430
+  verified_boards_found: 251
+  new_boards_added: 230
+  lse_source: FTSE 100/250/SmallCap constituents (Wikipedia)

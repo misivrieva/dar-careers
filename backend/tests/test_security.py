@@ -110,7 +110,7 @@ def test_batch_validation_is_enforced_in_code(db):
     ctx = _ctx(db)
     bad = db.query(Job).filter_by(title="Support Engineer").one()  # below minimum salary
     assert execute(ctx, "create_discovery_batch", {"job_ids": [bad.id]})[0] == "rejected"
-    assert execute(ctx, "create_discovery_batch", {"job_ids": list(range(1, 13))})[0] == "rejected"  # > 10
+    assert execute(ctx, "create_discovery_batch", {"job_ids": list(range(1, 25))})[0] == "rejected"  # > 10
     good = db.query(Job).filter_by(title="Technical Account Manager").one()
     assert execute(ctx, "create_discovery_batch", {"job_ids": [good.id]})[0] == "ok"
 

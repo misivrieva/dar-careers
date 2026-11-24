@@ -20,6 +20,9 @@ UK_CITIES = {
     "london", "manchester", "edinburgh", "glasgow", "bristol", "cambridge", "oxford", "leeds", "birmingham", "belfast",
     "cardiff", "reading", "newcastle", "brighton", "nottingham", "sheffield", "liverpool", "milton keynes", "guildford",
 }
+US_STATE_RX = re.compile(
+    r",\s*(AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC)\b"
+    r"|(?i:\b(?:massachusetts|pennsylvania|new hampshire|alabama|connecticut|ohio|new jersey|california|texas|virginia|maryland|georgia|illinois|washington state|new york state)\b)")
 COUNTRY_TERMS = [
     ("United Kingdom", UK_TERMS),
     ("United States", re.compile(r"\b(united states|usa|u\.s\.|us-remote|us remote|remote[ ,-]+us|new york|san francisco|seattle|austin|boston|chicago|denver|los angeles|california|texas|washington,? d\.?c|atlanta|nyc|sf bay|bay area|\bUS\b)", re.I)),
@@ -79,11 +82,21 @@ def parse_location(location_raw: str | None, workplace_hint: str | None = None, 
     elif "remote" in low:
         out["workplace_type"] = "remote"
     countries = [name for name, rx in COUNTRY_TERMS if rx.search(loc)]
+    # US cities that share UK names (Cambridge MA, Reading PA, Birmingham AL, Manchester NH ...)
+    if US_STATE_RX.search(loc):
+        segments = re.split(r";|\||/|\bor\b|\band\b|also:", loc)
+        uk_left = any(UK_TERMS.search(sg) and not US_STATE_RX.search(sg) for sg in segments)
+        if "United Kingdom" in countries and not uk_left:
+            countries.remove("United Kingdom")
+        if "United States" not in countries:
+            countries.append("United States")
     if len(countries) == 1:
         out["country"] = countries[0]
     elif len(countries) > 1:
         out["country"] = "Multiple"
     for city in UK_CITIES:
+        if out["country"] == "United States":
+            break
         if re.search(rf"\b{re.escape(city)}\b", low):
             out["city"] = city.title()
             break

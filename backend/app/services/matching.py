@@ -130,7 +130,7 @@ def _check_location(job: dict, reqs: dict, e: Eligibility) -> None:
         remote_regions = [r.upper() for r in loc.get("remote_regions", [])]
         cities = list(dict.fromkeys(loc.get("hybrid_cities", []) + loc.get("onsite_cities", [])))
         uk_remote_ok = "UK" in remote_regions or "UNITED KINGDOM" in remote_regions
-        city_hit = next((c for c in cities if _mentions(_job_cities(job), c)), None)
+        city_hit = None if job.get("country") == "United States" else next((c for c in cities if _mentions(_job_cities(job), c)), None)
         if wt == "remote":
             elig = (job.get("remote_eligibility") or "").upper()
             uk_elig = bool(re.search(r"\bUK\b|UNITED KINGDOM|GREAT BRITAIN|ENGLAND|SCOTLAND|WALES", elig)) or (

@@ -25,7 +25,7 @@ log = logging.getLogger("dar.agent")
 PROMPT_VERSION = "career-agent-v1"
 
 SYSTEM = """You are the DAR Career Agent. You work for one job seeker (not for employers). Your objective in this run:
-prepare their next discovery batch of up to 10 genuinely suitable vacancies, adapting to what they have told you and
+prepare their next discovery batch of up to 20 genuinely suitable vacancies (aim for 20), adapting to what they have told you and
 how they have reacted to previous jobs.
 
 How to work (use tools; be efficient - every call counts against a budget):
@@ -39,7 +39,7 @@ How to work (use tools; be efficient - every call counts against a budget):
    than ~10 strong matches, expand (refresh other boards, or search with adjacent title keywords) - never relax hard
    requirements.
 5. evaluate_job_match on the top candidates (max 15) for an in-depth semantic check.
-6. create_discovery_batch with up to 10 job_ids, best first. Fewer than 10 is correct when fewer are suitable.
+6. create_discovery_batch with up to 20 job_ids, best first. If fewer than 20 qualify, refresh more boards first; never relax hard requirements.
 7. Finish with a 1-2 sentence plain-English summary for the user of what you did and what changed.
 
 Hard rules (enforced in code too):
@@ -125,8 +125,8 @@ def run_discovery(db: Session, user_id: int, trigger: str, session_id: int | Non
 
 def _ensure_batch(ctx: RunContext) -> None:
     if not ctx.shortlist:
-        execute(ctx, "search_local_jobs", {"limit": 25})
-    ids = [r["job_id"] for r in ctx.shortlist][:10]
+        execute(ctx, "search_local_jobs", {"limit": 40})
+    ids = [r["job_id"] for r in ctx.shortlist][:20]
     st, res = execute(ctx, "create_discovery_batch", {"job_ids": ids})
     if st != "ok" and ids:
         # drop any job the validator refused and retry once
@@ -202,8 +202,8 @@ def _rules_plan(ctx: RunContext) -> tuple[str, str]:
             changes = res.get("changes", []) if st == "ok" else []
     emps = rank_employers(ctx.db, ctx.user.id, limit=s.agent_max_boards)
     execute(ctx, "refresh_multiple_boards", {"employer_ids": [e.id for e in emps][:40]})
-    st, res = execute(ctx, "search_local_jobs", {"limit": 25})
-    ids = [r["job_id"] for r in ctx.shortlist][:10]
+    st, res = execute(ctx, "search_local_jobs", {"limit": 40})
+    ids = [r["job_id"] for r in ctx.shortlist][:20]
     execute(ctx, "create_discovery_batch", {"job_ids": ids})
     summary = f"Searched {ctx.boards_refreshed} employer boards and picked {len(ctx.batch_job_ids)} matches."
     if changes:

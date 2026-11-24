@@ -10,7 +10,7 @@ from . import matching
 from .catalogue import discoverable_jobs_query
 from .cv_parser import latest_profile
 
-BATCH_MAX = 10
+BATCH_MAX = 20
 
 
 class BatchRejected(ValueError):
