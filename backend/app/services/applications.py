@@ -21,7 +21,7 @@ from .cv_parser import fact_index, latest_profile, supported_by, _norm
 
 log = logging.getLogger("dar.applications")
 GENERATOR_VERSION = "appgen-v1"
-PROMPT_VERSION = "application-v2"
+PROMPT_VERSION = "application-v3"
 
 
 def enqueue(db: Session, user_id: int, job_id: int, force: bool = False) -> Application:
@@ -67,6 +67,8 @@ Factual rules (absolute):
 Relevance: identify the vacancy's 4-6 most important requirements first. Lead the summary and each role with the
 evidence that best answers them, use the employer's terminology where the candidate's facts genuinely support it, and
 prefer concrete facts (scale, outcomes, numbers exactly as written) over generic adjectives.
+Length limits: at most 5 bullets per role (2-3 for older roles), at most 12 key skills, at most 8 requirement-map
+entries, summary under 70 words, cover letter under 300 words.
 Style: concise, specific, UK English, ATS-friendly plain text (no tables/emoji). Cover letter: 3-4 short paragraphs,
 specific to this employer and role (why this role, the 2-3 strongest matching experiences, how you'd add value),
 grounded in real experience. No clichés, no claims about the employer you can't support from the vacancy text."""

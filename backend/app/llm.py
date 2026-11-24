@@ -203,6 +203,10 @@ def _parse_openai(schema, system, user, model, max_tokens, meter, temperature):
         content = choice.message.content or ""
         if choice.finish_reason == "length":
             last_err = LLMOutputError("model output truncated (max_tokens)")
+            if attempt == 0:  # one retry asking for a tighter answer
+                messages = messages + [{"role": "user", "content": "Your previous answer was too long and got cut off. "
+                                        "Return the same JSON object again but much more concisely."}]
+                continue
             break
         try:
             obj = schema.model_validate(_extract_json(content))
