@@ -9,8 +9,5 @@ storage/applications/*
 storage/*.db*
 storage/cache/
 !storage/**/.gitkeep
-evals/reports/*.json
-evals/reports/*.html
-!evals/reports/.gitkeep
 .pytest_cache/
 .DS_Store

@@ -48,7 +48,7 @@ def main() -> int:
     if not files:
         print("No reports yet. Run `make eval` or `make eval-live`.")
         return 1
-    for f in files[-4:]:
+    for f in files:
         r = json.loads(f.read_text())
         f.with_suffix(".html").write_text(render_html(r))
         print(f"rendered {f.with_suffix('.html').name}: {r['totals']}")

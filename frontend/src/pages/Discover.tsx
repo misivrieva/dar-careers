@@ -107,18 +107,18 @@ export default function Discover() {
         <span className="text-xs text-ink/55">{idx} of {session.job_ids.length}</span>
       </div>
       {adaptations.length > 0 && idx === 1 && (
-        <motion.div initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }} className="mb-3 rounded-2xl border border-gold/40 bg-gold/10 px-4 py-2.5 text-sm text-[#5e4b22]">
-          <b>I adapted to your feedback:</b> {adaptations[adaptations.length - 1].text.replace('Adapted search strategy: ', '')}
+        <motion.div initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }} className="mb-3 rounded-2xl border border-gold/40 bg-gold/10 px-4 py-2 text-[13px] text-[#5e4b22]">
+          <p className="line-clamp-3"><b>I adapted to your feedback:</b> {adaptations[adaptations.length - 1].text.replace('Adapted search strategy: ', '')}</p>
         </motion.div>
       )}
-      <div className="relative min-h-[calc(100dvh-250px)]">
+      <div className="relative min-h-[calc(100dvh-300px)]">
         <AnimatePresence>
           {queue.slice(0, 2).reverse().map((job) => (
             <SwipeCard key={job.id} job={job} top={job.id === current.id} onDecide={(d) => decide(job, d)} />
           ))}
         </AnimatePresence>
       </div>
-      <div className="fixed inset-x-0 bottom-[68px] z-20 pb-[env(safe-area-inset-bottom)]">
+      <div className="fixed inset-x-0 bottom-[60px] z-20 bg-gradient-to-t from-ivory via-ivory/95 to-transparent pb-[env(safe-area-inset-bottom)] pt-4">
         <div className="mx-auto flex max-w-xl items-center justify-center gap-4 px-4 py-3">
           <RoundBtn label="Undo (U)" onClick={undo} disabled={!Object.keys(session.decided).length} small>↶</RoundBtn>
           <RoundBtn label="No (←)" onClick={() => decide(current, 'no')} tone="no">✕</RoundBtn>
@@ -167,7 +167,7 @@ function SwipeCard({ job, top, onDecide }: { job: any; top: boolean; onDecide: (
       animate={{ scale: top ? 1 : 0.95, opacity: 1, y: top ? 0 : 14 }}
       exit={{ x: exit.x || (x.get() > 0 ? 600 : x.get() < 0 ? -600 : 0), y: exit.y || (Math.abs(x.get()) < 20 ? 700 : 0), opacity: 0, transition: { duration: 0.32 } }}
       transition={{ type: 'spring', stiffness: 300, damping: 28 }}
-      className={`card absolute inset-x-0 top-0 flex max-h-[calc(100dvh-250px)] min-h-[420px] cursor-grab touch-pan-y select-none flex-col !bg-white p-5 active:cursor-grabbing ${top ? '' : 'pointer-events-none'}`}
+      className={`card absolute inset-x-0 top-0 flex max-h-[calc(100dvh-300px)] min-h-[360px] cursor-grab touch-pan-y select-none flex-col !bg-white p-5 active:cursor-grabbing ${top ? '' : 'pointer-events-none'}`}
       aria-label={`${job.title} at ${job.employer}`}>
       <motion.div style={{ opacity: yesO }} className="pointer-events-none absolute right-5 top-5 rotate-6 rounded-xl border-2 border-forest px-3 py-1 font-display text-lg text-forest">Yes</motion.div>
       <motion.div style={{ opacity: noO }} className="pointer-events-none absolute left-5 top-5 -rotate-6 rounded-xl border-2 border-clay px-3 py-1 font-display text-lg text-clay">No</motion.div>

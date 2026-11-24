@@ -1,0 +1,74 @@
+# DAR Careers: implementation status
+
+This status is honest as of 2026-11-24. **Implemented** means the code exists. **Tested** means an automated test or eval exercises it, or I verified it by hand in the running app (marked *manual*).
+
+## P0: Working vertical slice
+
+| Feature | Implemented | Tested | Notes |
+|---|---|---|---|
+| Python/FastAPI + React/Vite/Tailwind scaffold, SQLite persistence (WAL, FKs, indexes) | ✅ | ✅ pytest | Schema is created with `create_all`; no Alembic migrations yet |
+| Ashby provider (live) | ✅ | ✅ fixtures + live | Compensation, unlisted exclusion, derived ids, provenance |
+| Greenhouse provider (live) | ✅ | ✅ fixtures + live | Job board API only (no Harvest, no submission) |
+| Verified employer registry | ✅ | ✅ | 166 employers. 78 verified boards; 12 of 100 Nasdaq-100 on Greenhouse, 0 on Ashby; the rest recorded as `unsupported` |
+| Retry/backoff/429 Retry-After/timeouts/concurrency/cache/partial failure | ✅ | ✅ pytest | |
+| Normalisation, unknown-as-null, dedupe with provenance, lifecycle | ✅ | ✅ pytest | |
+| CV upload (PDF/DOCX/TXT) + extraction with evidence checks | ✅ | ✅ pytest + live eval | Facts not found in the CV are dropped and reported |
+| Conversational onboarding (one question at a time, quick replies) | ✅ | ✅ pytest + manual | The LLM interprets answers when you consent; deterministic parsers otherwise |
+| Profile review and correction before discovery | ✅ | ✅ manual | |
+| Hard-constraint filtering (eligible / ineligible / uncertain) | ✅ | ✅ 15 eval cases | |
+| Ranking + explanations | ✅ | ✅ eval (nDCG, P@10) | |
+| Swipe UI (drag, buttons, keyboard, undo) | ✅ | ✅ manual (desktop + mobile) + API tests | |
+| Decisions and feedback persisted, idempotent | ✅ | ✅ pytest | |
+| CV + cover letter DOCX, ZIP, employer folders | ✅ | ✅ pytest + live eval | |
+| Review dashboard (Interested / Maybe / Passed, sort, comments, change decision, status) | ✅ | ✅ pytest + manual | |
+
+## P1: Agentic differentiation and reliability
+
+| Feature | Implemented | Tested | Notes |
+|---|---|---|---|
+| Bounded orchestrator (LLM tool calling) with budgets | ✅ | ✅ live trajectory eval | A rule planner runs when there's no key; it's labelled in the UI |
+| Tool registry (30 tools, Pydantic args, code-enforced permissions) | ✅ | ✅ pytest + evals | No shell, files, HTTP, submission or hard-requirement tools |
+| Persistent memory: requirements / soft / inferred preferences, strategies | ✅ | ✅ | |
+| Feedback interpretation, hypotheses with evidence and contradictions | ✅ | ✅ 5 offline + 1 live eval | |
+| Search strategy adaptation (weights + adjacent titles) | ✅ | ✅ live eval + manual | |
+| Background application generation (durable tasks, recovery, retry) | ✅ | ✅ pytest | |
+| Factuality validation (deterministic + independent judge model) | ✅ | ✅ 8 offline + 2 live evals | |
+| Observable agent activity and execution records | ✅ | ✅ manual | Only real events are shown |
+| Five critical evaluation scenarios, live-model runs, real reports | ✅ | ✅ | See "Latest evaluation results" below |
+
+## P2: Polish
+
+| Feature | Status |
+|---|---|
+| DAR visual identity (palette, Playfair Display / Inter, rounded cards) | ✅ |
+| Spring animations, reduced-motion support, accessible buttons and keyboard controls | ✅ |
+| Loading, empty and error states | ✅ |
+| Labelled offline demo mode (`make demo`) | ✅ tested |
+| Agent Lab (genuine report files only) | ✅ |
+| Startup + investor demo instructions | ✅ README |
+
+## Incomplete or not done (deliberately deferred)
+
+- **Scheduled refresh.** The task type exists, along with the opt-in flag and a tool that refuses without opt-in. There's no scheduler or settings toggle in the UI yet.
+- **Notifications.** "Applications ready" shows on the dashboard and job list (polling). There are no push or email notifications.
+- **Server-sent events.** Polling is used.
+- **Authentication.** Local single-user mode only (`X-DAR-User` header scoping). Don't deploy publicly.
+- **Data retention job.** `DAR_DATA_RETENTION_DAYS` is configurable, but no automatic purge runs. Manual deletion via `DELETE /api/profile/data` works.
+- **Evaluation dataset size.** There are ~45 offline + 8 live cases, not yet the 50+ target spread across every category. Live cases ran with 2 repetitions.
+- **Cost estimates.** These are $0 or "not configured" unless you set `DAR_LLM_PRICE_*` for Token Factory.
+- **Commute time.** It's collected as a free-text preference but not computed (no geocoding).
+
+## Blocked
+
+- Nothing is blocked. The Nebius Token Factory key is configured and verified (generation `Qwen/Qwen3-235B-A22B-Instruct-2507`, judge `deepseek-ai/DeepSeek-V4.1-Flash-1017`).
+
+## Known limitations found while building
+
+- Many large employers (most of the Nasdaq-100) use Workday or their own ATS, so coverage relies on supplementary employers.
+- Greenhouse boards rarely publish UK salaries, so many UK roles are honestly flagged *uncertain* (salary not disclosed) rather than shown as confirmed matches.
+- Office attendance is often unstated. It's extracted from text where possible and otherwise flagged.
+- The LLM agent sometimes picks fewer boards than the budget allows. The batch can then hold fewer than 10 jobs, which is by design rather than padded.
+
+## Latest evaluation results
+
+See `evals/reports/` and the in-app **Lab**.

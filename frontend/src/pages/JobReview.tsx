@@ -113,7 +113,7 @@ function ApplicationPanel({ app, job, onChange }: { app: any; job: any; onChange
       {app.prep_status === 'failed' && <div className="mt-3"><ErrorNote>{app.error || 'Generation failed.'}</ErrorNote></div>}
       {app.documents.length > 0 && (<>
         <div className="mt-3 rounded-2xl bg-white p-3 text-sm">
-          <div className="font-medium text-forest">Fact check: {v.status === 'passed' ? '✓ every claim traced to your CV' : v.status === 'issues_found' ? 'needs your attention' : 'please review manually'}</div>
+          <div className="font-medium text-forest">Fact check: {v.status === 'passed' ? (minor.length ? '✓ no material issues · a few wording notes below' : '✓ every claim traced to your CV') : v.status === 'issues_found' ? 'needs your attention' : 'please review manually'}</div>
           <div className="mt-1 text-xs text-ink/55">{app.generator}{v.judge?.model ? ` · checked independently by ${v.judge.model}` : ''}{v.note ? ` · ${v.note}` : ''}</div>
           {v.deterministic?.removed?.length > 0 && <div className="mt-2 text-xs text-ink/65">Automatically removed {v.deterministic.removed.length} unsupported line(s).</div>}
           {issues.length > 0 && <ul className="mt-2 space-y-1.5">{issues.map((i: any, k: number) => (
