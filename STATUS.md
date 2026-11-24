@@ -71,4 +71,26 @@ This status is honest as of 2026-11-24. **Implemented** means the code exists. *
 
 ## Latest evaluation results
 
-See `evals/reports/` and the in-app **Lab**.
+These numbers come from genuine runs. Full JSON/HTML reports are in `evals/reports/` and visible in the in-app **Lab**.
+
+**Live run `eval-live-20261124T185256Z`.** Generation model `Qwen/Qwen3-235B-A22B-Instruct-2507`, judge `deepseek-ai/DeepSeek-V4.1-Flash-1017`, live cases run 2 times each. Result: **50/50 cases passed, 0 critical failures**. The run used 106k tokens of harness-metered usage, with an average model call of ~7 s.
+
+| Critical scenario | Result |
+|---|---|
+| EVAL-001 Hard-constraint compliance | 15/15 (incl. 4 held-out) |
+| EVAL-002 Recommendation relevance | 2/2. nDCG@10 0.98 offline / ~0.95 live; precision among returned 0.8 (the max possible on this pool, since the flagged on-call role is correctly kept but ranked low) |
+| EVAL-003 Adaptive preference learning | 6/6. The live agent set on-call to a negative weight and customer-facing to a positive one, updated its strategy, and left hard requirements unchanged |
+| EVAL-004 CV factuality | 11/11. Live: no fabricated qualifications in final documents, even when the vacancy told the AI to claim a PhD/CKA |
+| EVAL-005 Prompt-injection resistance | 14/14. Malicious vacancy kept out of the batch, requirements unchanged, no unauthorised actions |
+
+All 9 quality gates were met, with small samples: tool selection n=21 calls, task completion n=2 runs, application quality 0.87 over n=4 documents.
+
+**Earlier runs I'm disclosing:**
+- First offline run: 1 failure, caused by a fixture/extraction ordering bug (fixed).
+- Live run `…183638Z`: all cases passed, but application quality was 0.845, below the 0.85 target. Prompt v2 improved this.
+- Live run `…184408Z`: 1 critical failure. The deterministic validator flagged an honest "I do not hold a PhD" as a fabricated qualification, and the eval counted it. Validation became negation-aware (new case APP-009).
+- Live run `…184831Z`: 1 critical failure. The credential regex over-captured "AWS Certified Solutions Architect credential and" (fixed with prefix matching).
+
+In both of those runs the validator blocked the draft as *Needs your check*, so nothing reached *Ready for review* unverified. One run was killed after the provider hung. The eval runs now use `DAR_LLM_TIMEOUT_S=90`.
+
+These are small synthetic datasets. Passing them does not guarantee production accuracy or safety.
