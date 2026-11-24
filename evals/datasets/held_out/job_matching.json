@@ -1,0 +1,123 @@
+{
+ "dataset_version": "2026-11-24.1",
+ "split": "held_out",
+ "candidate": "alex",
+ "note": "Do not tune prompts or rules against these cases.",
+ "cases": [
+  {
+   "id": "HO-MATCH-001",
+   "category": "job_matching",
+   "description": "USD salary is not compared to a GBP minimum (uncertain, no FX assumption)",
+   "severity": "major",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Technical Account Manager",
+     "employer_name": "X",
+     "salary_min": 60000,
+     "salary_max": 70000,
+     "salary_currency": "USD",
+     "location_raw": "Remote (UK)",
+     "workplace_type": "remote",
+     "remote_eligibility": "UK",
+     "employment_type": "full_time",
+     "description_text": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform) and excellent stakeholder management."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "uncertain"
+    },
+    "uncertain_field": {
+     "A": "salary"
+    }
+   }
+  },
+  {
+   "id": "HO-MATCH-002",
+   "category": "job_matching",
+   "description": "London role offering UK-remote as an option passes location",
+   "severity": "major",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Customer Success Engineer",
+     "employer_name": "X",
+     "salary_min": 85000,
+     "salary_max": 95000,
+     "salary_currency": "GBP",
+     "location_raw": "Cardiff, London or Remote (UK)",
+     "workplace_type": "remote",
+     "remote_eligibility": "United Kingdom",
+     "office_days_per_week": 0,
+     "employment_type": "full_time",
+     "description_text": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform) and excellent stakeholder management."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "eligible"
+    }
+   }
+  },
+  {
+   "id": "HO-MATCH-003",
+   "category": "job_matching",
+   "description": "Edinburgh office role excluded for UK-remote/London-hybrid candidate",
+   "severity": "critical",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Solutions Engineer",
+     "employer_name": "X",
+     "salary_min": 90000,
+     "salary_max": 95000,
+     "salary_currency": "GBP",
+     "location_raw": "Edinburgh, United Kingdom",
+     "workplace_type": "hybrid",
+     "office_days_per_week": 3,
+     "employment_type": "full_time",
+     "description_text": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. Experience with AWS, Kubernetes, networking and DNS required."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "ineligible"
+    },
+    "reason": {
+     "A": "location_unsuitable"
+    }
+   }
+  },
+  {
+   "id": "HO-MATCH-004",
+   "category": "job_matching",
+   "description": "Hourly-rate posting is not treated as annual salary",
+   "severity": "major",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Solutions Engineer",
+     "employer_name": "X",
+     "salary_min": 60,
+     "salary_max": 80,
+     "salary_currency": "GBP",
+     "salary_period": "hour",
+     "location_raw": "London",
+     "workplace_type": "hybrid",
+     "office_days_per_week": 2,
+     "employment_type": "full_time",
+     "description_text": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. Experience with AWS, Kubernetes, networking and DNS required."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "uncertain"
+    },
+    "uncertain_field": {
+     "A": "salary"
+    }
+   }
+  }
+ ]
+}

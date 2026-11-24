@@ -1,0 +1,21 @@
+{
+ "dataset_version": "2026-11-24.1",
+ "split": "development",
+ "cases": [
+  {
+   "id": "ORCH-001",
+   "description": "Live agent run after feedback: valid tools, budget respected, strategy adapted, batch valid, hard requirements intact",
+   "severity": "critical",
+   "acceptable_tool_sets": [
+    [
+     "analyse_feedback",
+     "search_local_jobs",
+     "create_discovery_batch"
+    ]
+   ],
+   "forbidden_success": [
+    "update_search_strategy:hard_keys"
+   ]
+  }
+ ]
+}

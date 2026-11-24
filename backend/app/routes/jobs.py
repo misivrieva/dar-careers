@@ -173,6 +173,14 @@ def feedback(job_id: int, body: FeedbackIn, user: User = Depends(current_user), 
     return {"ok": True, "feedback_id": fb.id}
 
 
+@router.post("/decisions/undo-last")
+def undo_last(user: User = Depends(current_user), db: Session = Depends(get_db)):
+    latest = db.query(Swipe).filter_by(user_id=user.id, undone=False).order_by(Swipe.id.desc()).first()
+    if latest is None:
+        raise HTTPException(404, "nothing to undo")
+    return undo(latest.job_id, user, db)
+
+
 @router.post("/jobs/{job_id}/undo")
 def undo(job_id: int, user: User = Depends(current_user), db: Session = Depends(get_db)):
     sw = db.query(Swipe).filter_by(user_id=user.id, job_id=job_id, undone=False, superseded=False).order_by(Swipe.id.desc()).first()

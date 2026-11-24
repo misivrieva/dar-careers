@@ -1,0 +1,228 @@
+{
+ "dataset_version": "2026-11-24.1",
+ "split": "development",
+ "candidate": "alex",
+ "note": "Drafts reference fact ids produced by deterministic (rule-based) extraction of fixtures/cvs/synthetic_alex_morgan.txt.",
+ "cases": [
+  {
+   "id": "APP-001",
+   "description": "Faithful tailored draft passes validation",
+   "severity": "critical",
+   "draft": {
+    "summary": "Senior Platform Engineer with experience at Northwind Cloud Ltd, Fabrikam Telecom and Contoso Hosting.",
+    "summary_ids": [
+     "R1",
+     "R2",
+     "R3"
+    ],
+    "key_skills": [
+     "aws",
+     "kubernetes",
+     "terraform"
+    ],
+    "bullets": {
+     "R1": [
+      [
+       "Act as technical point of contact for three enterprise customers during onboarding and escalations",
+       [
+        "R1.B4"
+       ]
+      ],
+      [
+       "Run the Kubernetes platform (EKS) serving 40 internal engineering teams",
+       [
+        "R1.B1"
+       ]
+      ]
+     ]
+    },
+    "letter": [
+     [
+      "I am applying for the Technical Account Manager role.",
+      []
+     ],
+     [
+      "At Northwind Cloud Ltd I act as technical point of contact for three enterprise customers.",
+      [
+       "R1",
+       "R1.B4"
+      ]
+     ]
+    ]
+   },
+   "expected": {
+    "critical_issues": 0,
+    "removed": 0
+   }
+  },
+  {
+   "id": "APP-002",
+   "description": "Invented degree in the summary is caught",
+   "severity": "critical",
+   "draft": {
+    "summary": "Platform engineer holding an MSc in Distributed Systems from Imperial College.",
+    "summary_ids": [
+     "R1"
+    ],
+    "key_skills": [
+     "aws"
+    ],
+    "bullets": {},
+    "letter": []
+   },
+   "expected": {
+    "problem": "fabricated_qualification"
+   }
+  },
+  {
+   "id": "APP-003",
+   "description": "Changed metric in a bullet is removed",
+   "severity": "critical",
+   "draft": {
+    "summary": "Platform engineer.",
+    "summary_ids": [
+     "R1"
+    ],
+    "key_skills": [],
+    "bullets": {
+     "R1": [
+      [
+       "Reduced monthly AWS spend by 45% through rightsizing",
+       [
+        "R1.B5"
+       ]
+      ]
+     ]
+    },
+    "letter": []
+   },
+   "expected": {
+    "removed_reason": "fabricated_metric"
+   }
+  },
+  {
+   "id": "APP-004",
+   "description": "Skill absent from the CV is removed from key skills",
+   "severity": "major",
+   "draft": {
+    "summary": "Platform engineer.",
+    "summary_ids": [
+     "R1"
+    ],
+    "key_skills": [
+     "aws",
+     "salesforce",
+     "kubernetes"
+    ],
+    "bullets": {},
+    "letter": []
+   },
+   "expected": {
+    "removed_text": "salesforce"
+   }
+  },
+  {
+   "id": "APP-005",
+   "description": "Bullet without evidence is removed",
+   "severity": "major",
+   "draft": {
+    "summary": "Platform engineer.",
+    "summary_ids": [
+     "R1"
+    ],
+    "key_skills": [],
+    "bullets": {
+     "R1": [
+      [
+       "Managed a team of 12 engineers",
+       []
+      ]
+     ]
+    },
+    "letter": []
+   },
+   "expected": {
+    "removed_reason": "unsupported"
+   }
+  },
+  {
+   "id": "APP-006",
+   "description": "Bullet citing another role's evidence is removed",
+   "severity": "major",
+   "draft": {
+    "summary": "Platform engineer.",
+    "summary_ids": [
+     "R1"
+    ],
+    "key_skills": [],
+    "bullets": {
+     "R1": [
+      [
+       "Designed BGP and DNS infrastructure",
+       [
+        "R2.B1"
+       ]
+      ]
+     ]
+    },
+    "letter": []
+   },
+   "expected": {
+    "removed_reason": "misattributed"
+   }
+  },
+  {
+   "id": "APP-007",
+   "description": "Titles, employers and dates cannot be altered by the generator; omitted roles are restored",
+   "severity": "critical",
+   "draft": {
+    "summary": "Platform engineer.",
+    "summary_ids": [
+     "R1"
+    ],
+    "key_skills": [],
+    "bullets": {
+     "R1": [
+      [
+       "Run the Kubernetes platform (EKS) serving 40 internal engineering teams",
+       [
+        "R1.B1"
+       ]
+      ]
+     ]
+    },
+    "letter": [],
+    "title_override": {
+     "R1": "Head of Platform"
+    }
+   },
+   "expected": {
+    "roles_preserved": true
+   }
+  },
+  {
+   "id": "APP-008",
+   "description": "Invented certification in the cover letter is caught",
+   "severity": "critical",
+   "draft": {
+    "summary": "Platform engineer.",
+    "summary_ids": [
+     "R1"
+    ],
+    "key_skills": [],
+    "bullets": {},
+    "letter": [
+     [
+      "I am a CKA certified engineer with deep Kubernetes expertise.",
+      [
+       "R1"
+      ]
+     ]
+    ]
+   },
+   "expected": {
+    "problem": "fabricated_qualification"
+   }
+  }
+ ]
+}

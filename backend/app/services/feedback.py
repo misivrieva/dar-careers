@@ -140,9 +140,19 @@ def analyse_decisions(decisions: list[dict]) -> Analysis:
             hyps.append(Hypothesis(f"role_family:{fam}", "prefer", min(MAX_POINTS, 5.0 * len(sup)), _conf(sup, con), sup, con,
                                    f"Liked {len(sup)} {FAMILY_LABEL.get(fam, fam)} role(s)" + (f", passed on {len(con)}" if con else "") + "."))
     for fam, n in rej_fam.items():
-        if fam in acc_fam or fam == "other":
+        if fam == "other":
             continue
         sup = [d["swipe_id"] for d in no if d["features"].get("role_family") == fam]
+        if fam in acc_fam:
+            con = [d["swipe_id"] for d in yes if d["features"].get("role_family") == fam]
+            unexplained = [d["swipe_id"] for d in no if d["features"].get("role_family") == fam and not d["reasons"] & {"requires_on_call", "salary_too_low", "location_unsuitable", "too_many_office_days"}]
+            if len(unexplained) >= 3 and len(unexplained) >= 3 * len(con):
+                # replace the weak positive hypothesis with a mild, contradiction-aware negative one
+                hyps = [h for h in hyps if h.attribute != f"role_family:{fam}"]
+                hyps.append(Hypothesis(f"role_family:{fam}", "less_interested", -min(10.0, 2.5 * (len(unexplained) - len(con))),
+                                       _conf(unexplained, con), unexplained, con,
+                                       f"Passed on {len(unexplained)} {FAMILY_LABEL.get(fam, fam)} role(s) but liked {len(con)}."))
+            continue
         # if the rejections are explained by a specific reason (e.g. on-call), don't blame the whole family
         explained = [d["swipe_id"] for d in no if d["features"].get("role_family") == fam and d["reasons"] & {"requires_on_call", "salary_too_low", "location_unsuitable", "too_many_office_days"}]
         if len(sup) >= 3 and len(explained) < len(sup):

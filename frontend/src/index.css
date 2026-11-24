@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #F8F6EF;
+  --color-sage: #DCE5D4;
+  --color-fern: #8DA287;
+  --color-gold: #B79B65;
+  --color-forest: #304839;
+  --color-ink: #1f2a23;
+  --color-mist: #EEF2EA;
+  --color-clay: #9a5b4a;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --shadow-soft: 0 1px 2px rgba(48, 72, 57, 0.06), 0 8px 24px rgba(48, 72, 57, 0.08);
+  --shadow-lift: 0 2px 4px rgba(48, 72, 57, 0.08), 0 18px 40px rgba(48, 72, 57, 0.14);
+}
+
+html, body, #root { height: 100%; }
+body {
+  @apply bg-ivory text-ink font-sans antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+h1, h2, h3 { @apply font-display text-forest; }
+:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 3px; border-radius: 10px; }
+
+@utility card { @apply bg-white/85 rounded-3xl border border-sage/80; box-shadow: var(--shadow-soft); }
+@utility btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition active:scale-[0.97] disabled:opacity-50 disabled:pointer-events-none; }
+@utility btn-primary { @apply btn bg-forest text-ivory hover:bg-[#263b2e]; }
+@utility btn-ghost { @apply btn bg-transparent text-forest hover:bg-sage/60; }
+@utility btn-soft { @apply btn bg-sage/70 text-forest hover:bg-sage; }
+@utility chip { @apply inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium border transition; }
+.prose-job h2, .prose-job h3, .prose-job h4 { @apply font-sans text-base font-semibold text-forest mt-4 mb-1; }
+.prose-job p { @apply my-2 leading-relaxed; }
+.prose-job ul { @apply list-disc pl-5 my-2 space-y-1; }
+.prose-job a { @apply underline text-forest; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

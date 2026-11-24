@@ -172,7 +172,7 @@ def heuristic_extract(text: str) -> CVExtraction:
         if current and line.startswith(("-", "•", "*", "·", "–")):
             bullet = line.lstrip("-•*·– ").strip()
             if bullet:
-                (current.achievements if re.search(r"\d", bullet) else current.responsibilities).append(bullet)
+                current.responsibilities.append(bullet)  # keep original CV order
     email = re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", text)
     phone = re.search(r"(\+?\d[\d ()-]{8,}\d)", text)
     first = next((l for l in lines if l), None)

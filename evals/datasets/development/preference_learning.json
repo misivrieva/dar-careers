@@ -1,0 +1,256 @@
+{
+ "dataset_version": "2026-11-24.1",
+ "split": "development",
+ "candidate": "alex",
+ "cases": [
+  {
+   "id": "LEARN-001",
+   "category": "preference_learning",
+   "severity": "critical",
+   "description": "On-call rejections + customer-facing acceptances adapt weights and strategy without overriding hard requirements",
+   "sequence": [
+    {
+     "id": 1,
+     "title": "Platform Engineer",
+     "family": "sre_platform",
+     "decision": "no",
+     "on_call": true,
+     "customer_facing": 0.2,
+     "reasons": [
+      "requires_on_call"
+     ],
+     "salary": null,
+     "office_days": null
+    },
+    {
+     "id": 2,
+     "title": "Site Reliability Engineer",
+     "family": "sre_platform",
+     "decision": "no",
+     "on_call": true,
+     "customer_facing": 0.1,
+     "reasons": [
+      "requires_on_call"
+     ],
+     "salary": null,
+     "office_days": null
+    },
+    {
+     "id": 3,
+     "title": "Solutions Engineer",
+     "family": "solutions_presales",
+     "decision": "yes",
+     "on_call": null,
+     "customer_facing": 0.9,
+     "reasons": [
+      "enjoy_customer_work"
+     ],
+     "salary": null,
+     "office_days": null
+    },
+    {
+     "id": 4,
+     "title": "Technical Account Manager",
+     "family": "technical_account_management",
+     "decision": "yes",
+     "on_call": null,
+     "customer_facing": 0.9,
+     "reasons": [
+      "good_tech_customer_mix"
+     ],
+     "salary": null,
+     "office_days": null
+    }
+   ],
+   "expected": {
+    "adjustment_sign": {
+     "on_call": "negative",
+     "customer_facing": "positive"
+    },
+    "expanded_titles_any": [
+     "Pre-Sales Engineer",
+     "Solutions Consultant",
+     "Sales Engineer",
+     "Technical Pre-Sales Consultant"
+    ],
+    "requirements_unchanged": true,
+    "not_excluded_family": "sre_platform",
+    "rank_moves": {
+     "up": "J8",
+     "down": "J4"
+    }
+   }
+  },
+  {
+   "id": "LEARN-002",
+   "category": "preference_learning",
+   "severity": "major",
+   "description": "A single rejection must not create an actionable preference",
+   "sequence": [
+    {
+     "id": 1,
+     "title": "Platform Engineer",
+     "family": "sre_platform",
+     "decision": "no",
+     "on_call": true,
+     "customer_facing": 0.2,
+     "reasons": [
+      "requires_on_call"
+     ],
+     "salary": null,
+     "office_days": null
+    }
+   ],
+   "expected": {
+    "no_actionable": true
+   }
+  },
+  {
+   "id": "LEARN-003",
+   "category": "preference_learning",
+   "severity": "major",
+   "description": "Contradictory evidence is recorded and blocks action",
+   "sequence": [
+    {
+     "id": 1,
+     "title": "Platform Engineer",
+     "family": "sre_platform",
+     "decision": "no",
+     "on_call": true,
+     "customer_facing": 0.2,
+     "reasons": [
+      "requires_on_call"
+     ],
+     "salary": null,
+     "office_days": null
+    },
+    {
+     "id": 2,
+     "title": "SRE",
+     "family": "sre_platform",
+     "decision": "no",
+     "on_call": true,
+     "customer_facing": 0.2,
+     "reasons": [
+      "requires_on_call"
+     ],
+     "salary": null,
+     "office_days": null
+    },
+    {
+     "id": 3,
+     "title": "Platform Engineer II",
+     "family": "sre_platform",
+     "decision": "yes",
+     "on_call": true,
+     "customer_facing": 0.2,
+     "reasons": [],
+     "salary": null,
+     "office_days": null
+    },
+    {
+     "id": 4,
+     "title": "Infra Engineer",
+     "family": "sre_platform",
+     "decision": "yes",
+     "on_call": true,
+     "customer_facing": 0.2,
+     "reasons": [],
+     "salary": null,
+     "office_days": null
+    }
+   ],
+   "expected": {
+    "contradicting_recorded": "on_call",
+    "not_actionable": "on_call"
+   }
+  },
+  {
+   "id": "LEARN-004",
+   "category": "preference_learning",
+   "severity": "critical",
+   "description": "Office days vs salary becomes a question, never a silent hard-requirement change",
+   "sequence": [
+    {
+     "id": 1,
+     "title": "Solutions Engineer",
+     "family": "solutions_presales",
+     "decision": "no",
+     "on_call": null,
+     "customer_facing": 0.9,
+     "reasons": [
+      "too_many_office_days"
+     ],
+     "salary": 95000,
+     "office_days": 3
+    },
+    {
+     "id": 2,
+     "title": "Solutions Engineer",
+     "family": "solutions_presales",
+     "decision": "yes",
+     "on_call": null,
+     "customer_facing": 0.9,
+     "reasons": [],
+     "salary": 120000,
+     "office_days": 3
+    }
+   ],
+   "expected": {
+    "question_for": "office_days_negotiable_above_salary",
+    "affects_hard_requirement": "max_office_days",
+    "requirements_unchanged": true
+   }
+  },
+  {
+   "id": "LEARN-005",
+   "category": "preference_learning",
+   "severity": "major",
+   "description": "Rejections explained by on-call do not exclude the whole engineering family",
+   "sequence": [
+    {
+     "id": 1,
+     "title": "Platform Engineer",
+     "family": "sre_platform",
+     "decision": "no",
+     "on_call": true,
+     "customer_facing": 0.2,
+     "reasons": [
+      "requires_on_call"
+     ],
+     "salary": null,
+     "office_days": null
+    },
+    {
+     "id": 2,
+     "title": "SRE",
+     "family": "sre_platform",
+     "decision": "no",
+     "on_call": true,
+     "customer_facing": 0.2,
+     "reasons": [
+      "requires_on_call"
+     ],
+     "salary": null,
+     "office_days": null
+    },
+    {
+     "id": 3,
+     "title": "DevOps Engineer",
+     "family": "sre_platform",
+     "decision": "no",
+     "on_call": true,
+     "customer_facing": 0.2,
+     "reasons": [
+      "requires_on_call"
+     ],
+     "salary": null,
+     "office_days": null
+    }
+   ],
+   "expected": {
+    "family_not_penalised": "sre_platform"
+   }
+  }
+ ]
+}

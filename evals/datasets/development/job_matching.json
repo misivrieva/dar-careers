@@ -1,0 +1,479 @@
+{
+ "dataset_version": "2026-11-24.1",
+ "split": "development",
+ "candidate": "alex",
+ "cases": [
+  {
+   "id": "MATCH-022-7",
+   "category": "job_matching",
+   "description": "Spec 22.7 labelled pool: exclusions, flags and ranking",
+   "severity": "critical",
+   "jobs": [
+    {
+     "id": "J1",
+     "title": "Solutions Engineer",
+     "employer_name": "Acme Cloud",
+     "salary_min": 90000,
+     "salary_max": 95000,
+     "salary_currency": "GBP",
+     "location_raw": "London, United Kingdom",
+     "workplace_type": "hybrid",
+     "office_days_per_week": 3,
+     "employment_type": "full_time",
+     "description_text": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. Experience with AWS, Kubernetes, networking and DNS required.",
+     "relevance": 3
+    },
+    {
+     "id": "J2",
+     "title": "Technical Account Manager",
+     "employer_name": "Nimbus",
+     "salary_min": 100000,
+     "salary_max": 110000,
+     "salary_currency": "GBP",
+     "location_raw": "Remote (UK)",
+     "workplace_type": "remote",
+     "remote_eligibility": "UK",
+     "office_days_per_week": 0,
+     "employment_type": "full_time",
+     "description_text": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform) and excellent stakeholder management.",
+     "relevance": 3
+    },
+    {
+     "id": "J3",
+     "title": "Support Engineer",
+     "employer_name": "HostCo",
+     "salary_min": 50000,
+     "salary_max": 55000,
+     "salary_currency": "GBP",
+     "location_raw": "Remote (UK)",
+     "workplace_type": "remote",
+     "remote_eligibility": "UK",
+     "office_days_per_week": 0,
+     "employment_type": "full_time",
+     "description_text": "Resolve customer support tickets, troubleshoot Linux, DNS and networking issues. Zendesk experience helpful.",
+     "relevance": 0,
+     "expected": "exclude",
+     "expected_reason": "salary_below_minimum"
+    },
+    {
+     "id": "J4",
+     "title": "Platform Engineer",
+     "employer_name": "Stratus",
+     "salary_min": 110000,
+     "salary_max": 120000,
+     "salary_currency": "GBP",
+     "location_raw": "London, United Kingdom",
+     "workplace_type": "hybrid",
+     "office_days_per_week": 2,
+     "employment_type": "full_time",
+     "description_text": "Build and operate our Kubernetes platform on AWS using Terraform. Write Go and Python tooling. You will join the on-call rotation for production incidents.",
+     "relevance": 1,
+     "expected": "lower_and_flag"
+    },
+    {
+     "id": "J5",
+     "title": "Solutions Architect",
+     "employer_name": "Orbital",
+     "salary_min": 100000,
+     "salary_max": 110000,
+     "salary_currency": "GBP",
+     "location_raw": "Manchester, United Kingdom",
+     "workplace_type": "onsite",
+     "office_days_per_week": 5,
+     "employment_type": "full_time",
+     "description_text": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. Experience with AWS, Kubernetes, networking and DNS required.",
+     "relevance": 0,
+     "expected": "exclude",
+     "expected_reason": "location_unsuitable"
+    },
+    {
+     "id": "J6",
+     "title": "Customer Success Engineer",
+     "employer_name": "Vela",
+     "salary_min": null,
+     "salary_max": null,
+     "salary_currency": null,
+     "location_raw": "Remote (UK)",
+     "workplace_type": "remote",
+     "remote_eligibility": "UK",
+     "office_days_per_week": 0,
+     "employment_type": "full_time",
+     "description_text": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform) and excellent stakeholder management.",
+     "relevance": 2,
+     "expected": "flag_uncertain"
+    },
+    {
+     "id": "J7",
+     "title": "Enterprise Technical Account Manager",
+     "employer_name": "Nimbus",
+     "salary_min": 95000,
+     "salary_max": 100000,
+     "salary_currency": "GBP",
+     "location_raw": "Remote (US)",
+     "workplace_type": "remote",
+     "remote_eligibility": "US",
+     "office_days_per_week": 0,
+     "employment_type": "full_time",
+     "description_text": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform) and excellent stakeholder management.",
+     "relevance": 0,
+     "expected": "exclude",
+     "expected_reason": "remote_outside_uk"
+    },
+    {
+     "id": "J8",
+     "title": "Technical Pre-Sales Engineer",
+     "employer_name": "Quanta",
+     "salary_min": 100000,
+     "salary_max": 105000,
+     "salary_currency": "GBP",
+     "location_raw": "London, United Kingdom",
+     "workplace_type": "hybrid",
+     "office_days_per_week": 2,
+     "employment_type": "full_time",
+     "description_text": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. Experience with AWS, Kubernetes, networking and DNS required.",
+     "relevance": 3
+    }
+   ],
+   "expected": {
+    "excluded": [
+     "J3",
+     "J5",
+     "J7"
+    ],
+    "uncertain": [
+     "J6"
+    ],
+    "recommend": [
+     "J1",
+     "J2",
+     "J8"
+    ],
+    "below": [
+     [
+      "J4",
+      "J1"
+     ],
+     [
+      "J4",
+      "J2"
+     ],
+     [
+      "J4",
+      "J8"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "MATCH-001",
+   "category": "job_matching",
+   "description": "Reject salary below hard minimum",
+   "severity": "critical",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Solutions Engineer",
+     "employer_name": "X",
+     "salary_min": 55000,
+     "salary_max": 65000,
+     "salary_currency": "GBP",
+     "location_raw": "London",
+     "workplace_type": "hybrid",
+     "office_days_per_week": 2,
+     "employment_type": "full_time",
+     "description_text": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. Experience with AWS, Kubernetes, networking and DNS required."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "ineligible"
+    },
+    "reason": {
+     "A": "salary_below_minimum"
+    }
+   }
+  },
+  {
+   "id": "MATCH-002",
+   "category": "job_matching",
+   "description": "Overlapping range is not excluded but is noted",
+   "severity": "major",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Solutions Engineer",
+     "employer_name": "X",
+     "salary_min": 70000,
+     "salary_max": 85000,
+     "salary_currency": "GBP",
+     "location_raw": "London",
+     "workplace_type": "hybrid",
+     "office_days_per_week": 2,
+     "employment_type": "full_time",
+     "description_text": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. Experience with AWS, Kubernetes, networking and DNS required."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "eligible"
+    },
+    "note_contains": {
+     "A": "overlaps"
+    }
+   }
+  },
+  {
+   "id": "MATCH-003",
+   "category": "job_matching",
+   "description": "Unknown salary is never treated as zero or as a match",
+   "severity": "critical",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Technical Account Manager",
+     "employer_name": "X",
+     "salary_min": null,
+     "salary_max": null,
+     "location_raw": "Remote (UK)",
+     "workplace_type": "remote",
+     "remote_eligibility": "UK",
+     "employment_type": "full_time",
+     "description_text": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform) and excellent stakeholder management."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "uncertain"
+    },
+    "uncertain_field": {
+     "A": "salary"
+    }
+   }
+  },
+  {
+   "id": "MATCH-004",
+   "category": "job_matching",
+   "description": "Remote role restricted to another country is excluded",
+   "severity": "critical",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Technical Account Manager",
+     "employer_name": "X",
+     "salary_min": 100000,
+     "salary_max": 120000,
+     "salary_currency": "GBP",
+     "location_raw": "Remote - Germany",
+     "workplace_type": "remote",
+     "employment_type": "full_time",
+     "description_text": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform) and excellent stakeholder management."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "ineligible"
+    },
+    "reason": {
+     "A": "remote_outside_uk"
+    }
+   }
+  },
+  {
+   "id": "MATCH-005",
+   "category": "job_matching",
+   "description": "Remote EMEA is flagged as uncertain, not assumed UK-eligible",
+   "severity": "major",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Technical Account Manager",
+     "employer_name": "X",
+     "salary_min": 100000,
+     "salary_max": 120000,
+     "salary_currency": "GBP",
+     "location_raw": "Remote - EMEA",
+     "workplace_type": "remote",
+     "remote_eligibility": "EMEA",
+     "employment_type": "full_time",
+     "description_text": "Own the technical relationship with a portfolio of enterprise customers. Lead onboarding, quarterly business reviews and escalations. Strong cloud infrastructure background (AWS, Kubernetes, Terraform) and excellent stakeholder management."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "uncertain"
+    },
+    "uncertain_field": {
+     "A": "location"
+    }
+   }
+  },
+  {
+   "id": "MATCH-006",
+   "category": "job_matching",
+   "description": "Five office days violates a four-day maximum",
+   "severity": "critical",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Solutions Engineer",
+     "employer_name": "X",
+     "salary_min": 90000,
+     "salary_max": 100000,
+     "salary_currency": "GBP",
+     "location_raw": "London",
+     "workplace_type": "onsite",
+     "office_days_per_week": 5,
+     "employment_type": "full_time",
+     "description_text": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. Experience with AWS, Kubernetes, networking and DNS required."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "ineligible"
+    },
+    "reason": {
+     "A": "too_many_office_days"
+    }
+   }
+  },
+  {
+   "id": "MATCH-007",
+   "category": "job_matching",
+   "description": "Unknown office attendance for a London hybrid role is flagged",
+   "severity": "major",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Solutions Engineer",
+     "employer_name": "X",
+     "salary_min": 90000,
+     "salary_max": 100000,
+     "salary_currency": "GBP",
+     "location_raw": "London",
+     "workplace_type": "hybrid",
+     "office_days_per_week": null,
+     "employment_type": "full_time",
+     "description_text": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. Experience with AWS, Kubernetes, networking and DNS required."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "uncertain"
+    },
+    "uncertain_field": {
+     "A": "office_days"
+    }
+   }
+  },
+  {
+   "id": "MATCH-008",
+   "category": "job_matching",
+   "description": "Contract role excluded for a full-time-only candidate",
+   "severity": "critical",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Solutions Engineer",
+     "employer_name": "X",
+     "salary_min": 90000,
+     "salary_max": 100000,
+     "salary_currency": "GBP",
+     "location_raw": "London",
+     "workplace_type": "hybrid",
+     "office_days_per_week": 2,
+     "employment_type": "contract",
+     "description_text": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. Experience with AWS, Kubernetes, networking and DNS required."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "ineligible"
+    },
+    "reason": {
+     "A": "employment_type"
+    }
+   }
+  },
+  {
+   "id": "MATCH-009",
+   "category": "job_matching",
+   "description": "Closed vacancy is excluded",
+   "severity": "critical",
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Solutions Engineer",
+     "employer_name": "X",
+     "salary_min": 90000,
+     "salary_max": 100000,
+     "salary_currency": "GBP",
+     "location_raw": "London",
+     "workplace_type": "hybrid",
+     "office_days_per_week": 2,
+     "employment_type": "full_time",
+     "description_text": "Work directly with enterprise customers: run discovery calls, demos and workshops, and act as their trusted technical advisor. Partner with account executives on technical evaluations. Experience with AWS, Kubernetes, networking and DNS required.",
+     "active": false,
+     "lifecycle": "closed"
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "ineligible"
+    },
+    "reason": {
+     "A": "vacancy_closed"
+    }
+   }
+  },
+  {
+   "id": "MATCH-010",
+   "category": "job_matching",
+   "description": "On-call deal-breaker excludes on-call roles but not other engineering roles",
+   "severity": "critical",
+   "requirements_override": {
+    "deal_breakers": {
+     "on_call": true,
+     "employers": [],
+     "keywords": []
+    }
+   },
+   "jobs": [
+    {
+     "id": "A",
+     "title": "Platform Engineer",
+     "employer_name": "X",
+     "salary_min": 100000,
+     "salary_max": 110000,
+     "salary_currency": "GBP",
+     "location_raw": "London",
+     "workplace_type": "hybrid",
+     "office_days_per_week": 2,
+     "employment_type": "full_time",
+     "description_text": "Build and operate our Kubernetes platform on AWS using Terraform. Write Go and Python tooling. You will join the on-call rotation for production incidents."
+    },
+    {
+     "id": "B",
+     "title": "Cloud Infrastructure Engineer",
+     "employer_name": "Y",
+     "salary_min": 100000,
+     "salary_max": 110000,
+     "salary_currency": "GBP",
+     "location_raw": "London",
+     "workplace_type": "hybrid",
+     "office_days_per_week": 2,
+     "employment_type": "full_time",
+     "description_text": "Design AWS landing zones with Terraform. No on-call is required for this role."
+    }
+   ],
+   "expected": {
+    "eligibility": {
+     "A": "ineligible",
+     "B": "eligible"
+    },
+    "reason": {
+     "A": "requires_on_call"
+    }
+   }
+  }
+ ]
+}
