@@ -44,3 +44,6 @@ discover-boards:
 
 expand-registry:
 	uv run --project backend --with openpyxl python scripts/expand_registry.py --lse-xlsx "Issuer list.xlsx"
+
+export-companies:
+	uv run --project backend --with openpyxl python scripts/export_companies.py
