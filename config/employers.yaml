@@ -6304,11 +6304,1756 @@ employers:
   geographic_focus: UK
   uk_jobs_at_verification: 40
   notes: Needs ADZUNA_APP_ID + ADZUNA_APP_KEY (free); predicted salaries ignored
+- id: advantage-solutions-inc
+  name: Advantage Solutions Inc
+  ticker: ADV
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: advantagesolutions
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/advantagesolutions
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Advantage Solutions', 4 jobs (0 UK) at verification
+- id: alset-inc
+  name: Alset Inc
+  ticker: AEI
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: alset
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/alset
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Alset', 1 jobs (0 UK) at verification
+- id: aeva-technologies-inc
+  name: Aeva Technologies, Inc
+  ticker: AEVA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: aeva
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/aeva
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Aeva Technologies, Inc', 48 jobs (0 UK) at
+    verification
+- id: angiodynamics-inc
+  name: AngioDynamics, Inc
+  ticker: ANGO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: angiodynamics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/angiodynamics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'AngioDynamics', 2 jobs (0 UK) at verification
+- id: bicycle-therapeutics-plc
+  name: Bicycle Therapeutics plc
+  ticker: BCYC
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: bicycletherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/bicycletherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Bicycle Therapeutics', 2 jobs (1 UK) at verification
+- id: bionano-genomics-inc
+  name: Bionano Genomics, Inc
+  ticker: BNGO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: bionanogenomics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/bionanogenomics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Bionanogenomics', 1 jobs (0 UK) at verification
+- id: benitec-biopharma-inc
+  name: Benitec Biopharma Inc
+  ticker: BNTC
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: benitecbiopharma
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/benitecbiopharma
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Benitec Biopharma', 1 jobs (0 UK) at verification
+- id: crescent-biopharma-inc
+  name: Crescent Biopharma, Inc
+  ticker: CBIO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: crescent-biopharma
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/crescent-biopharma
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Crescent Biopharma, Inc', 11 jobs (0 UK) at
+    verification
+- id: cardio-diagnostics-holdings-inc
+  name: Cardio Diagnostics Holdings Inc
+  ticker: CDIO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: cardiodiagnostics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/cardiodiagnostics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'CardioDiagnostics', 2 jobs (0 UK) at verification
+- id: ceva-inc
+  name: CEVA, Inc
+  ticker: CEVA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: cevainc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/cevainc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Ceva Inc', 1 jobs (0 UK) at verification
+- id: colliers-international-group-inc
+  name: Colliers International Group Inc
+  ticker: CIGI
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: colliers
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/colliers
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Colliers', 74 jobs (0 UK) at verification
+- id: cleanspark-inc
+  name: CleanSpark, Inc
+  ticker: CLSK
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: cleanspark
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/cleanspark
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'CleanSpark, Inc', 16 jobs (0 UK) at verification
+- id: cricut-inc
+  name: Cricut, Inc
+  ticker: CRCT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: cricut
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/cricut
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Cricut', 62 jobs (1 UK) at verification
+- id: energy-recovery-inc
+  name: Energy Recovery, Inc
+  ticker: ERII
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: energyrecovery
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/energyrecovery
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Energy Recovery, Inc', 4 jobs (0 UK) at verification
+- id: extreme-networks-inc
+  name: Extreme Networks, Inc
+  ticker: EXTR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: extremenetworks
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/extremenetworks
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Extreme Networks, Inc', 71 jobs (0 UK) at verification
+- id: fate-therapeutics-inc
+  name: Fate Therapeutics, Inc
+  ticker: FATE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: fatetherapeutics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/fatetherapeutics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Fate Therapeutics, Inc', 5 jobs (0 UK) at verification
+- id: freshworks-inc
+  name: Freshworks Inc
+  ticker: FRSH
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: freshworks
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/freshworks
+  geographic_focus: UK
+  uk_jobs_at_verification: 12
+  notes: Listed on NASDAQ; board name 'Freshworks', 121 jobs (12 UK) at verification
+- id: grab-holdings-limited
+  name: Grab Holdings Limited
+  ticker: GRAB
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: grab
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/grab
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Grab', 441 jobs (0 UK) at verification
+- id: henry-schein-inc
+  name: Henry Schein, Inc
+  ticker: HSIC
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: henryschein
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/henryschein
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Henry Schein', 3 jobs (0 UK) at verification
+- id: hawkins-inc
+  name: Hawkins, Inc
+  ticker: HWKN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: hawkinsinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/hawkinsinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Hawkins, Inc.', 2 jobs (0 UK) at verification
+- id: iheartmedia-inc
+  name: iHeartMedia, Inc
+  ticker: IHRT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: iheartmedia
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/iheartmedia
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'iHeartMedia', 4 jobs (0 UK) at verification
+- id: immunovant-inc
+  name: Immunovant, Inc
+  ticker: IMVT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: immunovantinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/immunovantinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Immunovant Inc', 1 jobs (0 UK) at verification
+- id: incyte-corporation
+  name: Incyte Corporation
+  ticker: INCY
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: incytecorporation
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/incytecorporation
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Incyte Corporation', 1 jobs (0 UK) at verification
+- id: j-b-hunt-transport-services-inc
+  name: J.B. Hunt Transport Services, Inc
+  ticker: JBHT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: jbhunttransportservicesinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/jbhunttransportservicesinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'JB Hunt Transport Services, Inc.', 41 jobs
+    (0 UK) at verification
+- id: nauticus-robotics-inc
+  name: Nauticus Robotics, Inc
+  ticker: KITT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: nauticusrobotics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/nauticusrobotics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Nauticus Robotics', 1 jobs (0 UK) at verification
+- id: kaltura-inc
+  name: Kaltura, Inc
+  ticker: KLTR
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: kalturainc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/kalturainc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Kaltura, Inc.', 4 jobs (0 UK) at verification
+- id: kimberly-clark-corporation
+  name: Kimberly-Clark Corporation
+  ticker: KMB
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: kimberlyclark
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/kimberlyclark
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Kimberly Clark', 1 jobs (0 UK) at verification
+- id: korro-bio-inc
+  name: Korro Bio, Inc
+  ticker: KRRO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: korrobio
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/korrobio
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Korro Bio, Inc', 7 jobs (0 UK) at verification
+- id: kyivstar-group-ltd
+  name: Kyivstar Group Ltd
+  ticker: KYIV
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: kyivstar
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/kyivstar
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Kyivstar Group Ltd', 127 jobs (0 UK) at verification
+- id: lee-enterprises-incorporated
+  name: Lee Enterprises, Incorporated
+  ticker: LEE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: leeenterprisesincorporated
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/leeenterprisesincorporated
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Lee Enterprises, Incorporated', 1 jobs (0 UK)
+    at verification
+- id: legend-biotech-corporation
+  name: Legend Biotech Corporation
+  ticker: LEGN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: legendbiotech
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/legendbiotech
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Legend Biotech', 5 jobs (0 UK) at verification
+- id: lifestance-health-group-inc
+  name: LifeStance Health Group, Inc
+  ticker: LFST
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: lifestance
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/lifestance
+  geographic_focus: null
+  uk_jobs_at_verification: 6
+  notes: Listed on NASDAQ; board name 'LifeStance Health Group, Inc', 1409 jobs (6
+    UK) at verification
+- id: lindblad-expeditions-holdings-inc
+  name: Lindblad Expeditions Holdings Inc
+  ticker: LIND
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: lindblad-expeditions
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/lindblad-expeditions
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Lindblad Expeditions Holdings Inc', 25 jobs
+    (0 UK) at verification
+- id: mattel-inc
+  name: Mattel, Inc
+  ticker: MAT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: mattelinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/mattelinc
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Mattel', 241 jobs (1 UK) at verification
+- id: monro-inc
+  name: Monro, Inc
+  ticker: MNRO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: monroinc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/monroinc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Monro, Inc.', 272 jobs (0 UK) at verification
+- id: microvision-inc
+  name: MicroVision, Inc
+  ticker: MVIS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: microvision
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/microvision
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'MicroVision, Inc', 4 jobs (0 UK) at verification
+- id: novavax-inc
+  name: Novavax, Inc
+  ticker: NVAX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: novavax
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/novavax
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Novavax', 3 jobs (0 UK) at verification
+- id: oric-pharmaceuticals-inc
+  name: Oric Pharmaceuticals, Inc
+  ticker: ORIC
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: oricpharmaceuticals
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/oricpharmaceuticals
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'ORIC Pharmaceuticals', 8 jobs (0 UK) at verification
+- id: plexus-corp
+  name: Plexus Corp
+  ticker: PLXS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: plexus
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/plexus
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Plexus Corp', 2 jobs (0 UK) at verification
+- id: insulet-corporation
+  name: Insulet Corporation
+  ticker: PODD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: insuletcorporation
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/insuletcorporation
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Insulet Corporation', 1 jobs (0 UK) at verification
+- id: outdoor-holding-company
+  name: Outdoor Holding Company
+  ticker: POWW
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: outdoor
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/outdoor
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'outdoor', 5 jobs (0 UK) at verification
+- id: privia-health-group-inc
+  name: Privia Health Group, Inc
+  ticker: PRVA
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: priviahealth
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/priviahealth
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Privia Health', 34 jobs (0 UK) at verification
+- id: pattern-group-inc
+  name: Pattern Group Inc
+  ticker: PTRN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: pattern
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/pattern
+  geographic_focus: null
+  uk_jobs_at_verification: 6
+  notes: Listed on NASDAQ; board name 'Pattern Group Inc', 85 jobs (6 UK) at verification
+- id: regenxbio-inc
+  name: REGENXBIO Inc
+  ticker: RGNX
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: regenxbio
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/regenxbio
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'REGENXBIO Inc', 16 jobs (0 UK) at verification
+- id: rigetti-computing-inc
+  name: Rigetti Computing, Inc
+  ticker: RGTI
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: rigetti
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/rigetti
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Rigetti Computing, Inc', 10 jobs (1 UK) at
+    verification
+- id: rxsight-inc
+  name: RxSight, Inc
+  ticker: RXST
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: rxsight
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/rxsight
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'RxSight', 1 jobs (0 UK) at verification
+- id: rythm-inc
+  name: RYTHM, Inc
+  ticker: RYM
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: rythm
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/rythm
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'RYTHM', 1 jobs (0 UK) at verification
+- id: silicom-ltd
+  name: Silicom Ltd
+  ticker: SILC
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: silicomltd
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/silicomltd
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Silicom Ltd', 10 jobs (0 UK) at verification
+- id: sportradar-group-ag
+  name: Sportradar Group AG
+  ticker: SRAD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: sportradar
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/sportradar
+  geographic_focus: UK
+  uk_jobs_at_verification: 18
+  notes: Listed on NASDAQ; board name 'Sportradar', 107 jobs (18 UK) at verification
+- id: scholar-rock-holding-corporation
+  name: Scholar Rock Holding Corporation
+  ticker: SRRK
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: scholarrock
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/scholarrock
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Scholar Rock Holding Corporation', 29 jobs
+    (0 UK) at verification
+- id: teamshares-inc
+  name: Teamshares Inc
+  ticker: TMS
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: teamshares
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/teamshares
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Teamshares Inc', 20 jobs (0 UK) at verification
+- id: telesat-corporation
+  name: Telesat Corporation
+  ticker: TSAT
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: telesat
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/telesat
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on NASDAQ; board name 'Telesat Corporation', 51 jobs (1 UK) at verification
+- id: servicetitan-inc
+  name: ServiceTitan, Inc
+  ticker: TTAN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: servicetitan
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/servicetitan
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'ServiceTitan', 8 jobs (0 UK) at verification
+- id: the-trade-desk-inc
+  name: The Trade Desk, Inc
+  ticker: TTD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: tradedesk
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/tradedesk
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'TradeDesk', 1 jobs (0 UK) at verification
+- id: ttec-holdings-inc
+  name: TTEC Holdings, Inc
+  ticker: TTEC
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: ttec
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/ttec
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'TTEC', 1 jobs (0 UK) at verification
+- id: velo3d-inc
+  name: Velo3D, Inc
+  ticker: VELO
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: velo3d
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/velo3d
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Velo3D, Inc', 39 jobs (0 UK) at verification
+- id: wealthfront-corporation
+  name: Wealthfront Corporation
+  ticker: WLTH
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: wealthfront
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/wealthfront
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Wealthfront Corporation', 19 jobs (0 UK) at
+    verification
+- id: weride-inc
+  name: WeRide Inc
+  ticker: WRD
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: lever
+  board_id: weride
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/weride
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'WeRide Inc', 8 jobs (0 UK) at verification
+- id: wise-group-plc
+  name: Wise Group plc
+  ticker: WSE
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: wise
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/wise
+  geographic_focus: UK
+  uk_jobs_at_verification: 185
+  notes: Listed on NASDAQ; board name 'Wise', 419 jobs (185 UK) at verification
+- id: wynn-resorts-limited
+  name: Wynn Resorts, Limited
+  ticker: WYNN
+  exchanges:
+  - NASDAQ
+  listing_index: null
+  nasdaq100: false
+  industry: null
+  provider: smartrecruiters
+  board_id: wynnresorts
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/wynnresorts
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on NASDAQ; board name 'Wynn Resorts', 140 jobs (0 UK) at verification
+- id: asos
+  name: ASOS
+  ticker: ASC
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Retailers
+  provider: smartrecruiters
+  board_id: asos
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/asos
+  geographic_focus: UK
+  uk_jobs_at_verification: 56
+  notes: Listed on LSE; board name 'ASOS', 56 jobs (56 UK) at verification
+- id: entain
+  name: Entain
+  ticker: ENT
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Travel & leisure
+  provider: smartrecruiters
+  board_id: entain
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/entain
+  geographic_focus: UK
+  uk_jobs_at_verification: 225
+  notes: Listed on LSE; board name 'Entain', 278 jobs (225 UK) at verification
+- id: frasers-group
+  name: Frasers Group
+  ticker: FRAS
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Retailers
+  provider: smartrecruiters
+  board_id: frasersgroup
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/frasersgroup
+  geographic_focus: UK
+  uk_jobs_at_verification: 258
+  notes: Listed on LSE; board name 'Frasers Group', 463 jobs (258 UK) at verification
+- id: moonpig
+  name: Moonpig
+  ticker: MOON
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Retailers
+  provider: lever
+  board_id: moonpig
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/moonpig
+  geographic_focus: UK
+  uk_jobs_at_verification: 12
+  notes: Listed on LSE; board name 'Moonpig', 13 jobs (12 UK) at verification
+- id: ncc-group
+  name: NCC Group
+  ticker: NCC
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Software and Computer Services
+  provider: smartrecruiters
+  board_id: ncc
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/ncc
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'NCC', 117 jobs (0 UK) at verification
+- id: playtech
+  name: Playtech
+  ticker: PTEC
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Software & Computer Services
+  provider: smartrecruiters
+  board_id: playtech
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/playtech
+  geographic_focus: null
+  uk_jobs_at_verification: 3
+  notes: Listed on LSE; board name 'Playtech', 100 jobs (3 UK) at verification
+- id: raspberry-pi-holdings
+  name: Raspberry Pi Holdings
+  ticker: RPI
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Technology
+  provider: workable
+  board_id: raspberrypi
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/raspberrypi
+  geographic_focus: null
+  uk_jobs_at_verification: 5
+  notes: Listed on LSE; board name 'Raspberry Pi', 5 jobs (5 UK) at verification
+- id: rotork
+  name: Rotork
+  ticker: ROR
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Industrial Engineering
+  provider: smartrecruiters
+  board_id: rotork
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/rotork
+  geographic_focus: null
+  uk_jobs_at_verification: 4
+  notes: Listed on LSE; board name 'Rotork', 5 jobs (4 UK) at verification
+- id: shawbrook-bank
+  name: Shawbrook Bank
+  ticker: SHAW
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Banking
+  provider: smartrecruiters
+  board_id: shawbrook
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/shawbrook
+  geographic_focus: UK
+  uk_jobs_at_verification: 36
+  notes: Listed on LSE; board name 'Shawbrook', 36 jobs (36 UK) at verification
+- id: tbc-bank
+  name: TBC Bank
+  ticker: TBCG
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Banks
+  provider: smartrecruiters
+  board_id: tbcbank
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/tbcbank
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'TBCBANK', 135 jobs (0 UK) at verification
+- id: tp-icap
+  name: TP ICAP
+  ticker: TCAP
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Support Services
+  provider: smartrecruiters
+  board_id: tpicap
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/tpicap
+  geographic_focus: null
+  uk_jobs_at_verification: 4
+  notes: Listed on LSE; board name 'TP ICAP', 4 jobs (4 UK) at verification
+- id: vesuvius
+  name: Vesuvius
+  ticker: VSVS
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: General Industrials
+  provider: workable
+  board_id: vesuvius
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/vesuvius
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Vesuvius', 3 jobs (0 UK) at verification
+- id: worldwide-healthcare-trust
+  name: Worldwide Healthcare Trust
+  ticker: WWH
+  exchanges:
+  - LSE
+  listing_index: FTSE 250
+  nasdaq100: false
+  industry: Investment Trusts
+  provider: lever
+  board_id: healthcare
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/healthcare
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Worldwide Healthcare Trust', 5 jobs (0 UK) at
+    verification
+- id: helical
+  name: Helical
+  ticker: HLCL
+  exchanges:
+  - LSE
+  listing_index: FTSE SmallCap
+  nasdaq100: false
+  industry: Real Estate Services
+  provider: workable
+  board_id: helical
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/helical
+  geographic_focus: null
+  uk_jobs_at_verification: 7
+  notes: Listed on LSE; board name 'Helical', 16 jobs (7 UK) at verification
+- id: accesso-technology-group-plc
+  name: Accesso Technology Group PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Technology
+  provider: greenhouse
+  board_id: accesso
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://job-boards.greenhouse.io/accesso
+  geographic_focus: null
+  uk_jobs_at_verification: 1
+  notes: Listed on LSE; board name 'accesso', 5 jobs (1 UK) at verification
+- id: aoti-inc
+  name: Aoti, Inc.
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Health Care
+  provider: greenhouse
+  board_id: aoti
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://job-boards.greenhouse.io/aoti
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'AOTI', 14 jobs (0 UK) at verification
+- id: boku-inc
+  name: Boku, Inc.
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Industrial Goods and Services
+  provider: greenhouse
+  board_id: boku
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://job-boards.greenhouse.io/boku
+  geographic_focus: null
+  uk_jobs_at_verification: 3
+  notes: Listed on LSE; board name 'Boku', 13 jobs (3 UK) at verification
+- id: brave-bison-group-plc
+  name: Brave Bison Group PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Media
+  provider: smartrecruiters
+  board_id: bravebison
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/bravebison
+  geographic_focus: null
+  uk_jobs_at_verification: 2
+  notes: Listed on LSE; board name 'Brave Bison', 2 jobs (2 UK) at verification
+- id: chariot-limited
+  name: Chariot Limited
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Energy
+  provider: ashby
+  board_id: chariot
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/chariot
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'chariot', 21 jobs (0 UK) at verification
+- id: cohort-plc
+  name: Cohort PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Industrial Goods and Services
+  provider: ashby
+  board_id: cohort
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/cohort
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'cohort', 6 jobs (0 UK) at verification
+- id: conduit-holdings-limited
+  name: Conduit Holdings Limited
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Main Market
+  nasdaq100: false
+  industry: Insurance
+  provider: ashby
+  board_id: conduit
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/conduit
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Conduit', 1 jobs (0 UK) at verification
+- id: filtronic-plc
+  name: Filtronic PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Telecommunications
+  provider: workable
+  board_id: filtronic
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/filtronic
+  geographic_focus: UK
+  uk_jobs_at_verification: 22
+  notes: Listed on LSE; board name 'Filtronic', 22 jobs (22 UK) at verification
+- id: focusrite-plc
+  name: Focusrite PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Consumer Products and Services
+  provider: workable
+  board_id: focusrite
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/focusrite
+  geographic_focus: UK
+  uk_jobs_at_verification: 16
+  notes: Listed on LSE; board name 'The Focusrite Group', 18 jobs (16 UK) at verification
+- id: frp-advisory-group-plc
+  name: FRP Advisory Group PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Industrial Goods and Services
+  provider: smartrecruiters
+  board_id: frpadvisory
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/frpadvisory
+  geographic_focus: UK
+  uk_jobs_at_verification: 45
+  notes: Listed on LSE; board name 'FRP Advisory Group', 52 jobs (45 UK) at verification
+- id: future-plc
+  name: Future PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Main Market
+  nasdaq100: false
+  industry: Media
+  provider: greenhouse
+  board_id: future
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://job-boards.greenhouse.io/future
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Future', 8 jobs (0 UK) at verification
+- id: hercules-plc
+  name: Hercules PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Construction and Materials
+  provider: ashby
+  board_id: hercules
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/hercules
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'hercules', 29 jobs (0 UK) at verification
+- id: invinity-energy-systems-plc
+  name: Invinity Energy Systems PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Industrial Goods and Services
+  provider: lever
+  board_id: invinity
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/invinity
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Invinity Energy Systems PLC', 4 jobs (0 UK) at
+    verification
+- id: lg-electronics-inc
+  name: LG Electronics INC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Main Market
+  nasdaq100: false
+  industry: Consumer Products and Services
+  provider: greenhouse
+  board_id: lgelectronics
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://job-boards.greenhouse.io/lgelectronics
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'LG Electronics', 125 jobs (0 UK) at verification
+- id: marshalls-plc
+  name: Marshalls PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Main Market
+  nasdaq100: false
+  industry: Construction and Materials
+  provider: workable
+  board_id: marshalls
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/marshalls
+  geographic_focus: UK
+  uk_jobs_at_verification: 26
+  notes: Listed on LSE; board name 'Marshalls PLC', 26 jobs (26 UK) at verification
+- id: mhp-se
+  name: MHP SE
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Main Market
+  nasdaq100: false
+  industry: Food, Beverage and Tobacco
+  provider: greenhouse
+  board_id: mhp
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://job-boards.greenhouse.io/mhp
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'MHP', 4 jobs (0 UK) at verification
+- id: mobico-group-plc
+  name: Mobico Group PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Main Market
+  nasdaq100: false
+  industry: Travel and Leisure
+  provider: smartrecruiters
+  board_id: mobico
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/mobico
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Mobico', 1 jobs (0 UK) at verification
+- id: optima-health-plc
+  name: Optima Health PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Health Care
+  provider: smartrecruiters
+  board_id: optimahealth
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/optimahealth
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Optima Health', 1 jobs (0 UK) at verification
+- id: puretech-health-plc
+  name: Puretech Health PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Main Market
+  nasdaq100: false
+  industry: Health Care
+  provider: greenhouse
+  board_id: puretechhealth
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://job-boards.greenhouse.io/puretechhealth
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'PureTech Health', 2 jobs (0 UK) at verification
+- id: river-global-plc
+  name: River Global PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Financial Services
+  provider: ashby
+  board_id: river
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/river
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'river', 5 jobs (0 UK) at verification
+- id: rws-holdings-plc
+  name: RWS Holdings PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Industrial Goods and Services
+  provider: lever
+  board_id: rws
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/rws
+  geographic_focus: null
+  uk_jobs_at_verification: 5
+  notes: Listed on LSE; board name 'RWS Holdings PLC', 148 jobs (5 UK) at verification
+- id: shearwater-group-plc
+  name: Shearwater Group PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Technology
+  provider: greenhouse
+  board_id: shearwater
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://job-boards.greenhouse.io/shearwater
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Shearwater', 3 jobs (0 UK) at verification
+- id: strix-group-plc
+  name: Strix Group PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Industrial Goods and Services
+  provider: ashby
+  board_id: strix
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/strix
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'strix', 8 jobs (0 UK) at verification
+- id: system1-group-plc
+  name: System1 Group PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Media
+  provider: lever
+  board_id: system1
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/system1
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'System1 Group PLC', 9 jobs (0 UK) at verification
+- id: tekcapital-plc
+  name: Tekcapital PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Technology
+  provider: smartrecruiters
+  board_id: tekcapital
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/tekcapital
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'Tekcapital', 1 jobs (0 UK) at verification
+- id: tern-plc
+  name: Tern PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Financial Services
+  provider: ashby
+  board_id: tern
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/tern
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'tern', 5 jobs (0 UK) at verification
+- id: the-character-group-plc
+  name: The Character Group PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Aim
+  nasdaq100: false
+  industry: Consumer Products and Services
+  provider: ashby
+  board_id: character
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/character
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'character', 13 jobs (0 UK) at verification
+- id: triad-group-plc
+  name: Triad Group PLC
+  ticker: null
+  exchanges:
+  - LSE
+  listing_index: LSE Main Market
+  nasdaq100: false
+  industry: Technology
+  provider: ashby
+  board_id: triad
+  enabled: true
+  verification_status: verified
+  verified_at: '2026-11-25T18:02:17Z'
+  careers_url: https://jobs.ashbyhq.com/triad
+  geographic_focus: null
+  uk_jobs_at_verification: 0
+  notes: Listed on LSE; board name 'triad', 3 jobs (0 UK) at verification
 expansion:
-  run_at: '2026-11-24T19:31:34Z'
-  companies_probed: 3666
+  run_at: '2026-11-25T18:02:17Z'
+  companies_probed: 4706
   nasdaq_companies: 3236
-  lse_companies: 430
-  verified_boards_found: 251
-  new_boards_added: 230
-  lse_source: FTSE 100/250/SmallCap constituents (Wikipedia)
+  lse_companies: 1470
+  verified_boards_found: 361
+  new_boards_added: 102
+  lse_source: FTSE 100/250/SmallCap constituents (Wikipedia) + LSE issuer list
